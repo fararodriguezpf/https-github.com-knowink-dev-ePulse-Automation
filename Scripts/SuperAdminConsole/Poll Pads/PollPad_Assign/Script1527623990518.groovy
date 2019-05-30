@@ -20,22 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://epulsedev2.com')
-
-'Open browser.'
-WebUI.openBrowser('')
-
-'Navigate to ePulse login page.'
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-'Enter user name'
-WebUI.setText(findTestObject('Login/Email Address'), GlobalVariable.User_email)
-
-'Enter Password'
-WebUI.setEncryptedText(findTestObject('Login/Password'), GlobalVariable.Pswrd)
-
-'Login'
-WebUI.click(findTestObject('Login/Sign In'))
+WebUI.callTestCase(findTestCase('Login/SuperAdminLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 

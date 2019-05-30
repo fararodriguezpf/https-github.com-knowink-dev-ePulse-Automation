@@ -21,20 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-'Open browser.'
-WebUI.openBrowser('')
-
-'Navigate to ePulse login page.'
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-'Enter user name'
-WebUI.setText(findTestObject('Login/Email Address'), GlobalVariable.User_email)
-
-'Enter Password'
-WebUI.setEncryptedText(findTestObject('Login/Password'), GlobalVariable.Pswrd)
-
-'Login'
-WebUI.click(findTestObject('Login/Sign In'))
+WebUI.callTestCase(findTestCase('Login/AdminLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 

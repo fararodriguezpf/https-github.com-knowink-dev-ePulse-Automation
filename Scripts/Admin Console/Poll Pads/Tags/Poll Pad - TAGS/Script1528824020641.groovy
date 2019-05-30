@@ -20,29 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://epulsedev2.com/users/sign_in')
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('Page_Epulse/input_useremail'), 'alonzo.mack@knowink.com')
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('Page_Epulse/input_userpassword'), 'S3v3nmc7')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_Epulse/input_commit'))
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('Page_Epulse  Admin  Accounts/input_table-search'), 'am-ia')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('a_Login'))
+WebUI.callTestCase(findTestCase('Login/AdminLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
