@@ -1,0 +1,32 @@
+1
+00:00:00,077 --> 00:00:00,077
+1. openBrowser("https://epulsedev2.com")
+
+2
+00:00:02,725 --> 00:00:02,725
+7. Open browser.
+
+3
+00:00:03,146 --> 00:00:03,146
+13. Navigate to ePulse login page.
+
+4
+00:00:04,496 --> 00:00:04,496
+19. Enter user name
+
+5
+00:00:04,674 --> 00:00:04,675
+25. Enter Password
+
+6
+00:00:04,763 --> 00:00:04,763
+31. Login
+
+7
+00:00:05,376 --> 00:00:05,376
+35. delay(1)
+
+8
+00:00:06,382 --> 00:00:06,383
+39. click(findTestObject("SuperAdminConsole/Poll Pads/POLL PADS link"))
+

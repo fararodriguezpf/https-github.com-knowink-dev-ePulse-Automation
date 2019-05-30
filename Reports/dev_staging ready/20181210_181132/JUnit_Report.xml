@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dev_staging ready" time="96" tests="5" failures="0" errors="0">
+   <testsuite name="dev_staging ready" tests="5" failures="0" errors="0" time="96" timestamp="2018-12-10 18:11:34" hostname="alonzomack - 192.168.1.9" id="Test Suites/dev_staging ready">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_181132"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_181132/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="daaf60bd08f7ec02455ab923d2bbba3f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician)" status="PASSED">
+         <system-out><![CDATA[2018-12-10 18:11:34 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician)
+
+2018-12-10 18:11:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 18:11:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 18:11:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-10 18:11:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 18:11:37 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:11:40 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:11:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:11:41 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:11:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:11:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:11:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:11:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:44 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:11:45 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:11:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:11:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:48 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:11:48 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:11:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:49 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:11:50 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:11:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:11:51 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:11:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew2-user@knowink.com"): Text 'addnew2-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:11:52 - [MESSAGE][PASSED] - Text 'addnew2-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:11:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "1", true): All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression
+
+2018-12-10 18:11:54 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression
+
+2018-12-10 18:11:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:11:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:11:55 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true): NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true)
+
+2018-12-10 18:11:55 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true)
+
+2018-12-10 18:11:55 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2018-12-10 18:11:55 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2018-12-10 18:11:55 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "basic", true): NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "basic", true)
+
+2018-12-10 18:11:55 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "basic", true)
+
+2018-12-10 18:11:55 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2018-12-10 18:11:55 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2018-12-10 18:11:55 - [TEST_STEP][PASSED] - click(findTestObject("Common ePulse Objects/Submit Button")): Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:11:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-10 18:11:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard)" status="PASSED">
+         <system-out><![CDATA[2018-12-10 18:11:57 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard)
+
+2018-12-10 18:11:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 18:11:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 18:11:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 18:11:58 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:12:01 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:12:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:12:01 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:12:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:12:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:12:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:04 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:12:05 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:12:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:12:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:08 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:12:08 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:12:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:09 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:12:10 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:12:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:11 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:12:11 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:12:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew5-user@knowink.com"): Text 'addnew5-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:12:12 - [MESSAGE][PASSED] - Text 'addnew5-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:12:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true): All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Notify by'  using regular expression
+
+2018-12-10 18:12:13 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Notify by'  using regular expression
+
+2018-12-10 18:12:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "manager", true): All options with value 'manager' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select User Rights'  using regular expression
+
+2018-12-10 18:12:14 - [MESSAGE][PASSED] - All options with value 'manager' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select User Rights'  using regular expression
+
+2018-12-10 18:12:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Common ePulse Objects/Submit Button")): Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:12:17 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2018-12-10 18:12:17 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync)" status="PASSED">
+         <system-out><![CDATA[2018-12-10 18:12:17 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync)
+
+2018-12-10 18:12:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 18:12:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-10 18:12:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 18:12:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 18:12:18 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:12:20 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:12:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:12:20 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:12:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:12:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:12:20 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:12:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:22 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:12:23 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:12:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:12:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:27 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:12:27 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:12:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:28 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:12:28 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:12:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:29 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:12:29 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:12:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:30 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew4-user@knowink.com"): Text 'addnew4-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:12:30 - [MESSAGE][PASSED] - Text 'addnew4-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:12:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "3", true): All options with value '3' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression
+
+2018-12-10 18:12:31 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression
+
+2018-12-10 18:12:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:32 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true): NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true)
+
+2018-12-10 18:12:32 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true)
+
+2018-12-10 18:12:32 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2018-12-10 18:12:32 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2018-12-10 18:12:32 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "election_day", true): NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "election_day", true)
+
+2018-12-10 18:12:32 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "election_day", true)
+
+2018-12-10 18:12:32 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2018-12-10 18:12:32 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2018-12-10 18:12:32 - [TEST_STEP][PASSED] - click(findTestObject("Common ePulse Objects/Submit Button")): Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:12:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-10 18:12:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard)" status="PASSED">
+         <system-out><![CDATA[2018-12-10 18:12:34 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard)
+
+2018-12-10 18:12:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 18:12:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 18:12:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 18:12:35 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:12:37 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:12:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:12:37 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:12:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:12:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:12:37 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:12:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:40 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:12:41 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:12:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:12:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:44 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:12:44 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:12:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:45 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:12:45 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:12:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:46 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:12:46 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:12:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew-user@knowink.com"): Text 'addnew-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:12:47 - [MESSAGE][PASSED] - Text 'addnew-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:12:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "0", true): All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression
+
+2018-12-10 18:12:48 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression
+
+2018-12-10 18:12:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true): All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Notify by'  using regular expression
+
+2018-12-10 18:12:49 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Notify by'  using regular expression
+
+2018-12-10 18:12:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "admin", true): All options with value 'admin' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select User Rights'  using regular expression
+
+2018-12-10 18:12:51 - [MESSAGE][PASSED] - All options with value 'admin' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select User Rights'  using regular expression
+
+2018-12-10 18:12:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Common ePulse Objects/Submit Button")): Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:12:54 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2018-12-10 18:12:54 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center)" status="PASSED">
+         <system-out><![CDATA[2018-12-10 18:12:54 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center)
+
+2018-12-10 18:12:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 18:12:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-10 18:12:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 18:12:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 18:12:55 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:12:56 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-10 18:12:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:12:56 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:12:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:12:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:12:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:12:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:12:59 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:13:00 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/users' successfully
+
+2018-12-10 18:13:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:13:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:13:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:13:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:13:03 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:13:03 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:13:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:13:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:13:04 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:13:04 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:13:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:13:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:13:05 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:13:05 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:13:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:13:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:13:06 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew3-user@knowink.com"): Text 'addnew3-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:13:06 - [MESSAGE][PASSED] - Text 'addnew3-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:13:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:13:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:13:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "2", true): All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression
+
+2018-12-10 18:13:08 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression
+
+2018-12-10 18:13:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:13:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:13:09 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true): NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true)
+
+2018-12-10 18:13:09 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true)
+
+2018-12-10 18:13:09 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2018-12-10 18:13:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2018-12-10 18:13:09 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "coordinator", true): NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "coordinator", true)
+
+2018-12-10 18:13:09 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "coordinator", true)
+
+2018-12-10 18:13:09 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2018-12-10 18:13:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2018-12-10 18:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Common ePulse Objects/Submit Button")): Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 18:13:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-10 18:13:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-10 18:11:34 - [TEST_SUITE][PASSED] - dev_staging ready: Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

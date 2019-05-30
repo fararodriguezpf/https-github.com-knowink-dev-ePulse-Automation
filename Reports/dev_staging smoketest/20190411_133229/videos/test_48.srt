@@ -1,0 +1,32 @@
+1
+00:00:00,163 --> 00:00:00,163
+3. Open browser.
+
+2
+00:00:02,150 --> 00:00:02,150
+9. Navigate to ePulse login page.
+
+3
+00:00:07,755 --> 00:00:07,756
+15. Enter user name
+
+4
+00:00:07,809 --> 00:00:07,809
+21. Enter Password
+
+5
+00:00:07,863 --> 00:00:07,863
+27. Login
+
+6
+00:00:12,280 --> 00:00:12,281
+31. delay(1)
+
+7
+00:00:13,284 --> 00:00:13,284
+35. navigateToUrl(Demo_DB)
+
+8
+00:00:22,095 --> 00:00:22,095
+39. click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db"))
+

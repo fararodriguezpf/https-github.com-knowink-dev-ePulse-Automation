@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test(US),Chrome 70.0.3538.102,,2018-11-14 11:35:52,2018-11-14 11:37:53,2m - 0.225s,FAILED
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole),Chrome 70.0.3538.102,,2018-11-14 11:35:53,2018-11-14 11:36:18,25.036s,PASSED
+openBrowser,Chrome 70.0.3538.102,Open browser.,2018-11-14 11:35:53,2018-11-14 11:35:55,2.211s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Navigate to ePulse login page.,2018-11-14 11:35:55,2018-11-14 11:35:57,1.580s,PASSED
+setText,Chrome 70.0.3538.102,Enter user name,2018-11-14 11:35:57,2018-11-14 11:35:57,0.263s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,Enter Password,2018-11-14 11:35:57,2018-11-14 11:35:57,0.174s,PASSED
+click,Chrome 70.0.3538.102,Login,2018-11-14 11:35:57,2018-11-14 11:35:59,1.157s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:35:59,2018-11-14 11:36:00,1.023s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 11:36:00,2018-11-14 11:36:01,1.009s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:01,2018-11-14 11:36:02,1.008s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 11:36:02,2018-11-14 11:36:02,0.209s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:02,2018-11-14 11:36:03,1.002s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 11:36:03,2018-11-14 11:36:03,0.177s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:03,2018-11-14 11:36:04,1.003s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:04,2018-11-14 11:36:05,0.666s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:05,2018-11-14 11:36:06,1.005s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:06,2018-11-14 11:36:06,0.154s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:06,2018-11-14 11:36:07,1.004s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:07,2018-11-14 11:36:07,0.001s,NOT_RUN
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:07,2018-11-14 11:36:08,1.005s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:08,2018-11-14 11:36:08,0.448s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:08,2018-11-14 11:36:09,1.003s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:09,2018-11-14 11:36:10,0.454s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:10,2018-11-14 11:36:11,1.003s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:11,2018-11-14 11:36:11,0.146s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:11,2018-11-14 11:36:12,1.004s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:12,2018-11-14 11:36:12,0.206s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:12,2018-11-14 11:36:13,1.002s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:13,2018-11-14 11:36:14,0.338s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:14,2018-11-14 11:36:15,1.004s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:36:15,2018-11-14 11:36:15,0.165s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:15,2018-11-14 11:36:16,1.008s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 11:36:16,2018-11-14 11:36:17,1.142s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:17,2018-11-14 11:36:18,1.008s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-14 11:36:18,2018-11-14 11:36:18,0.103s,PASSED
+,,,,,,
+Test Cases/Admin Console/Election Setup/Election Creation,Chrome 70.0.3538.102,,2018-11-14 11:36:18,2018-11-14 11:37:42,1m - 24.471s,PASSED
+openBrowser,Chrome 70.0.3538.102,Open browser.,2018-11-14 11:36:18,2018-11-14 11:36:19,1.034s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Navigate to ePulse login page.,2018-11-14 11:36:19,2018-11-14 11:36:21,1.418s,PASSED
+setText,Chrome 70.0.3538.102,Enter user name,2018-11-14 11:36:21,2018-11-14 11:36:21,0.211s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,Enter Password,2018-11-14 11:36:21,2018-11-14 11:36:21,0.098s,PASSED
+click,Chrome 70.0.3538.102,Login,2018-11-14 11:36:21,2018-11-14 11:36:22,1.057s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:36:22,2018-11-14 11:36:23,1.002s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Click the Elections link under Election Setup.,2018-11-14 11:36:23,2018-11-14 11:36:24,0.932s,PASSED
+setText,Chrome 70.0.3538.102,Election Creation Step 1 - Choose the file to upload.,2018-11-14 11:36:24,2018-11-14 11:36:24,0.071s,PASSED
+click,Chrome 70.0.3538.102,Election Creation Step 1 - Click Continue once the file is specified.,2018-11-14 11:36:24,2018-11-14 11:36:24,0.070s,PASSED
+delay,Chrome 70.0.3538.102,Delay to account for loading times.,2018-11-14 11:36:24,2018-11-14 11:36:34,10.008s,PASSED
+setText,Chrome 70.0.3538.102,Election Creation Step 2 - Enter an election name.,2018-11-14 11:36:34,2018-11-14 11:36:34,0.161s,PASSED
+setText,Chrome 70.0.3538.102,Election Creation Step 2 - Enter an election code.,2018-11-14 11:36:34,2018-11-14 11:36:34,0.111s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,Election Creation Step 2 - Select an election type.,2018-11-14 11:36:34,2018-11-14 11:36:35,0.177s,PASSED
+setText,Chrome 70.0.3538.102,Election Creation Step 2 - Select an election date.,2018-11-14 11:36:35,2018-11-14 11:36:35,0.208s,PASSED
+delay,Chrome 70.0.3538.102,Delay to account for unpacking times of the uploaded file.,2018-11-14 11:36:35,2018-11-14 11:36:45,10.006s,PASSED
+click,Chrome 70.0.3538.102,Election Creation Step 2 - Click Submit to continue to Step 3.,2018-11-14 11:36:45,2018-11-14 11:36:46,1.024s,PASSED
+delay,Chrome 70.0.3538.102,Delay to account for load times.,2018-11-14 11:36:46,2018-11-14 11:36:56,10.006s,PASSED
+click,Chrome 70.0.3538.102,Step 3 - Click Done to continue.,2018-11-14 11:36:56,2018-11-14 11:36:57,1.095s,PASSED
+delay,Chrome 70.0.3538.102,Delay to account for load times.,2018-11-14 11:36:57,2018-11-14 11:37:07,10.005s,PASSED
+click,Chrome 70.0.3538.102,Step 4 - Click Done to Continue.,2018-11-14 11:37:07,2018-11-14 11:37:08,1.160s,PASSED
+delay,Chrome 70.0.3538.102,Delay to account for load times.,2018-11-14 11:37:08,2018-11-14 11:37:18,10.006s,PASSED
+click,Chrome 70.0.3538.102,Step 5 - Click Confirm to finish the setup wizard and create the election.,2018-11-14 11:37:18,2018-11-14 11:37:18,0.080s,PASSED
+delay,Chrome 70.0.3538.102,Delay to account for load times.,2018-11-14 11:37:18,2018-11-14 11:37:38,20.002s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify the election created by checking for unique text on the screen.,2018-11-14 11:37:38,2018-11-14 11:37:38,0.097s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,,2018-11-14 11:37:38,2018-11-14 11:37:38,0.065s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:37:38,2018-11-14 11:37:39,1.003s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-14 11:37:39,2018-11-14 11:37:40,0.844s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:37:40,2018-11-14 11:37:41,1.005s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:37:41,2018-11-14 11:37:42,1.002s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,,2018-11-14 11:37:42,2018-11-14 11:37:42,0.126s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-14 11:37:42,2018-11-14 11:37:42,0.150s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - Demo DB,Chrome 70.0.3538.102,,2018-11-14 11:37:42,2018-11-14 11:37:53,10.099s,FAILED
+openBrowser,Chrome 70.0.3538.102,Open browser.,2018-11-14 11:37:43,2018-11-14 11:37:44,1.036s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Navigate to ePulse login page.,2018-11-14 11:37:44,2018-11-14 11:37:45,1.400s,PASSED
+setText,Chrome 70.0.3538.102,Enter user name,2018-11-14 11:37:45,2018-11-14 11:37:45,0.197s,PASSED
+setEncryptedText,Chrome 70.0.3538.102,Enter Password,2018-11-14 11:37:45,2018-11-14 11:37:45,0.086s,PASSED
+click,Chrome 70.0.3538.102,Login,2018-11-14 11:37:45,2018-11-14 11:37:46,1.050s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:37:46,2018-11-14 11:37:47,1.002s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-14 11:37:47,2018-11-14 11:37:49,1.412s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-14 11:37:49,2018-11-14 11:37:49,0.077s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:37:49,2018-11-14 11:37:50,1.005s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-14 11:37:50,2018-11-14 11:37:50,0.103s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-14 11:37:50,2018-11-14 11:37:51,1.002s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-14 11:37:51,2018-11-14 11:37:51,0.000s,NOT_RUN
+selectOptionByIndex,Chrome 70.0.3538.102,,2018-11-14 11:37:51,2018-11-14 11:37:51,0.000s,NOT_RUN
+click,Chrome 70.0.3538.102,,2018-11-14 11:37:51,2018-11-14 11:37:52,1.072s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,,2018-11-14 11:37:52,2018-11-14 11:37:53,0.500s,FAILED

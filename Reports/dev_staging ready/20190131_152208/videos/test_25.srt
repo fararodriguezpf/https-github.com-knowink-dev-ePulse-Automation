@@ -1,0 +1,60 @@
+1
+00:00:00,064 --> 00:00:00,064
+3. Open browser.
+
+2
+00:00:01,322 --> 00:00:01,322
+9. Navigate to ePulse login page.
+
+3
+00:00:02,355 --> 00:00:02,356
+15. Enter user name
+
+4
+00:00:02,606 --> 00:00:02,607
+21. Enter Password
+
+5
+00:00:02,722 --> 00:00:02,723
+27. Login
+
+6
+00:00:03,345 --> 00:00:03,346
+31. delay(1)
+
+7
+00:00:04,349 --> 00:00:04,350
+35. navigateToUrl(Oaths_Imports, STOP_ON_FAILURE)
+
+8
+00:00:05,251 --> 00:00:05,251
+39. delay(1)
+
+9
+00:00:06,254 --> 00:00:06,255
+43. setText(findTestObject("Common ePulse Objects/Choose File"), "/Users/alonzomack/Downloads/oaths.csv")
+
+10
+00:00:06,336 --> 00:00:06,336
+47. delay(1)
+
+11
+00:00:07,341 --> 00:00:07,341
+51. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/Skip duplicates_slider"))
+
+12
+00:00:07,342 --> 00:00:07,343
+55. delay(1)
+
+13
+00:00:08,346 --> 00:00:08,347
+59. click(findTestObject("Common ePulse Objects/Continue Button"))
+
+14
+00:00:08,431 --> 00:00:08,432
+63. delay(1)
+
+15
+00:00:09,437 --> 00:00:09,438
+67. click(findTestObject("Common ePulse Objects/button_Done(working)"))
+

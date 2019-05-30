@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dev_staging ready,Chrome 70.0.3538.110,,2018-12-14 14:08:32,2018-12-14 14:08:54,21.785s,FAILED
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole),Chrome 70.0.3538.110,,2018-12-14 14:08:33,2018-12-14 14:08:54,21.338s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-14 14:08:34,2018-12-14 14:08:36,2.634s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-14 14:08:36,2018-12-14 14:08:37,1.230s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-14 14:08:37,2018-12-14 14:08:38,0.255s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-14 14:08:38,2018-12-14 14:08:38,0.231s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-14 14:08:38,2018-12-14 14:08:38,0.637s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 14:08:38,2018-12-14 14:08:40,1.024s,PASSED
+"click(findTestObject(""SuperAdminConsole/Account Creation/a_Add Account""))",Chrome 70.0.3538.110,,2018-12-14 14:08:40,2018-12-14 14:08:52,12.353s,FAILED

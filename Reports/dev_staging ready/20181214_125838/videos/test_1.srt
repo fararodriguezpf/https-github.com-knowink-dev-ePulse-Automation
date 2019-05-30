@@ -1,0 +1,28 @@
+1
+00:00:00,446 --> 00:00:00,449
+3. Open browser.
+
+2
+00:00:02,964 --> 00:00:02,966
+9. Navigate to ePulse login page.
+
+3
+00:00:04,749 --> 00:00:04,750
+15. Enter user name
+
+4
+00:00:05,118 --> 00:00:05,119
+21. Enter Password
+
+5
+00:00:05,356 --> 00:00:05,359
+27. Login
+
+6
+00:00:11,707 --> 00:00:11,709
+31. delay(1)
+
+7
+00:00:12,730 --> 00:00:12,732
+35. click(findTestObject("Login/am-Automation-test"), STOP_ON_FAILURE)
+

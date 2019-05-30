@@ -1,0 +1,48 @@
+1
+00:00:00,135 --> 00:00:00,136
+1. callTestCase(findTestCase("Login/SuperAdminLogin"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,436 --> 00:00:00,438
+3. Open browser.
+
+3
+00:00:01,735 --> 00:00:01,736
+9. Navigate to ePulse login page.
+
+4
+00:00:03,470 --> 00:00:03,470
+15. Enter user name
+
+5
+00:00:03,686 --> 00:00:03,686
+21. Enter Password
+
+6
+00:00:03,817 --> 00:00:03,818
+27. Login
+
+7
+00:00:04,825 --> 00:00:04,826
+5. delay(1)
+
+8
+00:00:05,830 --> 00:00:05,830
+9. click(findTestObject("SuperAdminConsole/Account Creation/a_Add Account"))
+
+9
+00:00:06,843 --> 00:00:06,844
+13. delay(1)
+
+10
+00:00:07,853 --> 00:00:07,854
+17. setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/Display Title"), "am-Automation-test")
+
+11
+00:00:08,166 --> 00:00:08,167
+21. delay(1)
+
+12
+00:00:09,170 --> 00:00:09,171
+25. setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/County"), "am-Automation-test")
+

@@ -1,0 +1,132 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dev_staging ready,Chrome 70.0.3538.110,,2018-12-10 18:03:11,2018-12-10 18:04:35,1m - 24.146s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician),Chrome 70.0.3538.110,,2018-12-10 18:03:11,2018-12-10 18:03:29,17.968s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-10 18:03:12,2018-12-10 18:03:14,2.224s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-10 18:03:14,2018-12-10 18:03:15,1.400s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-10 18:03:15,2018-12-10 18:03:16,0.236s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-10 18:03:16,2018-12-10 18:03:16,0.202s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-10 18:03:16,2018-12-10 18:03:16,0.590s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:16,2018-12-10 18:03:17,1.045s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-10 18:03:17,2018-12-10 18:03:18,1.017s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:18,2018-12-10 18:03:19,1.008s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 70.0.3538.110,,2018-12-10 18:03:19,2018-12-10 18:03:20,0.417s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:20,2018-12-10 18:03:21,1.007s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 70.0.3538.110,,2018-12-10 18:03:21,2018-12-10 18:03:21,0.096s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:21,2018-12-10 18:03:22,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 70.0.3538.110,,2018-12-10 18:03:22,2018-12-10 18:03:22,0.103s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:22,2018-12-10 18:03:23,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 70.0.3538.110,,2018-12-10 18:03:23,2018-12-10 18:03:23,0.124s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:23,2018-12-10 18:03:24,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew2-user@knowink.com"")",Chrome 70.0.3538.110,,2018-12-10 18:03:24,2018-12-10 18:03:24,0.177s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:24,2018-12-10 18:03:25,1.004s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:25,2018-12-10 18:03:26,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User""), ""1"", true)",Chrome 70.0.3538.110,,2018-12-10 18:03:26,2018-12-10 18:03:27,0.179s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:27,2018-12-10 18:03:28,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 70.0.3538.110,,2018-12-10 18:03:28,2018-12-10 18:03:28,0.146s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:28,2018-12-10 18:03:29,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""basic"", true)",Chrome 70.0.3538.110,,2018-12-10 18:03:29,2018-12-10 18:03:29,0.653s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard),Chrome 70.0.3538.110,,2018-12-10 18:03:29,2018-12-10 18:03:45,15.287s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-10 18:03:30,2018-12-10 18:03:31,1.215s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-10 18:03:31,2018-12-10 18:03:32,1.295s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-10 18:03:32,2018-12-10 18:03:32,0.217s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-10 18:03:32,2018-12-10 18:03:32,0.100s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-10 18:03:32,2018-12-10 18:03:33,0.590s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:33,2018-12-10 18:03:34,1.002s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-10 18:03:34,2018-12-10 18:03:35,0.927s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:35,2018-12-10 18:03:36,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 70.0.3538.110,,2018-12-10 18:03:36,2018-12-10 18:03:36,0.425s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:36,2018-12-10 18:03:37,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 70.0.3538.110,,2018-12-10 18:03:37,2018-12-10 18:03:38,0.100s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:38,2018-12-10 18:03:39,1.007s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 70.0.3538.110,,2018-12-10 18:03:39,2018-12-10 18:03:39,0.094s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:39,2018-12-10 18:03:40,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 70.0.3538.110,,2018-12-10 18:03:40,2018-12-10 18:03:40,0.121s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:40,2018-12-10 18:03:41,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew5-user@knowink.com"")",Chrome 70.0.3538.110,,2018-12-10 18:03:41,2018-12-10 18:03:41,0.176s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:41,2018-12-10 18:03:42,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 70.0.3538.110,,2018-12-10 18:03:42,2018-12-10 18:03:42,0.162s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:42,2018-12-10 18:03:43,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""manager"", true)",Chrome 70.0.3538.110,,2018-12-10 18:03:43,2018-12-10 18:03:43,0.177s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:43,2018-12-10 18:03:44,1.004s,PASSED
+"click(findTestObject(""Common ePulse Objects/Submit Button""))",Chrome 70.0.3538.110,,2018-12-10 18:03:44,2018-12-10 18:03:45,0.419s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-10 18:03:45,2018-12-10 18:03:45,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync),Chrome 70.0.3538.110,,2018-12-10 18:03:45,2018-12-10 18:04:00,15.042s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-10 18:03:45,2018-12-10 18:03:46,1.049s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-10 18:03:46,2018-12-10 18:03:47,1.302s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-10 18:03:47,2018-12-10 18:03:47,0.200s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-10 18:03:47,2018-12-10 18:03:48,0.095s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-10 18:03:48,2018-12-10 18:03:48,0.569s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:48,2018-12-10 18:03:49,1.005s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-10 18:03:49,2018-12-10 18:03:50,0.859s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:50,2018-12-10 18:03:51,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 70.0.3538.110,,2018-12-10 18:03:51,2018-12-10 18:03:51,0.424s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:51,2018-12-10 18:03:52,1.001s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 70.0.3538.110,,2018-12-10 18:03:52,2018-12-10 18:03:53,0.094s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:53,2018-12-10 18:03:54,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 70.0.3538.110,,2018-12-10 18:03:54,2018-12-10 18:03:54,0.106s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:54,2018-12-10 18:03:55,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 70.0.3538.110,,2018-12-10 18:03:55,2018-12-10 18:03:55,0.113s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:55,2018-12-10 18:03:56,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew4-user@knowink.com"")",Chrome 70.0.3538.110,,2018-12-10 18:03:56,2018-12-10 18:03:56,0.175s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:56,2018-12-10 18:03:57,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User""), ""3"", true)",Chrome 70.0.3538.110,,2018-12-10 18:03:57,2018-12-10 18:03:57,0.160s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:57,2018-12-10 18:03:58,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 70.0.3538.110,,2018-12-10 18:03:58,2018-12-10 18:03:58,0.140s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:03:58,2018-12-10 18:03:59,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""election_day"", true)",Chrome 70.0.3538.110,,2018-12-10 18:03:59,2018-12-10 18:04:00,0.526s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard),Chrome 70.0.3538.110,,2018-12-10 18:04:00,2018-12-10 18:04:19,18.974s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-10 18:04:00,2018-12-10 18:04:01,1.202s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-10 18:04:01,2018-12-10 18:04:03,2.077s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-10 18:04:03,2018-12-10 18:04:03,0.168s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-10 18:04:03,2018-12-10 18:04:03,0.083s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-10 18:04:03,2018-12-10 18:04:04,0.605s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:04,2018-12-10 18:04:05,1.004s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-10 18:04:05,2018-12-10 18:04:07,2.256s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:07,2018-12-10 18:04:08,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 70.0.3538.110,,2018-12-10 18:04:08,2018-12-10 18:04:09,0.607s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:09,2018-12-10 18:04:10,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 70.0.3538.110,,2018-12-10 18:04:10,2018-12-10 18:04:10,0.098s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:10,2018-12-10 18:04:11,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 70.0.3538.110,,2018-12-10 18:04:11,2018-12-10 18:04:11,0.103s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:11,2018-12-10 18:04:12,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 70.0.3538.110,,2018-12-10 18:04:12,2018-12-10 18:04:12,0.111s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:12,2018-12-10 18:04:13,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew-user@knowink.com"")",Chrome 70.0.3538.110,,2018-12-10 18:04:13,2018-12-10 18:04:13,0.168s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:13,2018-12-10 18:04:14,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User""), ""0"", true)",Chrome 70.0.3538.110,,2018-12-10 18:04:14,2018-12-10 18:04:15,0.096s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:15,2018-12-10 18:04:16,1.007s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 70.0.3538.110,,2018-12-10 18:04:16,2018-12-10 18:04:16,0.142s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:16,2018-12-10 18:04:17,1.007s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""admin"", true)",Chrome 70.0.3538.110,,2018-12-10 18:04:17,2018-12-10 18:04:17,0.169s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:17,2018-12-10 18:04:18,1.006s,PASSED
+"click(findTestObject(""Common ePulse Objects/Submit Button""))",Chrome 70.0.3538.110,,2018-12-10 18:04:18,2018-12-10 18:04:19,0.878s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-10 18:04:19,2018-12-10 18:04:19,0.000s,NOT_RUN
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center),Chrome 70.0.3538.110,,2018-12-10 18:04:19,2018-12-10 18:04:35,16.515s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-10 18:04:19,2018-12-10 18:04:20,1.138s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-10 18:04:20,2018-12-10 18:04:22,2.170s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-10 18:04:22,2018-12-10 18:04:22,0.172s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-10 18:04:22,2018-12-10 18:04:22,0.084s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-10 18:04:22,2018-12-10 18:04:23,0.588s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:23,2018-12-10 18:04:24,1.002s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-10 18:04:24,2018-12-10 18:04:26,1.456s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:26,2018-12-10 18:04:27,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 70.0.3538.110,,2018-12-10 18:04:27,2018-12-10 18:04:27,0.418s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:27,2018-12-10 18:04:28,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 70.0.3538.110,,2018-12-10 18:04:28,2018-12-10 18:04:28,0.099s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:28,2018-12-10 18:04:29,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 70.0.3538.110,,2018-12-10 18:04:29,2018-12-10 18:04:29,0.089s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:29,2018-12-10 18:04:30,1.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 70.0.3538.110,,2018-12-10 18:04:30,2018-12-10 18:04:30,0.113s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:30,2018-12-10 18:04:31,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew3-user@knowink.com"")",Chrome 70.0.3538.110,,2018-12-10 18:04:31,2018-12-10 18:04:31,0.174s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:31,2018-12-10 18:04:32,1.008s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User""), ""2"", true)",Chrome 70.0.3538.110,,2018-12-10 18:04:32,2018-12-10 18:04:33,0.137s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:33,2018-12-10 18:04:34,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 70.0.3538.110,,2018-12-10 18:04:34,2018-12-10 18:04:34,0.143s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 18:04:34,2018-12-10 18:04:35,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""coordinator"", true)",Chrome 70.0.3538.110,,2018-12-10 18:04:35,2018-12-10 18:04:35,0.517s,FAILED

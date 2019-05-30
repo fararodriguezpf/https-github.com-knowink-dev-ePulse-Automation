@@ -1,0 +1,32 @@
+1
+00:00:00,138 --> 00:00:00,138
+3. Open browser.
+
+2
+00:00:01,422 --> 00:00:01,422
+9. Navigate to ePulse login page.
+
+3
+00:00:02,640 --> 00:00:02,641
+15. Enter user name
+
+4
+00:00:02,876 --> 00:00:02,877
+21. Enter Password
+
+5
+00:00:03,009 --> 00:00:03,009
+27. Login
+
+6
+00:00:03,606 --> 00:00:03,607
+31. delay(1)
+
+7
+00:00:04,613 --> 00:00:04,613
+37. Click the Elections link under Election Setup.
+
+8
+00:00:05,415 --> 00:00:05,415
+41. click(findTestObject("Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Election (Election Creation)"))
+

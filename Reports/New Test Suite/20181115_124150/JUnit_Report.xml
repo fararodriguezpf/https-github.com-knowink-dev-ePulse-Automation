@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="12" timestamp="2018-11-15 12:41:52" hostname="alonzomack - 192.168.1.17" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/New Test Suite/20181115_124150"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/New Test Suite/20181115_124150/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 192.168.1.17"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.1.17"/>
+         <property name="sessionId" value="ede78f615d754233b464b8c004f6316b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete" classname="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete" status="PASSED">
+         <system-out><![CDATA[2018-11-15 12:41:52 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete: Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete
+
+2018-11-15 12:41:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 12:41:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 12:41:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-15 12:41:56 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-15 12:41:56 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-15 12:41:56 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-15 12:41:56 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-15 12:41:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-15 12:41:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-15 12:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-15 12:41:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 12:41:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 12:41:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/am-Automation-test' is clicked on
+
+2018-11-15 12:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/am-Automation-test' is clicked on
+
+2018-11-15 12:42:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 12:42:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 12:42:01 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Common ePulse Objects/Actions(Gear icon)' is hovered
+
+2018-11-15 12:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Actions(Gear icon)' is hovered
+
+2018-11-15 12:42:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-15 12:42:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-15 12:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Edit Accounts - Actions/Delete' is clicked on
+
+2018-11-15 12:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Edit Accounts - Actions/Delete' is clicked on
+
+2018-11-15 12:42:04 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-15 12:42:04 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-15 12:42:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 12:42:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 12:41:52 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

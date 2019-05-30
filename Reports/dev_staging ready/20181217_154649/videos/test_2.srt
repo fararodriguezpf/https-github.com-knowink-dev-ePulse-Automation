@@ -1,0 +1,8 @@
+1
+00:00:00,297 --> 00:00:00,299
+3. Open browser.
+
+2
+00:00:01,567 --> 00:00:01,569
+9. Navigate to ePulse login page.
+

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dev_staging ready" time="37" tests="1" failures="1" errors="0">
+   <testsuite name="dev_staging ready" tests="1" failures="1" errors="0" time="37" timestamp="2018-12-14 11:49:08" hostname="alonzomack - 192.168.1.9" id="Test Suites/dev_staging ready">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181214_114906"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181214_114906/execution0.log"/>
+         <property name="attachments" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181214_114906/1544809785835.png"/>
+         <property name="hostName" value="alonzomack - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="44d1e05d7591142c32b189bc6b5d8b2f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add" classname="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add" status="PASSED">
+         <system-out><![CDATA[2018-12-14 11:49:08 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add: Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add
+
+2018-12-14 11:49:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 11:49:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 11:49:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 11:49:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 11:49:11 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-14 11:49:12 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-14 11:49:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:49:12 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:49:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:49:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:49:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:49:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:49:14 - [TEST_STEP][PASSED] - navigateToUrl(Prompts, STOP_ON_FAILURE): Navigate to 'https://am-Automation-test.epulsebeta2.com/prompts' successfully
+
+2018-12-14 11:49:15 - [MESSAGE][PASSED] - Navigate to 'https://am-Automation-test.epulsebeta2.com/prompts' successfully
+
+2018-12-14 11:49:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:49:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button' is clicked on
+
+2018-12-14 11:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button' is clicked on
+
+2018-12-14 11:49:16 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name"), "Test Prompt"): Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name'
+
+2018-12-14 11:49:16 - [MESSAGE][PASSED] - Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name'
+
+2018-12-14 11:49:16 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading"), "Prompt"): Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading'
+
+2018-12-14 11:49:16 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading'
+
+2018-12-14 11:49:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color"), "0", true): All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color'  using regular expression
+
+2018-12-14 11:49:17 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color'  using regular expression
+
+2018-12-14 11:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order"), "1"): Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order'
+
+2018-12-14 11:49:17 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order'
+
+2018-12-14 11:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label"), "Prompt"): Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label'
+
+2018-12-14 11:49:17 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label'
+
+2018-12-14 11:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name"), "Prompt"): Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name'
+
+2018-12-14 11:49:17 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name'
+
+2018-12-14 11:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider' is clicked on
+
+2018-12-14 11:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider' is clicked on
+
+2018-12-14 11:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider' is clicked on
+
+2018-12-14 11:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider' is clicked on
+
+2018-12-14 11:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea "), "Test Prompt"): Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea '
+
+2018-12-14 11:49:17 - [MESSAGE][PASSED] - Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea '
+
+2018-12-14 11:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit' is clicked on
+
+2018-12-14 11:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit' is clicked on
+
+2018-12-14 11:49:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 11:49:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 11:49:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-14 11:49:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria" classname="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator' located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Prompts - Add Criteria.run(Prompts - Add Criteria:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544809746772.run(TempTestSuite1544809746772.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 11:49:19 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria: Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator' located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Prompts - Add Criteria.run(Prompts - Add Criteria:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544809746772.run(TempTestSuite1544809746772.groovy:36)
+
+
+2018-12-14 11:49:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 11:49:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 11:49:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 11:49:21 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-14 11:49:22 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-14 11:49:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:49:22 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:49:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:49:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:49:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:49:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:49:24 - [TEST_STEP][PASSED] - navigateToUrl(Prompts, STOP_ON_FAILURE): Navigate to 'https://am-Automation-test.epulsebeta2.com/prompts' successfully
+
+2018-12-14 11:49:24 - [MESSAGE][PASSED] - Navigate to 'https://am-Automation-test.epulsebeta2.com/prompts' successfully
+
+2018-12-14 11:49:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:49:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:49:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt' is clicked on
+
+2018-12-14 11:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt' is clicked on
+
+2018-12-14 11:49:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:49:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:49:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown"), "status_id", true): All options with value 'status_id' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:49:27 - [MESSAGE][PASSED] - All options with value 'status_id' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:49:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:49:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:49:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:49:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:49:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown"), "voter_status_reason", true): All options with value 'voter_status_reason' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:49:29 - [MESSAGE][PASSED] - All options with value 'voter_status_reason' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:49:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:49:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:49:30 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator"), "1", true): selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator"), "1", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator' located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Prompts - Add Criteria.run(Prompts - Add Criteria:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544809746772.run(TempTestSuite1544809746772.groovy:36)
+
+
+2018-12-14 11:49:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 11:49:46 - [MESSAGE][FAILED] - Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator' located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]' not found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181214_114906/1544809785835.png]]
+
+2018-12-14 11:49:46 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator"), "1", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator' located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Prompts - Add Criteria.run(Prompts - Add Criteria:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544809746772.run(TempTestSuite1544809746772.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 11:49:19 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria: Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator' located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Prompts - Add Criteria.run(Prompts - Add Criteria:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544809746772.run(TempTestSuite1544809746772.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 11:49:08 - [TEST_SUITE][FAILED] - dev_staging ready: Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator' located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Prompts - Add Criteria.run(Prompts - Add Criteria:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544809746772.run(TempTestSuite1544809746772.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-14 11:49:08 - [TEST_SUITE][FAILED] - dev_staging ready: Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator' located by 'By.xpath: //select[@name = 'prompt_criteria[operator]' and @id = 'prompt_criteria_operator' and (text() = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain' or . = 'Equals
+                Does Not Equal
+                Contains
+                Does Not Contain')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Prompts - Add Criteria.run(Prompts - Add Criteria:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544809746772.run(TempTestSuite1544809746772.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

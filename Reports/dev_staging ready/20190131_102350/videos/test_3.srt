@@ -1,0 +1,40 @@
+1
+00:00:00,191 --> 00:00:00,192
+3. Open browser.
+
+2
+00:00:01,672 --> 00:00:01,673
+9. Navigate to ePulse login page.
+
+3
+00:00:03,384 --> 00:00:03,385
+15. Enter user name
+
+4
+00:00:03,615 --> 00:00:03,615
+21. Enter Password
+
+5
+00:00:03,732 --> 00:00:03,733
+27. Login
+
+6
+00:00:04,839 --> 00:00:04,840
+31. delay(1)
+
+7
+00:00:05,847 --> 00:00:05,848
+37. Click the Elections link under Election Setup.
+
+8
+00:00:07,258 --> 00:00:07,259
+43. Election Creation Step 1 - Choose the file to upload.
+
+9
+00:00:07,371 --> 00:00:07,371
+49. Election Creation Step 1 - Click Continue once the file is specified.
+
+10
+00:00:07,455 --> 00:00:07,456
+55. Delay to account for loading times.
+

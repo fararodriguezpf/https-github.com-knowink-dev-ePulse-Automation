@@ -1,0 +1,108 @@
+1
+00:00:00,160 --> 00:00:00,161
+3. Open browser.
+
+2
+00:00:00,507 --> 00:00:00,508
+9. Navigate to ePulse login page.
+
+3
+00:00:01,926 --> 00:00:01,927
+15. Enter user name
+
+4
+00:00:02,120 --> 00:00:02,122
+21. Enter Password
+
+5
+00:00:02,215 --> 00:00:02,216
+27. Login
+
+6
+00:00:02,833 --> 00:00:02,833
+31. delay(1)
+
+7
+00:00:03,836 --> 00:00:03,837
+37. Click the Elections link under Election Setup.
+
+8
+00:00:05,140 --> 00:00:05,143
+43. Election Creation Step 1 - Choose the file to upload.
+
+9
+00:00:05,234 --> 00:00:05,234
+49. Election Creation Step 1 - Click Continue once the file is specified.
+
+10
+00:00:05,301 --> 00:00:05,302
+55. Delay to account for loading times.
+
+11
+00:00:15,305 --> 00:00:15,305
+59. delay(10)
+
+12
+00:00:25,310 --> 00:00:25,311
+63. refresh(STOP_ON_FAILURE)
+
+13
+00:00:25,872 --> 00:00:25,872
+69. Election Creation Step 2 - Enter an election name.
+
+14
+00:00:26,014 --> 00:00:26,015
+75. Election Creation Step 2 - Enter an election code.
+
+15
+00:00:26,126 --> 00:00:26,126
+81. Election Creation Step 2 - Select an election type.
+
+16
+00:00:26,317 --> 00:00:26,318
+85. clearText(findTestObject("Admin Console ePulse Menu/Election Setup/Election Creation/DATE"))
+
+17
+00:00:26,379 --> 00:00:26,382
+91. Election Creation Step 2 - Select an election date.
+
+18
+00:00:26,550 --> 00:00:26,551
+97. Election Creation Step 2 - Click Submit to continue to Step 3.
+
+19
+00:00:27,207 --> 00:00:27,208
+103. Delay to account for load times.
+
+20
+00:00:27,237 --> 00:00:27,238
+109. Step 3 - Click Done to continue.
+
+21
+00:00:27,705 --> 00:00:27,705
+115. Delay to account for load times.
+
+22
+00:00:27,752 --> 00:00:27,753
+121. Step 4 - Click Done to Continue.
+
+23
+00:00:28,233 --> 00:00:28,233
+127. Delay to account for load times.
+
+24
+00:00:28,259 --> 00:00:28,260
+133. Step 5 - Click Confirm to finish the setup wizard and create the election.
+
+25
+00:00:28,311 --> 00:00:28,311
+139. Delay to account for load times.
+
+26
+00:00:48,319 --> 00:00:48,319
+145. Verify the election created by checking for unique text on the screen.
+
+27
+00:00:48,418 --> 00:00:48,420
+149. verifyTextPresent("Election Seed Files", true)
+

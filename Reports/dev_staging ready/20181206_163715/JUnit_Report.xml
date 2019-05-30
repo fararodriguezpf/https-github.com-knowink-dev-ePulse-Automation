@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dev_staging ready" time="129" tests="8" failures="0" errors="0">
+   <testsuite name="dev_staging ready" tests="8" failures="0" errors="0" time="129" timestamp="2018-12-06 16:37:17" hostname="alonzomack - 10.130.25.110" id="Test Suites/dev_staging ready">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181206_163715"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181206_163715/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 10.130.25.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.130.25.110"/>
+         <property name="sessionId" value="b40e5071602a847e21d4e7899e1724a6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add" status="PASSED">
+         <system-out><![CDATA[2018-12-06 16:37:17 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add
+
+2018-12-06 16:37:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 16:37:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 16:37:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-06 16:37:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 16:37:20 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:37:22 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:37:22 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:37:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:37:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:37:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:24 - [TEST_STEP][PASSED] - navigateToUrl(voter_id_methods, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:37:26 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:37:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Add ID Method Button")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Add ID Method Button' is clicked on
+
+2018-12-06 16:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Add ID Method Button' is clicked on
+
+2018-12-06 16:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name"), "Drivers License"): Text 'Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name'
+
+2018-12-06 16:37:27 - [MESSAGE][PASSED] - Text 'Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name'
+
+2018-12-06 16:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading"), "State Drivers License"): Text 'State Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading'
+
+2018-12-06 16:37:27 - [MESSAGE][PASSED] - Text 'State Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading'
+
+2018-12-06 16:37:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color"), "1", true): All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color'  using regular expression
+
+2018-12-06 16:37:27 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color'  using regular expression
+
+2018-12-06 16:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions"), "State Drivers License"): Text 'State Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions'
+
+2018-12-06 16:37:28 - [MESSAGE][PASSED] - Text 'State Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions'
+
+2018-12-06 16:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order"), "1"): Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order'
+
+2018-12-06 16:37:28 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order'
+
+2018-12-06 16:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider' is clicked on
+
+2018-12-06 16:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider' is clicked on
+
+2018-12-06 16:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider"), STOP_ON_FAILURE): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider' is clicked on
+
+2018-12-06 16:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider' is clicked on
+
+2018-12-06 16:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider"), STOP_ON_FAILURE): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider' is clicked on
+
+2018-12-06 16:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider' is clicked on
+
+2018-12-06 16:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading"), "No Drivers License?"): Text 'No Drivers License?' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading'
+
+2018-12-06 16:37:28 - [MESSAGE][PASSED] - Text 'No Drivers License?' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading'
+
+2018-12-06 16:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions"), "Vote Provisional"): Text 'Vote Provisional' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions'
+
+2018-12-06 16:37:28 - [MESSAGE][PASSED] - Text 'Vote Provisional' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions'
+
+2018-12-06 16:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit"), STOP_ON_FAILURE): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit' is clicked on
+
+2018-12-06 16:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - ALT Button" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - ALT Button" status="PASSED">
+         <system-out><![CDATA[2018-12-06 16:37:28 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - ALT Button: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - ALT Button
+
+2018-12-06 16:37:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 16:37:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-06 16:37:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 16:37:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 16:37:30 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:37:33 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:37:33 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:37:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:37:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:37:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:35 - [TEST_STEP][PASSED] - navigateToUrl(voter_id_methods, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:37:37 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:37:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Alt. Buttons")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Alt. Buttons' is clicked on
+
+2018-12-06 16:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Alt. Buttons' is clicked on
+
+2018-12-06 16:37:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:39 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "test"): Text 'test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:39 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "0", true): All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:41 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:43 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "1test"): Text '1test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:43 - [MESSAGE][PASSED] - Text '1test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "1", true): All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:44 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:44 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field"), "Allow to vote", STOP_ON_FAILURE): Text 'Allow to vote' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field'
+
+2018-12-06 16:37:44 - [MESSAGE][PASSED] - Text 'Allow to vote' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field'
+
+2018-12-06 16:37:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:46 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "2test"): Text '2test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:46 - [MESSAGE][PASSED] - Text '2test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "2", true): All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:47 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:48 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field"), "asdf"): Text 'asdf' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field'
+
+2018-12-06 16:37:48 - [MESSAGE][PASSED] - Text 'asdf' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field'
+
+2018-12-06 16:37:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:50 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "3test"): Text '3test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:51 - [MESSAGE][PASSED] - Text '3test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "3", true): All options with value '3' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:52 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:54 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "4test"): Text '4test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:54 - [MESSAGE][PASSED] - Text '4test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "4", true): All options with value '4' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:55 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "5test"): Text '5test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:57 - [MESSAGE][PASSED] - Text '5test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:37:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "5", true): All options with value '5' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:58 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:37:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:37:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:37:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button' is clicked on
+
+2018-12-06 16:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button' is clicked on
+
+2018-12-06 16:38:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-06 16:38:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Button" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Button" status="PASSED">
+         <system-out><![CDATA[2018-12-06 16:38:02 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Button: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Button
+
+2018-12-06 16:38:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 16:38:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 16:38:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 16:38:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:38:05 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:38:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:38:05 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:38:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:38:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:38:06 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:38:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:07 - [TEST_STEP][PASSED] - navigateToUrl(voter_id_methods, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:38:09 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:38:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Buttons")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Buttons' is clicked on
+
+2018-12-06 16:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Buttons' is clicked on
+
+2018-12-06 16:38:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "test"): Text 'test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:11 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "0", true): All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:12 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "1test"): Text '1test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:15 - [MESSAGE][PASSED] - Text '1test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "1", true): All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:16 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field"), "Allow to vote", STOP_ON_FAILURE): Text 'Allow to vote' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field'
+
+2018-12-06 16:38:16 - [MESSAGE][PASSED] - Text 'Allow to vote' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field'
+
+2018-12-06 16:38:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:18 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "2test"): Text '2test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:18 - [MESSAGE][PASSED] - Text '2test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "2", true): All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:19 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:20 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field"), "asdf"): Text 'asdf' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field'
+
+2018-12-06 16:38:20 - [MESSAGE][PASSED] - Text 'asdf' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field'
+
+2018-12-06 16:38:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "3test"): Text '3test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:22 - [MESSAGE][PASSED] - Text '3test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "3", true): All options with value '3' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:23 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "4test"): Text '4test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:26 - [MESSAGE][PASSED] - Text '4test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "4", true): All options with value '4' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:27 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:29 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label"), "5test"): Text '5test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:29 - [MESSAGE][PASSED] - Text '5test' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label'
+
+2018-12-06 16:38:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type"), "5", true): All options with value '5' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:30 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type'  using regular expression
+
+2018-12-06 16:38:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)' is clicked on
+
+2018-12-06 16:38:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button' is clicked on
+
+2018-12-06 16:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button' is clicked on
+
+2018-12-06 16:38:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-06 16:38:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit" status="PASSED">
+         <system-out><![CDATA[2018-12-06 16:38:33 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit
+
+2018-12-06 16:38:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 16:38:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 16:38:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 16:38:35 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:38:38 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:38:38 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:38:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:38:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:38:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:38:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:40 - [TEST_STEP][PASSED] - navigateToUrl(voter_id_methods, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:38:41 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:38:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Edit Selected ID Method")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Edit Selected ID Method' is clicked on
+
+2018-12-06 16:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Edit Selected ID Method' is clicked on
+
+2018-12-06 16:38:42 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name"), "Drivers License_Edit"): Text 'Drivers License_Edit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name'
+
+2018-12-06 16:38:43 - [MESSAGE][PASSED] - Text 'Drivers License_Edit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name'
+
+2018-12-06 16:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading"), "State Drivers License_Edit"): Text 'State Drivers License_Edit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading'
+
+2018-12-06 16:38:43 - [MESSAGE][PASSED] - Text 'State Drivers License_Edit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading'
+
+2018-12-06 16:38:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color"), "0", true): All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color'  using regular expression
+
+2018-12-06 16:38:43 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color'  using regular expression
+
+2018-12-06 16:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions"), "State Drivers License_Edit"): Text 'State Drivers License_Edit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions'
+
+2018-12-06 16:38:43 - [MESSAGE][PASSED] - Text 'State Drivers License_Edit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions'
+
+2018-12-06 16:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order"), "2"): Text '2' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order'
+
+2018-12-06 16:38:43 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order'
+
+2018-12-06 16:38:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider")): NOT_RUN: click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider"))
+
+2018-12-06 16:38:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider"))
+
+2018-12-06 16:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider"), STOP_ON_FAILURE): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider' is clicked on
+
+2018-12-06 16:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider' is clicked on
+
+2018-12-06 16:38:44 - [TEST_STEP][NOT_RUN] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider"), STOP_ON_FAILURE): NOT_RUN: click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider"), STOP_ON_FAILURE)
+
+2018-12-06 16:38:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider"), STOP_ON_FAILURE)
+
+2018-12-06 16:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading"), "No Drivers License_Edit?"): Text 'No Drivers License_Edit?' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading'
+
+2018-12-06 16:38:44 - [MESSAGE][PASSED] - Text 'No Drivers License_Edit?' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading'
+
+2018-12-06 16:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions"), "Vote Provisional_Edit"): Text 'Vote Provisional_Edit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions'
+
+2018-12-06 16:38:44 - [MESSAGE][PASSED] - Text 'Vote Provisional_Edit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions'
+
+2018-12-06 16:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit"), STOP_ON_FAILURE): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit' is clicked on
+
+2018-12-06 16:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit' is clicked on
+
+2018-12-06 16:38:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-06 16:38:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit Oath" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit Oath" status="PASSED">
+         <system-out><![CDATA[2018-12-06 16:38:44 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit Oath: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit Oath
+
+2018-12-06 16:38:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 16:38:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 16:38:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 16:38:46 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:38:48 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:38:48 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:38:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:38:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:38:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:50 - [TEST_STEP][PASSED] - navigateToUrl(voter_id_methods, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:38:52 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Edit ID Method Oath")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Edit ID Method Oath' is clicked on
+
+2018-12-06 16:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Edit ID Method Oath' is clicked on
+
+2018-12-06 16:38:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Customized Oath text area"), "Customize the oath displayed to voters. "): Text 'Customize the oath displayed to voters. ' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Customized Oath text area'
+
+2018-12-06 16:38:53 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters. ' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Customized Oath text area'
+
+2018-12-06 16:38:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:38:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Submit"), STOP_ON_FAILURE): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Submit' is clicked on
+
+2018-12-06 16:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Export" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Export" status="PASSED">
+         <system-out><![CDATA[2018-12-06 16:38:54 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Export: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Export
+
+2018-12-06 16:38:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 16:38:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-06 16:38:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 16:38:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 16:38:56 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:38:58 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:38:58 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:38:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:38:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:38:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:39:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:39:00 - [TEST_STEP][PASSED] - navigateToUrl(voter_id_methods): Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:39:01 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:39:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:39:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Export")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Export' is clicked on
+
+2018-12-06 16:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Export' is clicked on
+
+2018-12-06 16:39:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:39:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:39:04 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2018-12-06 16:39:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import" status="PASSED">
+         <system-out><![CDATA[2018-12-06 16:39:04 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import
+
+2018-12-06 16:39:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 16:39:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 16:39:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 16:39:05 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:39:07 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:39:08 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:39:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:39:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:39:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:39:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:39:09 - [TEST_STEP][PASSED] - navigateToUrl(voter_id_methods, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:39:11 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:39:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Import")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Import' is clicked on
+
+2018-12-06 16:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Import' is clicked on
+
+2018-12-06 16:39:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File"), "/Users/alonzomack/Downloads/Automation uploads/voter_id_methods.txt"): Text '/Users/alonzomack/Downloads/Automation uploads/voter_id_methods.txt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-12-06 16:39:12 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/Automation uploads/voter_id_methods.txt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-12-06 16:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-12-06 16:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-12-06 16:39:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:39:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on
+
+2018-12-06 16:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete" status="PASSED">
+         <system-out><![CDATA[2018-12-06 16:39:15 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete
+
+2018-12-06 16:39:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 16:39:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-06 16:39:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 16:39:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 16:39:16 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:39:18 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-06 16:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:39:18 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-06 16:39:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:39:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-06 16:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-06 16:39:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:39:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:39:20 - [TEST_STEP][PASSED] - navigateToUrl(voter_id_methods, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:39:22 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/voter_id_methods' successfully
+
+2018-12-06 16:39:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-06 16:39:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-06 16:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Delete Selected ID Method")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Delete Selected ID Method' is clicked on
+
+2018-12-06 16:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Delete Selected ID Method' is clicked on
+
+2018-12-06 16:39:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-06 16:39:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-06 16:39:26 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-06 16:39:26 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-06 16:39:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-06 16:39:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-06 16:37:17 - [TEST_SUITE][PASSED] - dev_staging ready: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

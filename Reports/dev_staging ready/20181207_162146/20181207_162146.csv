@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dev_staging ready,Chrome 70.0.3538.110,,2018-12-07 16:21:50,2018-12-07 16:21:54,3.531s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add,Chrome 70.0.3538.110,,2018-12-07 16:21:50,2018-12-07 16:21:53,3.050s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-07 16:21:51,2018-12-07 16:21:53,2.360s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-07 16:21:53,2018-12-07 16:21:53,0.316s,FAILED

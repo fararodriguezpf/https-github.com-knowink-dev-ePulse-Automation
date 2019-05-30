@@ -1,0 +1,1053 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dev_staging smoketest,Chrome 74.0.3729.131,,2019-05-13 11:11:04,2019-05-13 11:29:07,18m - 2.406s,FAILED
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete,Chrome 74.0.3729.131,,2019-05-13 11:11:05,2019-05-13 11:11:27,22.270s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:11:06,2019-05-13 11:11:09,3.043s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:11:09,2019-05-13 11:11:16,7.175s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:11:16,2019-05-13 11:11:16,0.442s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:11:16,2019-05-13 11:11:17,0.259s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:11:17,2019-05-13 11:11:18,0.983s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:18,2019-05-13 11:11:19,1.040s,PASSED
+"click(findTestObject(""Login/am-Automation-test""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:11:19,2019-05-13 11:11:20,0.961s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:20,2019-05-13 11:11:21,1.004s,PASSED
+"mouseOver(findTestObject(""Common ePulse Objects/Actions(Gear icon)""))",Chrome 74.0.3729.131,,2019-05-13 11:11:21,2019-05-13 11:11:21,0.104s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-13 11:11:21,2019-05-13 11:11:24,3.009s,PASSED
+"click(findTestObject(""SuperAdminConsole/Edit Accounts - Actions/Delete""))",Chrome 74.0.3729.131,,2019-05-13 11:11:24,2019-05-13 11:11:24,0.105s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:24,2019-05-13 11:11:25,1.007s,PASSED
+acceptAlert(),Chrome 74.0.3729.131,,2019-05-13 11:11:25,2019-05-13 11:11:25,0.033s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:11:25,2019-05-13 11:11:25,0.165s,PASSED
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole),Chrome 74.0.3729.131,,2019-05-13 11:11:27,2019-05-13 11:11:55,27.542s,PASSED
+"callTestCase(findTestCase(""Login/SuperAdminLogin""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:11:27,2019-05-13 11:11:33,5.353s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:33,2019-05-13 11:11:34,1.007s,PASSED
+"click(findTestObject(""SuperAdminConsole/Account Creation/a_Add Account""))",Chrome 74.0.3729.131,,2019-05-13 11:11:34,2019-05-13 11:11:34,0.647s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:34,2019-05-13 11:11:35,1.003s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Display Title""), ""am-Automation-test"")",Chrome 74.0.3729.131,,2019-05-13 11:11:35,2019-05-13 11:11:36,0.282s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:36,2019-05-13 11:11:37,1.005s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Account Creation/Account Information/County""), ""am-Automation-test"")",Chrome 74.0.3729.131,,2019-05-13 11:11:37,2019-05-13 11:11:37,0.243s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:37,2019-05-13 11:11:38,1.004s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/StateProvince""), ""MO"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:38,2019-05-13 11:11:39,0.774s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:39,2019-05-13 11:11:40,1.005s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Pad Type""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:40,2019-05-13 11:11:40,0.154s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:40,2019-05-13 11:11:41,1.010s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version""), ""1.0.1"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:41,2019-05-13 11:11:41,0.002s,NOT_RUN
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:41,2019-05-13 11:11:42,1.005s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File""), ""mcvr"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:42,2019-05-13 11:11:42,0.623s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:42,2019-05-13 11:11:43,1.008s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file""), ""mcvr"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:43,2019-05-13 11:11:44,0.527s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:44,2019-05-13 11:11:45,1.005s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places""), ""epulse"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:45,2019-05-13 11:11:45,0.163s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:45,2019-05-13 11:11:46,1.005s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules""), ""mcvr"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:46,2019-05-13 11:11:46,0.242s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:46,2019-05-13 11:11:47,1.007s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter""), ""mcvr"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:47,2019-05-13 11:11:48,0.375s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:48,2019-05-13 11:11:49,1.007s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser""), ""epulse"", true)",Chrome 74.0.3729.131,,2019-05-13 11:11:49,2019-05-13 11:11:49,0.161s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:49,2019-05-13 11:11:50,1.005s,PASSED
+"click(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Submit""))",Chrome 74.0.3729.131,,2019-05-13 11:11:50,2019-05-13 11:11:51,1.494s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:11:51,2019-05-13 11:11:52,1.008s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:11:52,2019-05-13 11:11:53,0.133s,PASSED
+,,,,,,
+Test Cases/Admin Console/Election Setup/Elections/Election Creation,Chrome 74.0.3729.131,,2019-05-13 11:11:55,2019-05-13 11:12:54,59.394s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:11:55,2019-05-13 11:11:57,2.029s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:11:57,2019-05-13 11:12:00,2.809s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:12:00,2019-05-13 11:12:00,0.217s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:12:00,2019-05-13 11:12:00,0.120s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:12:00,2019-05-13 11:12:01,0.778s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:12:01,2019-05-13 11:12:02,1.005s,PASSED
+navigateToUrl(Election_Import),Chrome 74.0.3729.131,Click the Elections link under Election Setup.,2019-05-13 11:12:02,2019-05-13 11:12:03,1.606s,PASSED
+"setText(findTestObject(""Common ePulse Objects/Choose File""), ""/Users/alonzomack/Downloads/Imports/Missouri/voters_200_mcvr.txt"")",Chrome 74.0.3729.131,Election Creation Step 1 - Choose the file to upload.,2019-05-13 11:12:03,2019-05-13 11:12:03,0.077s,PASSED
+"click(findTestObject(""Common ePulse Objects/Continue Button""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,Election Creation Step 1 - Click Continue once the file is specified.,2019-05-13 11:12:03,2019-05-13 11:12:04,0.083s,PASSED
+delay(10),Chrome 74.0.3729.131,Delay to account for loading times.,2019-05-13 11:12:04,2019-05-13 11:12:14,10.005s,PASSED
+delay(10),Chrome 74.0.3729.131,,2019-05-13 11:12:14,2019-05-13 11:12:24,10.004s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:12:24,2019-05-13 11:12:24,0.636s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Election Name""), ""Election Creation"")",Chrome 74.0.3729.131,Election Creation Step 2 - Enter an election name.,2019-05-13 11:12:24,2019-05-13 11:12:24,0.207s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Election Code""), ""123"")",Chrome 74.0.3729.131,Election Creation Step 2 - Enter an election code.,2019-05-13 11:12:24,2019-05-13 11:12:25,0.114s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Select Election Type""), ""general"", true)",Chrome 74.0.3729.131,Election Creation Step 2 - Select an election type.,2019-05-13 11:12:25,2019-05-13 11:12:25,0.177s,PASSED
+"clearText(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/DATE""))",Chrome 74.0.3729.131,,2019-05-13 11:12:25,2019-05-13 11:12:25,0.060s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/DATE""), ""07/21/2021"")",Chrome 74.0.3729.131,Election Creation Step 2 - Select an election date.,2019-05-13 11:12:25,2019-05-13 11:12:25,0.230s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Next""))",Chrome 74.0.3729.131,Election Creation Step 2 - Click Submit to continue to Step 3.,2019-05-13 11:12:25,2019-05-13 11:12:26,0.839s,PASSED
+"waitForElementPresent(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Step3 Done""), 0)",Chrome 74.0.3729.131,Delay to account for load times.,2019-05-13 11:12:26,2019-05-13 11:12:26,0.039s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Step3 Done""))",Chrome 74.0.3729.131,Step 3 - Click Done to continue.,2019-05-13 11:12:26,2019-05-13 11:12:27,0.671s,PASSED
+"waitForElementVisible(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Step4 Done""), 0)",Chrome 74.0.3729.131,Delay to account for load times.,2019-05-13 11:12:27,2019-05-13 11:12:27,0.054s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Step4 Done""))",Chrome 74.0.3729.131,Step 4 - Click Done to Continue.,2019-05-13 11:12:27,2019-05-13 11:12:27,0.842s,PASSED
+"waitForElementPresent(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Step5 Confirm""), 0)",Chrome 74.0.3729.131,Delay to account for load times.,2019-05-13 11:12:27,2019-05-13 11:12:27,0.024s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Step5 Confirm""))",Chrome 74.0.3729.131,Step 5 - Click Confirm to finish the setup wizard and create the election.,2019-05-13 11:12:27,2019-05-13 11:12:28,0.076s,PASSED
+delay(20),Chrome 74.0.3729.131,Delay to account for load times.,2019-05-13 11:12:28,2019-05-13 11:12:48,20.008s,PASSED
+"verifyTextPresent(""Election Creation"", true)",Chrome 74.0.3729.131,Verify the election created by checking for unique text on the screen.,2019-05-13 11:12:48,2019-05-13 11:12:48,0.175s,PASSED
+"verifyTextPresent(""Election Seed Files"", true)",Chrome 74.0.3729.131,,2019-05-13 11:12:48,2019-05-13 11:12:48,0.196s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:12:48,2019-05-13 11:12:49,1.003s,PASSED
+navigateToUrl(Reg_Voters),Chrome 74.0.3729.131,,2019-05-13 11:12:49,2019-05-13 11:12:50,0.627s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:12:50,2019-05-13 11:12:51,1.006s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:12:51,2019-05-13 11:12:52,1.003s,PASSED
+"verifyTextPresent(""TWEEDIE MARIE AARON"", true)",Chrome 74.0.3729.131,,2019-05-13 11:12:52,2019-05-13 11:12:52,0.173s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:12:52,2019-05-13 11:12:52,0.159s,PASSED
+,,,,,,
+Test Cases/Admin Console/Election Setup/Elections/Election Creation - Upload Supplemental,Chrome 74.0.3729.131,,2019-05-13 11:12:54,2019-05-13 11:13:17,23.038s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:12:54,2019-05-13 11:12:56,1.533s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:12:56,2019-05-13 11:12:58,2.526s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:12:58,2019-05-13 11:12:58,0.186s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:12:58,2019-05-13 11:12:59,0.112s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:12:59,2019-05-13 11:12:59,0.893s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:12:59,2019-05-13 11:13:00,1.002s,PASSED
+navigateToUrl(Elections_Page),Chrome 74.0.3729.131,Click the Elections link under Election Setup.,2019-05-13 11:13:00,2019-05-13 11:13:02,1.579s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Election (Election Creation)""))",Chrome 74.0.3729.131,,2019-05-13 11:13:02,2019-05-13 11:13:03,1.235s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Import Supplemental Voters""))",Chrome 74.0.3729.131,,2019-05-13 11:13:03,2019-05-13 11:13:04,0.691s,PASSED
+"setText(findTestObject(""Common ePulse Objects/Choose File""), ""/Users/alonzomack/Downloads/Automation uploads/voters_201_mcvr.txt"")",Chrome 74.0.3729.131,Election Creation Step 1 - Choose the file to upload.,2019-05-13 11:13:04,2019-05-13 11:13:04,0.079s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:04,2019-05-13 11:13:05,1.003s,PASSED
+"click(findTestObject(""Common ePulse Objects/Continue Button""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,Election Creation Step 1 - Click Continue once the file is specified.,2019-05-13 11:13:05,2019-05-13 11:13:05,0.076s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:05,2019-05-13 11:13:06,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Done""))",Chrome 74.0.3729.131,,2019-05-13 11:13:06,2019-05-13 11:13:11,4.644s,PASSED
+"verifyTextPresent(""Election Creation"", true)",Chrome 74.0.3729.131,Verify the election created by checking for unique text on the screen.,2019-05-13 11:13:11,2019-05-13 11:13:11,0.107s,PASSED
+"verifyTextPresent(""Election Seed Files"", true)",Chrome 74.0.3729.131,,2019-05-13 11:13:11,2019-05-13 11:13:11,0.088s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:11,2019-05-13 11:13:12,1.007s,PASSED
+navigateToUrl(Reg_Voters),Chrome 74.0.3729.131,,2019-05-13 11:13:12,2019-05-13 11:13:13,0.610s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:13,2019-05-13 11:13:14,1.005s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:14,2019-05-13 11:13:15,1.006s,PASSED
+"verifyTextPresent(""ABRON A AAARON"", true)",Chrome 74.0.3729.131,,2019-05-13 11:13:15,2019-05-13 11:13:15,0.145s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:13:15,2019-05-13 11:13:15,0.151s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Pads/Poll Pad - Configuration()/Poll Pad Configuration - Add,Chrome 74.0.3729.131,,2019-05-13 11:13:17,2019-05-13 11:13:33,16.384s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-13 11:13:17,2019-05-13 11:13:18,1.337s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:13:18,2019-05-13 11:13:21,2.500s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:13:21,2019-05-13 11:13:21,0.221s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:13:21,2019-05-13 11:13:21,0.106s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:13:21,2019-05-13 11:13:22,0.966s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:22,2019-05-13 11:13:23,1.002s,PASSED
+navigateToUrl(Pollpad_Config_Page),Chrome 74.0.3729.131,,2019-05-13 11:13:23,2019-05-13 11:13:25,1.255s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:25,2019-05-13 11:13:26,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Pads/Poll Pad Config - Add/Add Configuration""))",Chrome 74.0.3729.131,,2019-05-13 11:13:26,2019-05-13 11:13:26,0.843s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:26,2019-05-13 11:13:27,1.008s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Poll Pads/Poll Pad Config - Add/PollPad Config Name""), ""Automation Created Config"")",Chrome 74.0.3729.131,,2019-05-13 11:13:27,2019-05-13 11:13:28,0.580s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:28,2019-05-13 11:13:29,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Pads/Poll Pad Config - Add/Submit Config""))",Chrome 74.0.3729.131,,2019-05-13 11:13:29,2019-05-13 11:13:30,1.233s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:30,2019-05-13 11:13:31,1.005s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:13:31,2019-05-13 11:13:31,0.154s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Pads/Poll Pad - Configuration()/Poll Pad Configuration - Delete,Chrome 74.0.3729.131,,2019-05-13 11:13:33,2019-05-13 11:13:46,12.939s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-13 11:13:33,2019-05-13 11:13:35,1.473s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:13:35,2019-05-13 11:13:38,2.677s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:13:38,2019-05-13 11:13:38,0.204s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:13:38,2019-05-13 11:13:38,0.100s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:13:38,2019-05-13 11:13:39,0.875s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:39,2019-05-13 11:13:40,1.002s,PASSED
+navigateToUrl(Pollpad_Config_Page),Chrome 74.0.3729.131,,2019-05-13 11:13:40,2019-05-13 11:13:41,1.263s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:41,2019-05-13 11:13:42,1.002s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:42,2019-05-13 11:13:43,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Pads/Delete Config""))",Chrome 74.0.3729.131,,2019-05-13 11:13:43,2019-05-13 11:13:43,0.147s,PASSED
+acceptAlert(),Chrome 74.0.3729.131,,2019-05-13 11:13:43,2019-05-13 11:13:43,0.024s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:43,2019-05-13 11:13:44,1.002s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Pads/Poll Pad - Configuration()/Poll Pad Configuration - Add,Chrome 74.0.3729.131,,2019-05-13 11:13:46,2019-05-13 11:14:04,17.465s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-13 11:13:46,2019-05-13 11:13:48,1.382s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:13:48,2019-05-13 11:13:50,2.605s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:13:50,2019-05-13 11:13:51,0.247s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:13:51,2019-05-13 11:13:51,0.127s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:13:51,2019-05-13 11:13:52,0.971s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:52,2019-05-13 11:13:53,1.005s,PASSED
+navigateToUrl(Pollpad_Config_Page),Chrome 74.0.3729.131,,2019-05-13 11:13:53,2019-05-13 11:13:54,1.204s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:54,2019-05-13 11:13:55,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Pads/Poll Pad Config - Add/Add Configuration""))",Chrome 74.0.3729.131,,2019-05-13 11:13:55,2019-05-13 11:13:56,0.810s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:56,2019-05-13 11:13:57,1.048s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Poll Pads/Poll Pad Config - Add/PollPad Config Name""), ""Automation Created Config"")",Chrome 74.0.3729.131,,2019-05-13 11:13:57,2019-05-13 11:13:57,0.656s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:13:57,2019-05-13 11:13:58,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Pads/Poll Pad Config - Add/Submit Config""))",Chrome 74.0.3729.131,,2019-05-13 11:13:58,2019-05-13 11:14:01,2.161s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:01,2019-05-13 11:14:02,1.006s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:14:02,2019-05-13 11:14:02,0.118s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Pads/Poll Pad - Configuration()/Poll Pad Configuration - Import,Chrome 74.0.3729.131,,2019-05-13 11:14:04,2019-05-13 11:14:21,17.545s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:14:04,2019-05-13 11:14:05,1.252s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:14:05,2019-05-13 11:14:11,5.577s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:14:11,2019-05-13 11:14:11,0.230s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:14:11,2019-05-13 11:14:11,0.094s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:14:11,2019-05-13 11:14:12,0.955s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:12,2019-05-13 11:14:13,1.003s,PASSED
+navigateToUrl(Pollpad_Config_Import),Chrome 74.0.3729.131,,2019-05-13 11:14:13,2019-05-13 11:14:14,1.389s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:14,2019-05-13 11:14:15,1.004s,PASSED
+"setText(findTestObject(""Common ePulse Objects/Choose File""), ""/Users/alonzomack/Downloads/Automation uploads/poll_pad_config.csv"")",Chrome 74.0.3729.131,,2019-05-13 11:14:15,2019-05-13 11:14:16,0.079s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Poll Pads/Poll Pads - Configuration Import/Config Name""), ""Test Config"")",Chrome 74.0.3729.131,,2019-05-13 11:14:16,2019-05-13 11:14:16,0.133s,PASSED
+"click(findTestObject(""Common ePulse Objects/Continue Button""))",Chrome 74.0.3729.131,,2019-05-13 11:14:16,2019-05-13 11:14:16,0.085s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:16,2019-05-13 11:14:17,1.005s,PASSED
+"click(findTestObject(""Common ePulse Objects/button_Done(working)""))",Chrome 74.0.3729.131,,2019-05-13 11:14:17,2019-05-13 11:14:19,2.426s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:14:19,2019-05-13 11:14:19,0.093s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Pads/Poll Pad - Configuration()/Poll Pad Configuration - Copy,Chrome 74.0.3729.131,,2019-05-13 11:14:21,2019-05-13 11:14:35,13.672s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-13 11:14:21,2019-05-13 11:14:23,1.280s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:14:23,2019-05-13 11:14:25,2.185s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:14:25,2019-05-13 11:14:25,0.231s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:14:25,2019-05-13 11:14:25,0.136s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:14:25,2019-05-13 11:14:26,0.793s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:26,2019-05-13 11:14:27,1.006s,PASSED
+navigateToUrl(Pollpad_Config_Page),Chrome 74.0.3729.131,,2019-05-13 11:14:27,2019-05-13 11:14:28,1.402s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:28,2019-05-13 11:14:29,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Pads/Copy Config""))",Chrome 74.0.3729.131,,2019-05-13 11:14:29,2019-05-13 11:14:30,0.082s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:30,2019-05-13 11:14:31,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Poll Pads/PollPad Config Name(copy)""), ""Copy of selected config"")",Chrome 74.0.3729.131,,2019-05-13 11:14:31,2019-05-13 11:14:31,0.190s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:31,2019-05-13 11:14:32,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Pads/Submit COPY""))",Chrome 74.0.3729.131,,2019-05-13 11:14:32,2019-05-13 11:14:32,0.070s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:32,2019-05-13 11:14:33,1.006s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:14:33,2019-05-13 11:14:33,0.095s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Pads/Poll Pad - Configuration()/Poll Pad Configuration - Export,Chrome 74.0.3729.131,,2019-05-13 11:14:35,2019-05-13 11:14:48,12.512s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-13 11:14:35,2019-05-13 11:14:36,1.367s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:14:36,2019-05-13 11:14:38,2.025s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:14:38,2019-05-13 11:14:39,0.195s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:14:39,2019-05-13 11:14:39,0.118s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:14:39,2019-05-13 11:14:40,0.951s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:40,2019-05-13 11:14:41,1.003s,PASSED
+navigateToUrl(Pollpad_Config_Page),Chrome 74.0.3729.131,,2019-05-13 11:14:41,2019-05-13 11:14:42,1.246s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:42,2019-05-13 11:14:43,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Pads/Export Config""))",Chrome 74.0.3729.131,,2019-05-13 11:14:43,2019-05-13 11:14:43,0.328s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:14:43,2019-05-13 11:14:45,2.006s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:14:45,2019-05-13 11:14:45,0.103s,PASSED
+,,,,,,
+Test Cases/SuperAdminConsole/Poll Pads/PollPad - Add,Chrome 74.0.3729.131,,2019-05-13 11:14:48,2019-05-13 11:15:05,17.339s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:14:48,2019-05-13 11:14:49,1.288s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:14:49,2019-05-13 11:14:52,2.790s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:14:52,2019-05-13 11:14:52,0.197s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:14:52,2019-05-13 11:14:52,0.113s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:14:52,2019-05-13 11:14:53,0.887s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:53,2019-05-13 11:14:54,1.006s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/POLL PADS link""))",Chrome 74.0.3729.131,,2019-05-13 11:14:54,2019-05-13 11:14:55,0.696s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:55,2019-05-13 11:14:56,1.006s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad""))",Chrome 74.0.3729.131,,2019-05-13 11:14:56,2019-05-13 11:14:56,0.126s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:56,2019-05-13 11:14:57,1.005s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Poll_Pad_Name""), ""Test PollPad"")",Chrome 74.0.3729.131,,2019-05-13 11:14:57,2019-05-13 11:14:57,0.286s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:57,2019-05-13 11:14:58,1.004s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Account""))",Chrome 74.0.3729.131,,2019-05-13 11:14:58,2019-05-13 11:14:58,0.110s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/AM-Mississippi""))",Chrome 74.0.3729.131,,2019-05-13 11:14:58,2019-05-13 11:14:58,0.111s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:58,2019-05-13 11:14:59,1.006s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Places""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:14:59,2019-05-13 11:14:59,0.072s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Place(CATO FIRE STATION)""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:14:59,2019-05-13 11:14:59,0.071s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:14:59,2019-05-13 11:15:00,1.012s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Configuration""))",Chrome 74.0.3729.131,,2019-05-13 11:15:00,2019-05-13 11:15:01,0.143s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:01,2019-05-13 11:15:02,1.011s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save""))",Chrome 74.0.3729.131,,2019-05-13 11:15:02,2019-05-13 11:15:02,0.127s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:02,2019-05-13 11:15:03,1.002s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:15:03,2019-05-13 11:15:03,0.098s,PASSED
+,,,,,,
+Test Cases/SuperAdminConsole/Poll Pads/PollPad_Assign,Chrome 74.0.3729.131,,2019-05-13 11:15:05,2019-05-13 11:15:29,24.567s,PASSED
+"openBrowser(""https://epulsedev2.com"")",Chrome 74.0.3729.131,,2019-05-13 11:15:05,2019-05-13 11:15:09,4.261s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:15:09,2019-05-13 11:15:11,1.489s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:15:11,2019-05-13 11:15:14,3.429s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:15:14,2019-05-13 11:15:14,0.216s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:15:14,2019-05-13 11:15:14,0.108s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:15:14,2019-05-13 11:15:15,0.880s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:15,2019-05-13 11:15:16,1.005s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/POLL PADS link""))",Chrome 74.0.3729.131,,2019-05-13 11:15:16,2019-05-13 11:15:17,0.664s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:17,2019-05-13 11:15:18,1.002s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Poll Pads/Test PollPad table search""), ""Test Pollpad"")",Chrome 74.0.3729.131,,2019-05-13 11:15:18,2019-05-13 11:15:18,0.255s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:18,2019-05-13 11:15:19,1.005s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/edit pad-AM-Mississippi""))",Chrome 74.0.3729.131,,2019-05-13 11:15:19,2019-05-13 11:15:19,0.109s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:19,2019-05-13 11:15:20,1.005s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Account""))",Chrome 74.0.3729.131,Click account dropdown,2019-05-13 11:15:20,2019-05-13 11:15:20,0.089s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:20,2019-05-13 11:15:21,1.004s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/Account(am-Automation-test)""))",Chrome 74.0.3729.131,Select Account,2019-05-13 11:15:21,2019-05-13 11:15:22,0.071s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:22,2019-05-13 11:15:23,1.004s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Election""))",Chrome 74.0.3729.131,,2019-05-13 11:15:23,2019-05-13 11:15:23,0.065s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/Election(Election Creation)""))",Chrome 74.0.3729.131,,2019-05-13 11:15:23,2019-05-13 11:15:23,0.084s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:23,2019-05-13 11:15:24,1.005s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Places""))",Chrome 74.0.3729.131,,2019-05-13 11:15:24,2019-05-13 11:15:24,0.067s,PASSED
+"click(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/Polling Place(MATHEWS DICKEY)""))",Chrome 74.0.3729.131,,2019-05-13 11:15:24,2019-05-13 11:15:24,0.076s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:24,2019-05-13 11:15:25,1.002s,PASSED
+"selectOptionByLabel(findTestObject(""SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/Select Configuration""), ""Automation Created Config"", true)",Chrome 74.0.3729.131,,2019-05-13 11:15:25,2019-05-13 11:15:25,0.202s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:25,2019-05-13 11:15:26,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save""))",Chrome 74.0.3729.131,,2019-05-13 11:15:26,2019-05-13 11:15:26,0.093s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:26,2019-05-13 11:15:27,1.004s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:15:27,2019-05-13 11:15:27,0.181s,PASSED
+,,,,,,
+Test Cases/Admin Console/Election Setup/Ballot Styles/Ballot Styles - Downloads,Chrome 74.0.3729.131,,2019-05-13 11:15:29,2019-05-13 11:15:44,14.652s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:15:30,2019-05-13 11:15:31,1.414s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:15:31,2019-05-13 11:15:34,2.899s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:15:34,2019-05-13 11:15:34,0.212s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:15:34,2019-05-13 11:15:34,0.088s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:15:34,2019-05-13 11:15:35,0.913s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:35,2019-05-13 11:15:36,1.005s,PASSED
+navigateToUrl(Ballot_Types),Chrome 74.0.3729.131,,2019-05-13 11:15:36,2019-05-13 11:15:38,1.714s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:38,2019-05-13 11:15:39,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Ballot Styles/Download""))",Chrome 74.0.3729.131,,2019-05-13 11:15:39,2019-05-13 11:15:40,1.042s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:15:40,2019-05-13 11:15:42,2.016s,PASSED
+"click(findTestObject(""Common ePulse Objects/button_Done(working)""))",Chrome 74.0.3729.131,,2019-05-13 11:15:42,2019-05-13 11:15:42,0.001s,NOT_RUN
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:15:42,2019-05-13 11:15:42,0.170s,PASSED
+,,,,,,
+Test Cases/Admin Console/Election Setup/Ballot Styles/Ballot Styles - Import,Chrome 74.0.3729.131,,2019-05-13 11:15:44,2019-05-13 11:16:00,15.781s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:15:44,2019-05-13 11:15:46,1.313s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:15:46,2019-05-13 11:15:48,2.412s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:15:48,2019-05-13 11:15:48,0.197s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:15:48,2019-05-13 11:15:48,0.102s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:15:48,2019-05-13 11:15:49,0.854s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:49,2019-05-13 11:15:50,1.006s,PASSED
+navigateToUrl(Ballot_Types),Chrome 74.0.3729.131,,2019-05-13 11:15:50,2019-05-13 11:15:52,1.450s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:52,2019-05-13 11:15:53,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Election Setup/Ballot Styles/Import""))",Chrome 74.0.3729.131,,2019-05-13 11:15:53,2019-05-13 11:15:53,0.736s,PASSED
+"setText(findTestObject(""Common ePulse Objects/Choose File""), ""/Users/alonzomack/Downloads/Automation uploads/ballot_types.csv"")",Chrome 74.0.3729.131,,2019-05-13 11:15:53,2019-05-13 11:15:53,0.087s,PASSED
+"click(findTestObject(""Common ePulse Objects/Continue Button""))",Chrome 74.0.3729.131,,2019-05-13 11:15:53,2019-05-13 11:15:53,0.086s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:15:53,2019-05-13 11:15:55,1.120s,PASSED
+"click(findTestObject(""Common ePulse Objects/button_Done(working)""))",Chrome 74.0.3729.131,,2019-05-13 11:15:55,2019-05-13 11:15:58,3.103s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:15:58,2019-05-13 11:15:58,0.149s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Add_Edit Voter/Add_Edit Voter - Export,Chrome 74.0.3729.131,,2019-05-13 11:16:00,2019-05-13 11:16:12,11.789s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:16:00,2019-05-13 11:16:01,1.338s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:16:01,2019-05-13 11:16:04,2.459s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:16:04,2019-05-13 11:16:04,0.211s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:16:04,2019-05-13 11:16:04,0.102s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:16:04,2019-05-13 11:16:05,0.937s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:05,2019-05-13 11:16:06,1.006s,PASSED
+navigateToUrl(Add_Voter),Chrome 74.0.3729.131,,2019-05-13 11:16:06,2019-05-13 11:16:07,1.282s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:07,2019-05-13 11:16:08,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Export""))",Chrome 74.0.3729.131,,2019-05-13 11:16:08,2019-05-13 11:16:08,0.060s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:08,2019-05-13 11:16:09,1.006s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:16:09,2019-05-13 11:16:10,0.157s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Add_Edit Voter/Add_Edit Voter - Import,Chrome 74.0.3729.131,,2019-05-13 11:16:12,2019-05-13 11:16:28,16.593s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:16:12,2019-05-13 11:16:13,1.175s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:16:13,2019-05-13 11:16:15,2.565s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:16:15,2019-05-13 11:16:16,0.199s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:16:16,2019-05-13 11:16:16,0.108s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:16:16,2019-05-13 11:16:17,0.862s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:17,2019-05-13 11:16:18,1.009s,PASSED
+"navigateToUrl(Add_Edit_Voter_Import, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:16:18,2019-05-13 11:16:19,1.319s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:19,2019-05-13 11:16:20,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File""), ""/Users/alonzomack/Downloads/Automation uploads/add_voter.txt"")",Chrome 74.0.3729.131,,2019-05-13 11:16:20,2019-05-13 11:16:20,0.085s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button""))",Chrome 74.0.3729.131,,2019-05-13 11:16:20,2019-05-13 11:16:20,0.068s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:16:20,2019-05-13 11:16:22,2.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)""))",Chrome 74.0.3729.131,,2019-05-13 11:16:22,2019-05-13 11:16:25,2.869s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:25,2019-05-13 11:16:26,1.006s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:16:26,2019-05-13 11:16:26,0.141s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods()/ID Methods - Add,Chrome 74.0.3729.131,,2019-05-13 11:16:28,2019-05-13 11:16:44,15.425s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:16:28,2019-05-13 11:16:30,1.267s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:16:30,2019-05-13 11:16:32,2.670s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:16:32,2019-05-13 11:16:32,0.206s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:16:32,2019-05-13 11:16:33,0.110s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:16:33,2019-05-13 11:16:34,0.992s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:34,2019-05-13 11:16:35,1.008s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:16:35,2019-05-13 11:16:39,4.414s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:39,2019-05-13 11:16:40,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Add ID Method Button""))",Chrome 74.0.3729.131,,2019-05-13 11:16:40,2019-05-13 11:16:40,0.077s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name""), ""Drivers License"")",Chrome 74.0.3729.131,,2019-05-13 11:16:40,2019-05-13 11:16:40,0.234s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading""), ""State Drivers License"")",Chrome 74.0.3729.131,,2019-05-13 11:16:40,2019-05-13 11:16:41,0.206s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-13 11:16:41,2019-05-13 11:16:41,0.158s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions""), ""State Drivers License"")",Chrome 74.0.3729.131,,2019-05-13 11:16:41,2019-05-13 11:16:41,0.164s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order""), ""1"")",Chrome 74.0.3729.131,,2019-05-13 11:16:41,2019-05-13 11:16:41,0.098s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider""))",Chrome 74.0.3729.131,,2019-05-13 11:16:41,2019-05-13 11:16:41,0.075s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:16:41,2019-05-13 11:16:41,0.063s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:16:41,2019-05-13 11:16:41,0.128s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading""), ""No Drivers License?"")",Chrome 74.0.3729.131,,2019-05-13 11:16:41,2019-05-13 11:16:41,0.211s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions""), ""Vote Provisional"")",Chrome 74.0.3729.131,,2019-05-13 11:16:41,2019-05-13 11:16:42,0.157s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:16:42,2019-05-13 11:16:42,0.071s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods()/ID Methods - ALT Button,Chrome 74.0.3729.131,,2019-05-13 11:16:44,2019-05-13 11:17:17,33.737s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:16:44,2019-05-13 11:16:45,1.406s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:16:45,2019-05-13 11:16:47,2.132s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:16:47,2019-05-13 11:16:48,0.252s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:16:48,2019-05-13 11:16:48,0.106s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:16:48,2019-05-13 11:16:49,0.787s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:49,2019-05-13 11:16:50,1.007s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:16:50,2019-05-13 11:16:51,1.286s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:51,2019-05-13 11:16:52,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Alt. Buttons""))",Chrome 74.0.3729.131,,2019-05-13 11:16:52,2019-05-13 11:16:52,0.077s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:52,2019-05-13 11:16:53,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""test"")",Chrome 74.0.3729.131,,2019-05-13 11:16:53,2019-05-13 11:16:53,0.104s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:53,2019-05-13 11:16:54,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-13 11:16:54,2019-05-13 11:16:54,0.196s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:54,2019-05-13 11:16:55,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:16:55,2019-05-13 11:16:55,0.061s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:55,2019-05-13 11:16:56,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""1test"")",Chrome 74.0.3729.131,,2019-05-13 11:16:56,2019-05-13 11:16:56,0.072s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:56,2019-05-13 11:16:57,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-13 11:16:57,2019-05-13 11:16:57,0.161s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field""), ""Allow to vote"", STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:16:57,2019-05-13 11:16:58,0.168s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:58,2019-05-13 11:16:59,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:16:59,2019-05-13 11:16:59,0.044s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:16:59,2019-05-13 11:17:00,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""2test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:00,2019-05-13 11:17:00,0.095s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:00,2019-05-13 11:17:01,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:01,2019-05-13 11:17:01,0.179s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:01,2019-05-13 11:17:02,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field""), ""asdf"")",Chrome 74.0.3729.131,,2019-05-13 11:17:02,2019-05-13 11:17:02,0.157s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:02,2019-05-13 11:17:03,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:03,2019-05-13 11:17:03,0.051s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:03,2019-05-13 11:17:04,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""3test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:04,2019-05-13 11:17:04,0.091s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:04,2019-05-13 11:17:05,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""3"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:05,2019-05-13 11:17:05,0.184s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:05,2019-05-13 11:17:07,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:07,2019-05-13 11:17:07,0.045s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:07,2019-05-13 11:17:08,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""4test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:08,2019-05-13 11:17:08,0.072s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:08,2019-05-13 11:17:09,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""4"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:09,2019-05-13 11:17:09,0.159s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:09,2019-05-13 11:17:10,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:10,2019-05-13 11:17:10,0.050s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:10,2019-05-13 11:17:11,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""5test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:11,2019-05-13 11:17:11,0.093s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:11,2019-05-13 11:17:12,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""5"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:12,2019-05-13 11:17:12,0.197s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:12,2019-05-13 11:17:13,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:13,2019-05-13 11:17:13,0.046s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:13,2019-05-13 11:17:14,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button""))",Chrome 74.0.3729.131,,2019-05-13 11:17:14,2019-05-13 11:17:14,0.071s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:14,2019-05-13 11:17:15,1.006s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:17:15,2019-05-13 11:17:15,0.093s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods()/ID Methods - Button,Chrome 74.0.3729.131,,2019-05-13 11:17:17,2019-05-13 11:17:52,34.242s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:17:18,2019-05-13 11:17:19,1.232s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:17:19,2019-05-13 11:17:21,2.571s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:17:21,2019-05-13 11:17:22,0.248s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:17:22,2019-05-13 11:17:22,0.091s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:17:22,2019-05-13 11:17:23,0.840s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:23,2019-05-13 11:17:24,1.005s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:17:24,2019-05-13 11:17:25,1.299s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:25,2019-05-13 11:17:26,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Buttons""))",Chrome 74.0.3729.131,,2019-05-13 11:17:26,2019-05-13 11:17:26,0.059s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:26,2019-05-13 11:17:27,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:27,2019-05-13 11:17:27,0.098s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:27,2019-05-13 11:17:28,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:28,2019-05-13 11:17:28,0.167s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:28,2019-05-13 11:17:29,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:29,2019-05-13 11:17:29,0.060s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:29,2019-05-13 11:17:30,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""1test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:30,2019-05-13 11:17:30,0.120s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:30,2019-05-13 11:17:31,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:31,2019-05-13 11:17:32,0.166s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field""), ""Allow to vote"", STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:17:32,2019-05-13 11:17:32,0.152s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:32,2019-05-13 11:17:33,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:33,2019-05-13 11:17:33,0.051s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:33,2019-05-13 11:17:34,1.001s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""2test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:34,2019-05-13 11:17:34,0.110s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:34,2019-05-13 11:17:35,1.007s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:35,2019-05-13 11:17:35,0.167s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:35,2019-05-13 11:17:36,1.007s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field""), ""asdf"")",Chrome 74.0.3729.131,,2019-05-13 11:17:36,2019-05-13 11:17:36,0.103s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:36,2019-05-13 11:17:37,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:37,2019-05-13 11:17:37,0.048s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:37,2019-05-13 11:17:38,1.008s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""3test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:38,2019-05-13 11:17:38,0.093s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:38,2019-05-13 11:17:39,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""3"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:39,2019-05-13 11:17:40,0.164s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:40,2019-05-13 11:17:41,1.001s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:41,2019-05-13 11:17:41,0.040s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:41,2019-05-13 11:17:42,1.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""4test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:42,2019-05-13 11:17:42,0.064s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:42,2019-05-13 11:17:43,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""4"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:43,2019-05-13 11:17:43,0.165s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:43,2019-05-13 11:17:44,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:44,2019-05-13 11:17:44,0.038s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:44,2019-05-13 11:17:45,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""5test"")",Chrome 74.0.3729.131,,2019-05-13 11:17:45,2019-05-13 11:17:45,0.090s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:45,2019-05-13 11:17:46,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""5"", true)",Chrome 74.0.3729.131,,2019-05-13 11:17:46,2019-05-13 11:17:46,0.251s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:46,2019-05-13 11:17:47,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:17:47,2019-05-13 11:17:47,0.064s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:47,2019-05-13 11:17:48,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button""))",Chrome 74.0.3729.131,,2019-05-13 11:17:48,2019-05-13 11:17:48,0.061s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:48,2019-05-13 11:17:49,1.005s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:17:49,2019-05-13 11:17:50,0.161s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods()/ID Methods - Edit,Chrome 74.0.3729.131,,2019-05-13 11:17:52,2019-05-13 11:18:03,11.805s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:17:52,2019-05-13 11:17:53,1.375s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:17:53,2019-05-13 11:17:55,2.018s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:17:55,2019-05-13 11:17:55,0.216s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:17:55,2019-05-13 11:17:55,0.084s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:17:55,2019-05-13 11:17:56,0.786s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:56,2019-05-13 11:17:57,1.007s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:17:57,2019-05-13 11:17:59,1.375s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:17:59,2019-05-13 11:18:00,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Edit Selected ID Method""))",Chrome 74.0.3729.131,,2019-05-13 11:18:00,2019-05-13 11:18:00,0.078s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name""), ""Drivers License_Edit"")",Chrome 74.0.3729.131,,2019-05-13 11:18:00,2019-05-13 11:18:00,0.282s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading""), ""State Drivers License_Edit"")",Chrome 74.0.3729.131,,2019-05-13 11:18:00,2019-05-13 11:18:00,0.245s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-13 11:18:00,2019-05-13 11:18:00,0.171s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions""), ""State Drivers License_Edit"")",Chrome 74.0.3729.131,,2019-05-13 11:18:00,2019-05-13 11:18:01,0.206s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order""), ""2"")",Chrome 74.0.3729.131,,2019-05-13 11:18:01,2019-05-13 11:18:01,0.101s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider""))",Chrome 74.0.3729.131,,2019-05-13 11:18:01,2019-05-13 11:18:01,0.001s,NOT_RUN
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:18:01,2019-05-13 11:18:01,0.084s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:18:01,2019-05-13 11:18:01,0.001s,NOT_RUN
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading""), ""No Drivers License_Edit?"")",Chrome 74.0.3729.131,,2019-05-13 11:18:01,2019-05-13 11:18:01,0.242s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions""), ""Vote Provisional_Edit"")",Chrome 74.0.3729.131,,2019-05-13 11:18:01,2019-05-13 11:18:01,0.170s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:18:01,2019-05-13 11:18:01,0.080s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:18:01,2019-05-13 11:18:01,0.147s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods()/ID Methods - Edit Oath,Chrome 74.0.3729.131,,2019-05-13 11:18:03,2019-05-13 11:18:15,11.615s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:18:04,2019-05-13 11:18:05,1.241s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:18:05,2019-05-13 11:18:07,2.419s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:18:07,2019-05-13 11:18:07,0.196s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:18:07,2019-05-13 11:18:08,0.120s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:18:08,2019-05-13 11:18:08,0.904s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:08,2019-05-13 11:18:09,1.009s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:18:09,2019-05-13 11:18:11,1.255s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Edit ID Method Oath""))",Chrome 74.0.3729.131,,2019-05-13 11:18:11,2019-05-13 11:18:11,0.089s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:11,2019-05-13 11:18:12,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Customized Oath text area""), ""Customize the oath displayed to voters. "")",Chrome 74.0.3729.131,,2019-05-13 11:18:12,2019-05-13 11:18:12,0.201s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:12,2019-05-13 11:18:13,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Submit""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:18:13,2019-05-13 11:18:13,0.066s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods()/ID Methods - Export,Chrome 74.0.3729.131,,2019-05-13 11:18:15,2019-05-13 11:18:27,11.922s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:18:15,2019-05-13 11:18:17,1.423s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:18:17,2019-05-13 11:18:19,2.069s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:18:19,2019-05-13 11:18:19,0.223s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:18:19,2019-05-13 11:18:19,0.155s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:18:19,2019-05-13 11:18:20,0.909s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:20,2019-05-13 11:18:21,1.006s,PASSED
+navigateToUrl(voter_id_methods),Chrome 74.0.3729.131,,2019-05-13 11:18:21,2019-05-13 11:18:22,1.514s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:22,2019-05-13 11:18:23,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Export""))",Chrome 74.0.3729.131,,2019-05-13 11:18:23,2019-05-13 11:18:24,0.361s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:24,2019-05-13 11:18:25,1.004s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:18:25,2019-05-13 11:18:25,0.101s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods()/ID Methods - Import,Chrome 74.0.3729.131,,2019-05-13 11:18:27,2019-05-13 11:18:41,14.451s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:18:27,2019-05-13 11:18:28,1.290s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:18:28,2019-05-13 11:18:31,2.384s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:18:31,2019-05-13 11:18:31,0.293s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:18:31,2019-05-13 11:18:31,0.122s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:18:31,2019-05-13 11:18:32,0.796s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:32,2019-05-13 11:18:33,1.005s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:18:33,2019-05-13 11:18:34,1.210s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Import""))",Chrome 74.0.3729.131,,2019-05-13 11:18:34,2019-05-13 11:18:35,0.725s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File""), ""/Users/alonzomack/Downloads/Automation uploads/voter_id_methods.txt"")",Chrome 74.0.3729.131,,2019-05-13 11:18:35,2019-05-13 11:18:35,0.075s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button""))",Chrome 74.0.3729.131,,2019-05-13 11:18:35,2019-05-13 11:18:35,0.074s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:35,2019-05-13 11:18:36,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)""))",Chrome 74.0.3729.131,,2019-05-13 11:18:36,2019-05-13 11:18:39,3.316s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods()/ID Methods - Delete,Chrome 74.0.3729.131,,2019-05-13 11:18:41,2019-05-13 11:18:55,13.422s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:18:42,2019-05-13 11:18:43,1.386s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:18:43,2019-05-13 11:18:45,2.099s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:18:45,2019-05-13 11:18:45,0.244s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:18:45,2019-05-13 11:18:45,0.131s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:18:45,2019-05-13 11:18:46,0.811s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:46,2019-05-13 11:18:47,1.006s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:18:47,2019-05-13 11:18:48,1.237s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:18:48,2019-05-13 11:18:49,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Delete Selected ID Method""))",Chrome 74.0.3729.131,,2019-05-13 11:18:49,2019-05-13 11:18:50,0.159s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-13 11:18:50,2019-05-13 11:18:53,3.003s,PASSED
+acceptAlert(),Chrome 74.0.3729.131,,2019-05-13 11:18:53,2019-05-13 11:18:53,0.008s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:18:53,2019-05-13 11:18:53,0.169s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Oaths()/Oaths - Add,Chrome 74.0.3729.131,,2019-05-13 11:18:55,2019-05-13 11:19:06,11.323s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:18:55,2019-05-13 11:18:56,1.380s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:18:56,2019-05-13 11:18:59,2.268s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:18:59,2019-05-13 11:18:59,0.236s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:18:59,2019-05-13 11:18:59,0.108s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:18:59,2019-05-13 11:19:00,0.840s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:00,2019-05-13 11:19:01,1.006s,PASSED
+"navigateToUrl(Oaths, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:19:01,2019-05-13 11:19:02,1.330s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:02,2019-05-13 11:19:03,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/New Oath""))",Chrome 74.0.3729.131,,2019-05-13 11:19:03,2019-05-13 11:19:03,0.162s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name""), ""ID Method"")",Chrome 74.0.3729.131,,2019-05-13 11:19:03,2019-05-13 11:19:04,0.347s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions""), ""Oath Instructions"")",Chrome 74.0.3729.131,,2019-05-13 11:19:04,2019-05-13 11:19:04,0.485s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Oaths()/Oaths - Filter - Type,Chrome 74.0.3729.131,,2019-05-13 11:19:06,2019-05-13 11:19:44,38.259s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:19:06,2019-05-13 11:19:08,1.681s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:19:08,2019-05-13 11:19:11,2.822s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:19:11,2019-05-13 11:19:11,0.317s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:19:11,2019-05-13 11:19:11,0.110s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:19:11,2019-05-13 11:19:12,1.127s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:12,2019-05-13 11:19:13,1.005s,PASSED
+"navigateToUrl(Oaths, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:19:13,2019-05-13 11:19:15,1.505s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:15,2019-05-13 11:19:16,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Filter Type Dropdown""))",Chrome 74.0.3729.131,,2019-05-13 11:19:16,2019-05-13 11:19:16,0.079s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:16,2019-05-13 11:19:17,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Apply Type Filters""))",Chrome 74.0.3729.131,,2019-05-13 11:19:17,2019-05-13 11:19:17,0.063s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:17,2019-05-13 11:19:18,1.050s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Remove Filter Type ALL""))",Chrome 74.0.3729.131,,2019-05-13 11:19:18,2019-05-13 11:19:18,0.077s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:18,2019-05-13 11:19:19,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Filter Type Dropdown""))",Chrome 74.0.3729.131,,2019-05-13 11:19:19,2019-05-13 11:19:19,0.046s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:19,2019-05-13 11:19:20,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Filter Dropdown Options""))",Chrome 74.0.3729.131,,2019-05-13 11:19:20,2019-05-13 11:19:20,0.063s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:20,2019-05-13 11:19:21,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Select Id Method""))",Chrome 74.0.3729.131,,2019-05-13 11:19:21,2019-05-13 11:19:21,0.068s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:21,2019-05-13 11:19:22,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Apply Type Filters""))",Chrome 74.0.3729.131,,2019-05-13 11:19:22,2019-05-13 11:19:22,0.053s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:22,2019-05-13 11:19:23,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Type Dropdown""))",Chrome 74.0.3729.131,,2019-05-13 11:19:23,2019-05-13 11:19:24,0.075s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:24,2019-05-13 11:19:25,1.009s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Filter Type Dropdown""))",Chrome 74.0.3729.131,,2019-05-13 11:19:25,2019-05-13 11:19:25,0.129s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:25,2019-05-13 11:19:26,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/a_Id Method""))",Chrome 74.0.3729.131,,2019-05-13 11:19:26,2019-05-13 11:19:26,0.052s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:26,2019-05-13 11:19:27,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/li_Allow Voter To Vote""))",Chrome 74.0.3729.131,,2019-05-13 11:19:27,2019-05-13 11:19:42,15.703s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Oaths()/Oaths - Filter - Status,Chrome 74.0.3729.131,,2019-05-13 11:19:44,2019-05-13 11:20:03,18.950s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:19:45,2019-05-13 11:19:46,1.359s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:19:46,2019-05-13 11:19:52,5.638s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:19:52,2019-05-13 11:19:52,0.241s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:19:52,2019-05-13 11:19:52,0.088s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:19:52,2019-05-13 11:19:53,0.967s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:53,2019-05-13 11:19:54,1.004s,PASSED
+"navigateToUrl(Oaths, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:19:54,2019-05-13 11:19:55,1.380s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:55,2019-05-13 11:19:56,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Status Filter""))",Chrome 74.0.3729.131,,2019-05-13 11:19:56,2019-05-13 11:19:56,0.060s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:56,2019-05-13 11:19:57,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Apply Status Filters""))",Chrome 74.0.3729.131,,2019-05-13 11:19:57,2019-05-13 11:19:57,0.068s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:57,2019-05-13 11:19:58,1.001s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Close Current Status Filter""))",Chrome 74.0.3729.131,,2019-05-13 11:19:58,2019-05-13 11:19:58,0.062s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Status Filter""))",Chrome 74.0.3729.131,,2019-05-13 11:19:58,2019-05-13 11:19:59,0.075s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Status Filter Dropdown""), ""archived"", true)",Chrome 74.0.3729.131,,2019-05-13 11:19:59,2019-05-13 11:19:59,0.216s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Apply Status Filters""))",Chrome 74.0.3729.131,,2019-05-13 11:19:59,2019-05-13 11:19:59,0.045s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:19:59,2019-05-13 11:20:00,1.001s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Close Archived Status Filter""))",Chrome 74.0.3729.131,,2019-05-13 11:20:00,2019-05-13 11:20:00,0.069s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Status Filter""))",Chrome 74.0.3729.131,,2019-05-13 11:20:00,2019-05-13 11:20:00,0.071s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Status Filter Dropdown""), ""both"", true)",Chrome 74.0.3729.131,,2019-05-13 11:20:00,2019-05-13 11:20:00,0.218s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Apply Status Filters""))",Chrome 74.0.3729.131,,2019-05-13 11:20:00,2019-05-13 11:20:00,0.071s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:00,2019-05-13 11:20:01,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/TEMP/Page_Epulse  am-Automation-test/Close Both Status Filter""))",Chrome 74.0.3729.131,,2019-05-13 11:20:01,2019-05-13 11:20:01,0.059s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:20:01,2019-05-13 11:20:01,0.095s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Oaths()/Oaths - Delete,Chrome 74.0.3729.131,,2019-05-13 11:20:03,2019-05-13 11:20:32,28.683s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:20:04,2019-05-13 11:20:05,1.348s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:20:05,2019-05-13 11:20:07,2.575s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:20:07,2019-05-13 11:20:08,0.288s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:20:08,2019-05-13 11:20:08,0.106s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:20:08,2019-05-13 11:20:09,0.862s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:09,2019-05-13 11:20:10,1.006s,PASSED
+"navigateToUrl(Oaths, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:20:10,2019-05-13 11:20:11,1.452s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:11,2019-05-13 11:20:12,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/Delete Displayed Oath""))",Chrome 74.0.3729.131,,2019-05-13 11:20:12,2019-05-13 11:20:12,0.093s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:12,2019-05-13 11:20:13,1.007s,PASSED
+acceptAlert(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:20:13,2019-05-13 11:20:13,0.013s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:13,2019-05-13 11:20:14,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/Delete Displayed Oath""))",Chrome 74.0.3729.131,,2019-05-13 11:20:14,2019-05-13 11:20:30,15.721s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Oaths()/Oaths - Import,Chrome 74.0.3729.131,,2019-05-13 11:20:32,2019-05-13 11:20:43,11.245s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:20:32,2019-05-13 11:20:34,1.441s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:20:34,2019-05-13 11:20:36,2.578s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:20:36,2019-05-13 11:20:36,0.201s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:20:36,2019-05-13 11:20:37,0.127s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:20:37,2019-05-13 11:20:38,0.967s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:38,2019-05-13 11:20:39,1.006s,PASSED
+"navigateToUrl(Oaths_Imports, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:20:39,2019-05-13 11:20:40,1.345s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:40,2019-05-13 11:20:41,1.005s,PASSED
+"setText(findTestObject(""Common ePulse Objects/Choose File""), ""/Users/alonzomack/Downloads/oaths.csv"")",Chrome 74.0.3729.131,,2019-05-13 11:20:41,2019-05-13 11:20:41,0.389s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Oaths()/Oaths - Export,Chrome 74.0.3729.131,,2019-05-13 11:20:43,2019-05-13 11:20:55,11.583s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:20:43,2019-05-13 11:20:45,1.489s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:20:45,2019-05-13 11:20:47,2.030s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:20:47,2019-05-13 11:20:47,0.225s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:20:47,2019-05-13 11:20:47,0.094s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:20:47,2019-05-13 11:20:48,0.923s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:48,2019-05-13 11:20:49,1.006s,PASSED
+navigateToUrl(Oaths),Chrome 74.0.3729.131,,2019-05-13 11:20:49,2019-05-13 11:20:50,1.253s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:50,2019-05-13 11:20:51,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/Page_Epulse  am-Automation-test/Download""))",Chrome 74.0.3729.131,,2019-05-13 11:20:51,2019-05-13 11:20:52,0.303s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:20:52,2019-05-13 11:20:53,1.003s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-13 11:20:53,2019-05-13 11:20:53,0.113s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Oaths()/Oaths - Edit,Chrome 74.0.3729.131,,2019-05-13 11:20:55,2019-05-13 11:21:25,29.791s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:20:55,2019-05-13 11:20:56,1.256s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:20:56,2019-05-13 11:21:02,6.008s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:21:02,2019-05-13 11:21:03,0.208s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:21:03,2019-05-13 11:21:03,0.102s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:21:03,2019-05-13 11:21:03,0.773s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:03,2019-05-13 11:21:04,1.006s,PASSED
+"navigateToUrl(Oaths, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:21:04,2019-05-13 11:21:06,1.604s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:06,2019-05-13 11:21:07,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Edit Displayed Oath""))",Chrome 74.0.3729.131,,2019-05-13 11:21:07,2019-05-13 11:21:23,15.692s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add,Chrome 74.0.3729.131,,2019-05-13 11:21:25,2019-05-13 11:21:39,13.851s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:21:25,2019-05-13 11:21:26,1.294s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:21:26,2019-05-13 11:21:29,2.409s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:21:29,2019-05-13 11:21:29,0.266s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:21:29,2019-05-13 11:21:29,0.111s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:21:29,2019-05-13 11:21:30,0.822s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:30,2019-05-13 11:21:31,1.006s,PASSED
+"navigateToUrl(Prompts, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:21:31,2019-05-13 11:21:32,1.487s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:32,2019-05-13 11:21:33,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button""))",Chrome 74.0.3729.131,,2019-05-13 11:21:33,2019-05-13 11:21:33,0.071s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name""), ""Test Prompt"")",Chrome 74.0.3729.131,,2019-05-13 11:21:33,2019-05-13 11:21:33,0.138s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading""), ""Prompt"")",Chrome 74.0.3729.131,,2019-05-13 11:21:33,2019-05-13 11:21:34,0.111s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:34,0.160s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order""), ""1"")",Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:34,0.123s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label""), ""Prompt"")",Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:34,0.104s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name""), ""Prompt"")",Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:34,0.123s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider""))",Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:34,0.087s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider""))",Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:34,0.067s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea ""), ""Test Prompt"")",Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:34,0.142s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit""))",Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:34,0.086s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:21:34,2019-05-13 11:21:36,2.007s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:21:36,2019-05-13 11:21:37,0.096s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria,Chrome 74.0.3729.131,,2019-05-13 11:21:39,2019-05-13 11:22:11,31.922s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:21:39,2019-05-13 11:21:40,1.280s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:21:40,2019-05-13 11:21:43,2.506s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:21:43,2019-05-13 11:21:43,0.173s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:21:43,2019-05-13 11:21:43,0.098s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:21:43,2019-05-13 11:21:44,0.989s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:44,2019-05-13 11:21:45,1.004s,PASSED
+"navigateToUrl(Prompts, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:21:45,2019-05-13 11:21:46,1.306s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:46,2019-05-13 11:21:47,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt""))",Chrome 74.0.3729.131,Click [Criteria] link to existing prompt,2019-05-13 11:21:47,2019-05-13 11:21:47,0.079s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:47,2019-05-13 11:21:48,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""status_id"", true)",Chrome 74.0.3729.131,"Selects [Voter Status] from ""Add Criteria' dropdown",2019-05-13 11:21:48,2019-05-13 11:21:48,0.180s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:48,2019-05-13 11:21:49,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 74.0.3729.131,Adds Voter Status = Active criteria,2019-05-13 11:21:49,2019-05-13 11:21:49,0.061s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:49,2019-05-13 11:21:50,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_status_reason"", true)",Chrome 74.0.3729.131,Select Voter Status reason from from Add Criteria dropdown,2019-05-13 11:21:50,2019-05-13 11:21:51,0.184s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:51,2019-05-13 11:21:52,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator""), ""1"", true)",Chrome 74.0.3729.131,Select Voter Status reason '=',2019-05-13 11:21:52,2019-05-13 11:21:52,0.149s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:52,2019-05-13 11:21:53,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Input Field""), ""Voted"")",Chrome 74.0.3729.131,Input value for Voter Status reason,2019-05-13 11:21:53,2019-05-13 11:21:53,0.114s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:53,2019-05-13 11:21:54,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 74.0.3729.131,Adds Voter Status Reason criteria,2019-05-13 11:21:54,2019-05-13 11:21:54,0.081s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:54,2019-05-13 11:21:55,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_over_18"", true)",Chrome 74.0.3729.131,"Select ""Voter over 18"" from Add Criteria dropdown",2019-05-13 11:21:55,2019-05-13 11:21:55,0.250s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:55,2019-05-13 11:21:56,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 74.0.3729.131,"Add ""Voter over 18"" Criteria",2019-05-13 11:21:56,2019-05-13 11:21:56,0.054s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:56,2019-05-13 11:21:57,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_party"", true)",Chrome 74.0.3729.131,Select Party Affiliation from Add Criteria dropdown,2019-05-13 11:21:57,2019-05-13 11:21:57,0.194s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:57,2019-05-13 11:21:58,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 74.0.3729.131,Adds Party Affiliation criteria,2019-05-13 11:21:58,2019-05-13 11:21:59,0.048s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:21:59,2019-05-13 11:22:00,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_absentee_information"", true)",Chrome 74.0.3729.131,"Selects ""Absentee Status"" from Add Criteria dropdown
+",2019-05-13 11:22:00,2019-05-13 11:22:00,0.202s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:00,2019-05-13 11:22:01,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type""), ""S"", true)",Chrome 74.0.3729.131,Select Absentee Status Value,2019-05-13 11:22:01,2019-05-13 11:22:01,0.104s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:22:01,2019-05-13 11:22:03,2.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 74.0.3729.131,Adds Absentee Criteria,2019-05-13 11:22:03,2019-05-13 11:22:03,0.050s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:03,2019-05-13 11:22:04,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_absentee_information"", true)",Chrome 74.0.3729.131,"Selects ""Absentee Status"" from Add Criteria dropdown
+",2019-05-13 11:22:04,2019-05-13 11:22:04,0.154s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:04,2019-05-13 11:22:05,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type""), ""R"", true)",Chrome 74.0.3729.131,Select Absentee Status Value,2019-05-13 11:22:05,2019-05-13 11:22:05,0.126s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:22:05,2019-05-13 11:22:07,2.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 74.0.3729.131,Adds Absentee Criteria,2019-05-13 11:22:07,2019-05-13 11:22:07,0.048s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:07,2019-05-13 11:22:08,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save""))",Chrome 74.0.3729.131,Save Criteria,2019-05-13 11:22:08,2019-05-13 11:22:08,0.102s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:22:08,2019-05-13 11:22:08,0.111s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Buttons,Chrome 74.0.3729.131,,2019-05-13 11:22:11,2019-05-13 11:22:47,36.203s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:22:11,2019-05-13 11:22:12,1.175s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:22:12,2019-05-13 11:22:17,5.582s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:22:17,2019-05-13 11:22:18,0.184s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:22:18,2019-05-13 11:22:18,0.096s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:22:18,2019-05-13 11:22:18,0.814s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:18,2019-05-13 11:22:19,1.004s,PASSED
+"navigateToUrl(Prompts, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:22:19,2019-05-13 11:22:21,1.403s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:21,2019-05-13 11:22:22,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_BUTTON_To_Prompt""))",Chrome 74.0.3729.131,,2019-05-13 11:22:22,2019-05-13 11:22:22,0.076s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:22,2019-05-13 11:22:23,1.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Input Button Label""), ""test"")",Chrome 74.0.3729.131,,2019-05-13 11:22:23,2019-05-13 11:22:23,0.092s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:23,2019-05-13 11:22:24,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Select Button Type Dropdown""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-13 11:22:24,2019-05-13 11:22:24,0.251s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:24,2019-05-13 11:22:25,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Add New Button(plus sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:22:25,2019-05-13 11:22:25,0.055s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:25,2019-05-13 11:22:26,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Input Button Label""), ""test1"")",Chrome 74.0.3729.131,,2019-05-13 11:22:26,2019-05-13 11:22:26,0.070s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:26,2019-05-13 11:22:27,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Select Button Type Dropdown""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-13 11:22:27,2019-05-13 11:22:28,0.217s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Page_Epulse  am-Automation-test  Pr/Prompt Button Value""), ""Allow to vote"", STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:22:28,2019-05-13 11:22:28,0.142s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:28,2019-05-13 11:22:29,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Add New Button(plus sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:22:29,2019-05-13 11:22:29,0.044s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:29,2019-05-13 11:22:30,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Input Button Label""), ""test3"")",Chrome 74.0.3729.131,,2019-05-13 11:22:30,2019-05-13 11:22:30,0.098s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:30,2019-05-13 11:22:31,1.007s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Select Button Type Dropdown""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:22:31,2019-05-13 11:22:31,0.206s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:31,2019-05-13 11:22:32,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Page_Epulse  am-Automation-test  Pr/Prompt Button Value""), ""asdf"")",Chrome 74.0.3729.131,,2019-05-13 11:22:32,2019-05-13 11:22:32,0.094s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:32,2019-05-13 11:22:33,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Add New Button(plus sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:22:33,2019-05-13 11:22:33,0.071s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:33,2019-05-13 11:22:34,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Input Button Label""), ""test2"")",Chrome 74.0.3729.131,,2019-05-13 11:22:34,2019-05-13 11:22:34,0.085s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:34,2019-05-13 11:22:35,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Select Button Type Dropdown""), ""3"", true)",Chrome 74.0.3729.131,,2019-05-13 11:22:35,2019-05-13 11:22:36,0.234s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:36,2019-05-13 11:22:37,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Input Button Label""), ""test4"")",Chrome 74.0.3729.131,,2019-05-13 11:22:37,2019-05-13 11:22:37,0.096s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:37,2019-05-13 11:22:38,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Select Button Type Dropdown""), ""4"", true)",Chrome 74.0.3729.131,,2019-05-13 11:22:38,2019-05-13 11:22:38,0.211s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:38,2019-05-13 11:22:39,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Add New Button(plus sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:22:39,2019-05-13 11:22:39,0.051s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:39,2019-05-13 11:22:40,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Input Button Label""), ""test5"")",Chrome 74.0.3729.131,,2019-05-13 11:22:40,2019-05-13 11:22:40,0.068s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:40,2019-05-13 11:22:41,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Select Button Type Dropdown""), ""5"", true)",Chrome 74.0.3729.131,,2019-05-13 11:22:41,2019-05-13 11:22:41,0.237s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:41,2019-05-13 11:22:42,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Add New Button(plus sign)""))",Chrome 74.0.3729.131,,2019-05-13 11:22:42,2019-05-13 11:22:42,0.111s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:42,2019-05-13 11:22:44,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button""))",Chrome 74.0.3729.131,,2019-05-13 11:22:44,2019-05-13 11:22:44,0.061s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:44,2019-05-13 11:22:45,1.005s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:22:45,2019-05-13 11:22:45,0.101s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Import,Chrome 74.0.3729.131,,2019-05-13 11:22:47,2019-05-13 11:22:57,9.915s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:22:47,2019-05-13 11:22:48,1.284s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:22:48,2019-05-13 11:22:51,2.506s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:22:51,2019-05-13 11:22:51,0.200s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:22:51,2019-05-13 11:22:51,0.083s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:22:51,2019-05-13 11:22:52,1.011s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:22:52,2019-05-13 11:22:53,1.004s,PASSED
+"navigateToUrl(Prompts_Imports, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:22:53,2019-05-13 11:22:54,1.307s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File""), ""/Users/alonzomack/Downloads/prompts-3.txt"")",Chrome 74.0.3729.131,,2019-05-13 11:22:54,2019-05-13 11:22:55,0.387s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Edit,Chrome 74.0.3729.131,,2019-05-13 11:22:57,2019-05-13 11:23:30,33.037s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:22:57,2019-05-13 11:22:58,1.134s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:22:58,2019-05-13 11:23:00,1.998s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:23:00,2019-05-13 11:23:00,0.222s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:23:00,2019-05-13 11:23:00,0.140s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:23:00,2019-05-13 11:23:01,0.834s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:23:01,2019-05-13 11:23:02,1.005s,PASSED
+"navigateToUrl(Prompts, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:23:02,2019-05-13 11:23:03,1.309s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:23:03,2019-05-13 11:23:04,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Edit Prompt""))",Chrome 74.0.3729.131,,2019-05-13 11:23:04,2019-05-13 11:23:04,0.080s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:04,2019-05-13 11:23:06,2.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name""), ""Test Prompt Test"")",Chrome 74.0.3729.131,,2019-05-13 11:23:06,2019-05-13 11:23:07,0.193s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:07,2019-05-13 11:23:09,2.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading""), ""Prompt Edit"")",Chrome 74.0.3729.131,,2019-05-13 11:23:09,2019-05-13 11:23:09,0.137s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:09,2019-05-13 11:23:11,2.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:23:11,2019-05-13 11:23:11,0.161s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:11,2019-05-13 11:23:13,2.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order""), ""2"")",Chrome 74.0.3729.131,,2019-05-13 11:23:13,2019-05-13 11:23:13,0.085s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:13,2019-05-13 11:23:15,2.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label""), ""Prompt Test"")",Chrome 74.0.3729.131,,2019-05-13 11:23:15,2019-05-13 11:23:15,0.105s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:15,2019-05-13 11:23:17,2.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name""), ""prompt test"")",Chrome 74.0.3729.131,,2019-05-13 11:23:17,2019-05-13 11:23:17,0.125s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:17,2019-05-13 11:23:19,2.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider""))",Chrome 74.0.3729.131,,2019-05-13 11:23:19,2019-05-13 11:23:19,0.049s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:19,2019-05-13 11:23:21,2.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Text Field_slider""))",Chrome 74.0.3729.131,,2019-05-13 11:23:21,2019-05-13 11:23:21,0.049s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:21,2019-05-13 11:23:23,2.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea ""), ""Test Prompt2"")",Chrome 74.0.3729.131,,2019-05-13 11:23:23,2019-05-13 11:23:24,0.093s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:24,2019-05-13 11:23:26,2.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit""))",Chrome 74.0.3729.131,,2019-05-13 11:23:26,2019-05-13 11:23:26,0.057s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:23:26,2019-05-13 11:23:28,2.006s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:23:28,2019-05-13 11:23:28,0.093s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Delete,Chrome 74.0.3729.131,,2019-05-13 11:23:30,2019-05-13 11:23:43,13.534s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:23:30,2019-05-13 11:23:31,1.160s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:23:31,2019-05-13 11:23:33,2.143s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:23:33,2019-05-13 11:23:33,0.184s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:23:33,2019-05-13 11:23:33,0.095s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:23:33,2019-05-13 11:23:34,0.809s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:23:34,2019-05-13 11:23:35,1.006s,PASSED
+"navigateToUrl(Prompts, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:23:35,2019-05-13 11:23:37,1.740s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:23:37,2019-05-13 11:23:38,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Delete Prompt""))",Chrome 74.0.3729.131,,2019-05-13 11:23:38,2019-05-13 11:23:38,0.082s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-13 11:23:38,2019-05-13 11:23:41,3.006s,PASSED
+acceptAlert(),Chrome 74.0.3729.131,,2019-05-13 11:23:41,2019-05-13 11:23:41,0.007s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:23:41,2019-05-13 11:23:41,0.103s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Workers-Election Officials()/POLL WORKER - CLASSES,Chrome 74.0.3729.131,,2019-05-13 11:23:43,2019-05-13 11:24:44,1m - 0.548s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:23:43,2019-05-13 11:23:44,1.097s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:23:44,2019-05-13 11:23:48,3.404s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:23:48,2019-05-13 11:23:48,0.183s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:23:48,2019-05-13 11:23:48,0.098s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:23:48,2019-05-13 11:23:49,0.776s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:23:49,2019-05-13 11:23:50,1.005s,PASSED
+"for ([row = 1, row <= findTestData(""PollWorker - Classes"").getRowNumbers(), (row++)])",Chrome 74.0.3729.131,,2019-05-13 11:23:50,2019-05-13 11:24:42,51.595s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:24:42,2019-05-13 11:24:42,0.105s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Workers-Election Officials()/POLL WORKER - ROLES,Chrome 74.0.3729.131,,2019-05-13 11:24:44,2019-05-13 11:24:51,7.327s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:24:44,2019-05-13 11:24:45,1.283s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:24:45,2019-05-13 11:24:47,2.283s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:24:47,2019-05-13 11:24:48,0.185s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:24:48,2019-05-13 11:24:48,0.107s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:24:48,2019-05-13 11:24:49,0.828s,PASSED
+"setText(findTestObject(null), """")",Chrome 74.0.3729.131,,2019-05-13 11:24:49,2019-05-13 11:24:49,0.474s,FAILED
+,,,,,,
+Test Cases/Admin Console/Poll Workers-Election Officials()/Poll Workers - Manage - ADD,Chrome 74.0.3729.131,,2019-05-13 11:24:51,2019-05-13 11:25:54,1m - 2.845s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:24:51,2019-05-13 11:24:52,1.195s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:24:52,2019-05-13 11:24:55,2.274s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:24:55,2019-05-13 11:24:55,0.187s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:24:55,2019-05-13 11:24:55,0.107s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:24:55,2019-05-13 11:24:56,0.831s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:24:56,2019-05-13 11:24:57,1.001s,PASSED
+"for ([row = 1, row <= findTestData(""PollWorker - Add"").getRowNumbers(), (row++)])",Chrome 74.0.3729.131,,2019-05-13 11:24:57,2019-05-13 11:25:52,54.798s,PASSED
+"verifyTextPresent(""PW"", true)",Chrome 74.0.3729.131,,2019-05-13 11:25:52,2019-05-13 11:25:52,0.106s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:25:52,2019-05-13 11:25:52,0.132s,PASSED
+,,,,,,
+Test Cases/Admin Console/Poll Workers-Election Officials()/Poll Workers - Manage - Import,Chrome 74.0.3729.131,,2019-05-13 11:25:54,2019-05-13 11:26:14,20.144s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:25:54,2019-05-13 11:25:55,1.201s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:25:55,2019-05-13 11:26:01,5.692s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:26:01,2019-05-13 11:26:01,0.194s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:26:01,2019-05-13 11:26:01,0.082s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:26:01,2019-05-13 11:26:02,1.057s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:02,2019-05-13 11:26:03,1.002s,PASSED
+"navigateToUrl(Poll_Workers, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:26:03,2019-05-13 11:26:05,1.453s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:05,2019-05-13 11:26:06,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Poll Workers/Poll Workers - Manage Page/Import Poll Workers""))",Chrome 74.0.3729.131,,2019-05-13 11:26:06,2019-05-13 11:26:06,0.703s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File""), ""/Users/alonzomack/Downloads/Automation uploads/poll_workers.csv"")",Chrome 74.0.3729.131,,2019-05-13 11:26:06,2019-05-13 11:26:06,0.068s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button""))",Chrome 74.0.3729.131,,2019-05-13 11:26:06,2019-05-13 11:26:07,0.076s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:07,2019-05-13 11:26:08,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)""))",Chrome 74.0.3729.131,,2019-05-13 11:26:08,2019-05-13 11:26:11,3.301s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:11,2019-05-13 11:26:12,1.004s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:26:12,2019-05-13 11:26:12,0.134s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users()/Account Settings - New User(basic_Rover.Technician),Chrome 74.0.3729.131,,2019-05-13 11:26:14,2019-05-13 11:26:36,21.760s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:26:14,2019-05-13 11:26:15,1.128s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:26:15,2019-05-13 11:26:19,3.346s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:26:19,2019-05-13 11:26:19,0.182s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:26:19,2019-05-13 11:26:19,0.108s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:26:19,2019-05-13 11:26:20,0.920s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:20,2019-05-13 11:26:21,1.005s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:26:21,2019-05-13 11:26:23,1.593s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:23,2019-05-13 11:26:24,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 74.0.3729.131,,2019-05-13 11:26:24,2019-05-13 11:26:24,0.696s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:24,2019-05-13 11:26:25,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 74.0.3729.131,,2019-05-13 11:26:25,2019-05-13 11:26:25,0.098s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:25,2019-05-13 11:26:26,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 74.0.3729.131,,2019-05-13 11:26:26,2019-05-13 11:26:26,0.097s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:26,2019-05-13 11:26:27,1.001s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 74.0.3729.131,,2019-05-13 11:26:27,2019-05-13 11:26:28,0.164s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:28,2019-05-13 11:26:29,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew2-user@knowink.com"")",Chrome 74.0.3729.131,,2019-05-13 11:26:29,2019-05-13 11:26:29,0.183s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:29,2019-05-13 11:26:30,1.004s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:30,2019-05-13 11:26:31,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-13 11:26:31,2019-05-13 11:26:31,0.165s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:31,2019-05-13 11:26:32,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:26:32,2019-05-13 11:26:32,0.001s,NOT_RUN
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:32,2019-05-13 11:26:32,0.002s,NOT_RUN
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""basic"", true)",Chrome 74.0.3729.131,,2019-05-13 11:26:32,2019-05-13 11:26:32,0.000s,NOT_RUN
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:32,2019-05-13 11:26:32,0.000s,NOT_RUN
+"click(findTestObject(""Common ePulse Objects/Submit Button""))",Chrome 74.0.3729.131,,2019-05-13 11:26:32,2019-05-13 11:26:34,1.632s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:26:34,2019-05-13 11:26:34,0.159s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users()/Account Settings - New User(manager_standard),Chrome 74.0.3729.131,,2019-05-13 11:26:36,2019-05-13 11:26:57,20.874s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:26:36,2019-05-13 11:26:37,1.322s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:26:37,2019-05-13 11:26:40,2.761s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:26:40,2019-05-13 11:26:40,0.211s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:26:40,2019-05-13 11:26:40,0.137s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:26:40,2019-05-13 11:26:41,0.854s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:41,2019-05-13 11:26:42,1.005s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:26:42,2019-05-13 11:26:44,1.616s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:44,2019-05-13 11:26:45,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 74.0.3729.131,,2019-05-13 11:26:45,2019-05-13 11:26:46,0.718s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:46,2019-05-13 11:26:47,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 74.0.3729.131,,2019-05-13 11:26:47,2019-05-13 11:26:47,0.103s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:47,2019-05-13 11:26:48,1.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 74.0.3729.131,,2019-05-13 11:26:48,2019-05-13 11:26:48,0.119s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:48,2019-05-13 11:26:49,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 74.0.3729.131,,2019-05-13 11:26:49,2019-05-13 11:26:49,0.140s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:49,2019-05-13 11:26:50,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew5-user@knowink.com"")",Chrome 74.0.3729.131,,2019-05-13 11:26:50,2019-05-13 11:26:50,0.183s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:50,2019-05-13 11:26:51,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:26:51,2019-05-13 11:26:51,0.148s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:51,2019-05-13 11:26:52,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""manager"", true)",Chrome 74.0.3729.131,,2019-05-13 11:26:52,2019-05-13 11:26:52,0.176s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:26:52,2019-05-13 11:26:53,1.005s,PASSED
+"click(findTestObject(""Common ePulse Objects/Submit Button""))",Chrome 74.0.3729.131,,2019-05-13 11:26:53,2019-05-13 11:26:55,1.223s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:26:55,2019-05-13 11:26:55,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users()/Account Settings - New User(election_day_Isync),Chrome 74.0.3729.131,,2019-05-13 11:26:57,2019-05-13 11:27:19,22.644s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:26:57,2019-05-13 11:26:58,1.288s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:26:58,2019-05-13 11:27:01,2.803s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:27:01,2019-05-13 11:27:01,0.164s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:27:01,2019-05-13 11:27:01,0.113s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:27:01,2019-05-13 11:27:02,0.765s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:02,2019-05-13 11:27:03,1.005s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:27:03,2019-05-13 11:27:07,4.451s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:07,2019-05-13 11:27:08,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 74.0.3729.131,,2019-05-13 11:27:08,2019-05-13 11:27:09,0.680s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:09,2019-05-13 11:27:10,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 74.0.3729.131,,2019-05-13 11:27:10,2019-05-13 11:27:10,0.096s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:10,2019-05-13 11:27:11,1.007s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 74.0.3729.131,,2019-05-13 11:27:11,2019-05-13 11:27:11,0.108s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:11,2019-05-13 11:27:12,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 74.0.3729.131,,2019-05-13 11:27:12,2019-05-13 11:27:13,0.134s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:13,2019-05-13 11:27:14,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew4-user@knowink.com"")",Chrome 74.0.3729.131,,2019-05-13 11:27:14,2019-05-13 11:27:14,0.193s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:14,2019-05-13 11:27:15,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User""), ""3"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:15,2019-05-13 11:27:15,0.155s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:15,2019-05-13 11:27:16,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:16,2019-05-13 11:27:16,0.000s,NOT_RUN
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:16,2019-05-13 11:27:16,0.001s,NOT_RUN
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""election_day"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:16,2019-05-13 11:27:16,0.000s,NOT_RUN
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:16,2019-05-13 11:27:16,0.001s,NOT_RUN
+"click(findTestObject(""Common ePulse Objects/Submit Button""))",Chrome 74.0.3729.131,,2019-05-13 11:27:16,2019-05-13 11:27:17,1.351s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:27:17,2019-05-13 11:27:17,0.107s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users()/Account Settings - New User(admin_Standard),Chrome 74.0.3729.131,,2019-05-13 11:27:19,2019-05-13 11:27:41,21.201s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:27:19,2019-05-13 11:27:21,1.059s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:27:21,2019-05-13 11:27:23,2.555s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:27:23,2019-05-13 11:27:23,0.176s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:27:23,2019-05-13 11:27:23,0.092s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:27:23,2019-05-13 11:27:24,0.812s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:24,2019-05-13 11:27:25,1.005s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:27:25,2019-05-13 11:27:26,1.250s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:26,2019-05-13 11:27:27,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 74.0.3729.131,,2019-05-13 11:27:27,2019-05-13 11:27:28,0.697s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:28,2019-05-13 11:27:29,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 74.0.3729.131,,2019-05-13 11:27:29,2019-05-13 11:27:29,0.107s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:29,2019-05-13 11:27:30,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 74.0.3729.131,,2019-05-13 11:27:30,2019-05-13 11:27:30,0.128s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:30,2019-05-13 11:27:31,1.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 74.0.3729.131,,2019-05-13 11:27:31,2019-05-13 11:27:32,0.137s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:32,2019-05-13 11:27:33,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew-user@knowink.com"")",Chrome 74.0.3729.131,,2019-05-13 11:27:33,2019-05-13 11:27:33,0.192s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:33,2019-05-13 11:27:34,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:34,2019-05-13 11:27:34,0.107s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:34,2019-05-13 11:27:35,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:35,2019-05-13 11:27:35,0.147s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:35,2019-05-13 11:27:36,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""admin"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:36,2019-05-13 11:27:36,0.173s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:36,2019-05-13 11:27:37,1.003s,PASSED
+"click(findTestObject(""Common ePulse Objects/Submit Button""))",Chrome 74.0.3729.131,,2019-05-13 11:27:37,2019-05-13 11:27:39,1.394s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:27:39,2019-05-13 11:27:39,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Admin Console/Account Settings/Users()/Account Settings - New User(coordinator_Call.Center),Chrome 74.0.3729.131,,2019-05-13 11:27:41,2019-05-13 11:28:00,19.124s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:27:41,2019-05-13 11:27:42,1.184s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:27:42,2019-05-13 11:27:44,2.410s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:27:44,2019-05-13 11:27:44,0.200s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:27:44,2019-05-13 11:27:45,0.103s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:27:45,2019-05-13 11:27:45,0.897s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:45,2019-05-13 11:27:46,1.006s,PASSED
+"navigateToUrl(Users, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:27:46,2019-05-13 11:27:48,1.331s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:48,2019-05-13 11:27:49,1.001s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Users/Add User""))",Chrome 74.0.3729.131,,2019-05-13 11:27:49,2019-05-13 11:27:50,0.744s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:50,2019-05-13 11:27:51,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_First name""), ""add"")",Chrome 74.0.3729.131,,2019-05-13 11:27:51,2019-05-13 11:27:51,0.096s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:51,2019-05-13 11:27:52,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Last name""), ""User"")",Chrome 74.0.3729.131,,2019-05-13 11:27:52,2019-05-13 11:27:52,0.131s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:52,2019-05-13 11:27:53,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_Phone""), ""3137777777"")",Chrome 74.0.3729.131,,2019-05-13 11:27:53,2019-05-13 11:27:53,0.133s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:53,2019-05-13 11:27:54,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/input_E-mail""), ""addnew3-user@knowink.com"")",Chrome 74.0.3729.131,,2019-05-13 11:27:54,2019-05-13 11:27:54,0.193s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:54,2019-05-13 11:27:55,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:55,2019-05-13 11:27:55,0.181s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:55,2019-05-13 11:27:56,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select Notify by""), ""2"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:56,2019-05-13 11:27:56,0.000s,NOT_RUN
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:56,2019-05-13 11:27:56,0.002s,NOT_RUN
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Add User/Select User Rights""), ""coordinator"", true)",Chrome 74.0.3729.131,,2019-05-13 11:27:56,2019-05-13 11:27:56,0.001s,NOT_RUN
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:27:56,2019-05-13 11:27:56,0.000s,NOT_RUN
+"click(findTestObject(""Common ePulse Objects/Submit Button""))",Chrome 74.0.3729.131,,2019-05-13 11:27:56,2019-05-13 11:27:58,1.267s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:27:58,2019-05-13 11:27:58,0.101s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Languages/Languages - Import,Chrome 74.0.3729.131,,2019-05-13 11:28:00,2019-05-13 11:28:19,19.408s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:28:00,2019-05-13 11:28:01,1.260s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:28:01,2019-05-13 11:28:03,2.169s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:28:03,2019-05-13 11:28:03,0.201s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:28:03,2019-05-13 11:28:04,0.106s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:28:04,2019-05-13 11:28:04,0.775s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:28:04,2019-05-13 11:28:05,1.005s,PASSED
+"navigateToUrl(languages_import, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-13 11:28:05,2019-05-13 11:28:07,1.378s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:28:07,2019-05-13 11:28:08,1.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File""), ""/Users/alonzomack/Downloads/Automation uploads/languages.csv"")",Chrome 74.0.3729.131,,2019-05-13 11:28:08,2019-05-13 11:28:08,0.083s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button""))",Chrome 74.0.3729.131,,2019-05-13 11:28:08,2019-05-13 11:28:08,0.062s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:28:08,2019-05-13 11:28:09,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)""))",Chrome 74.0.3729.131,,2019-05-13 11:28:09,2019-05-13 11:28:16,7.059s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:28:16,2019-05-13 11:28:17,1.003s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:28:17,2019-05-13 11:28:17,0.115s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB,Chrome 74.0.3729.131,,2019-05-13 11:28:19,2019-05-13 11:28:44,24.466s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:28:19,2019-05-13 11:28:21,1.326s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:28:21,2019-05-13 11:28:23,2.310s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:28:23,2019-05-13 11:28:23,0.178s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:28:23,2019-05-13 11:28:23,0.113s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:28:23,2019-05-13 11:28:24,0.798s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:28:24,2019-05-13 11:28:25,1.005s,PASSED
+navigateToUrl(Demo_DB),Chrome 74.0.3729.131,,2019-05-13 11:28:25,2019-05-13 11:28:26,0.556s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db""))",Chrome 74.0.3729.131,,2019-05-13 11:28:26,2019-05-13 11:28:42,15.955s,FAILED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - ISYNC,Chrome 74.0.3729.131,,2019-05-13 11:28:44,2019-05-13 11:29:07,23.158s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,Open browser.,2019-05-13 11:28:44,2019-05-13 11:28:45,1.279s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.131,Navigate to ePulse login page.,2019-05-13 11:28:45,2019-05-13 11:28:47,2.051s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 74.0.3729.131,Enter user name,2019-05-13 11:28:47,2019-05-13 11:28:47,0.190s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 74.0.3729.131,Enter Password,2019-05-13 11:28:47,2019-05-13 11:28:47,0.088s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 74.0.3729.131,Login,2019-05-13 11:28:47,2019-05-13 11:28:48,0.897s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:28:48,2019-05-13 11:28:49,1.011s,PASSED
+navigateToUrl(iSync),Chrome 74.0.3729.131,,2019-05-13 11:28:49,2019-05-13 11:28:51,1.430s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Isync""))",Chrome 74.0.3729.131,,2019-05-13 11:28:51,2019-05-13 11:28:51,0.073s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/Generate New button""))",Chrome 74.0.3729.131,,2019-05-13 11:28:51,2019-05-13 11:28:51,0.065s,PASSED
+delay(10),Chrome 74.0.3729.131,,2019-05-13 11:28:51,2019-05-13 11:29:01,10.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/DOWNLOAD""))",Chrome 74.0.3729.131,,2019-05-13 11:29:01,2019-05-13 11:29:01,0.552s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-13 11:29:01,2019-05-13 11:29:03,2.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/Delete Selected Download""))",Chrome 74.0.3729.131,,2019-05-13 11:29:03,2019-05-13 11:29:04,0.097s,PASSED
+acceptAlert(),Chrome 74.0.3729.131,,2019-05-13 11:29:04,2019-05-13 11:29:04,0.046s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-13 11:29:04,2019-05-13 11:29:05,1.007s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-13 11:29:05,2019-05-13 11:29:05,0.096s,PASSED

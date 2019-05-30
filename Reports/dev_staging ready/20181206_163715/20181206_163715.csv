@@ -1,0 +1,210 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dev_staging ready,Chrome 70.0.3538.110,,2018-12-06 16:37:17,2018-12-06 16:39:26,2m - 9.305s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add,Chrome 70.0.3538.110,,2018-12-06 16:37:17,2018-12-06 16:37:28,11.508s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-06 16:37:17,2018-12-06 16:37:20,2.422s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-06 16:37:20,2018-12-06 16:37:22,2.583s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-06 16:37:22,2018-12-06 16:37:22,0.238s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-06 16:37:22,2018-12-06 16:37:23,0.208s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-06 16:37:23,2018-12-06 16:37:23,0.669s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:23,2018-12-06 16:37:24,1.046s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:37:24,2018-12-06 16:37:26,1.528s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:26,2018-12-06 16:37:27,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Add ID Method Button""))",Chrome 70.0.3538.110,,2018-12-06 16:37:27,2018-12-06 16:37:27,0.069s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name""), ""Drivers License"")",Chrome 70.0.3538.110,,2018-12-06 16:37:27,2018-12-06 16:37:27,0.183s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading""), ""State Drivers License"")",Chrome 70.0.3538.110,,2018-12-06 16:37:27,2018-12-06 16:37:27,0.192s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color""), ""1"", true)",Chrome 70.0.3538.110,,2018-12-06 16:37:27,2018-12-06 16:37:27,0.177s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions""), ""State Drivers License"")",Chrome 70.0.3538.110,,2018-12-06 16:37:27,2018-12-06 16:37:28,0.142s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order""), ""1"")",Chrome 70.0.3538.110,,2018-12-06 16:37:28,2018-12-06 16:37:28,0.097s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider""))",Chrome 70.0.3538.110,,2018-12-06 16:37:28,2018-12-06 16:37:28,0.089s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider""), STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:37:28,2018-12-06 16:37:28,0.064s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider""), STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:37:28,2018-12-06 16:37:28,0.086s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading""), ""No Drivers License?"")",Chrome 70.0.3538.110,,2018-12-06 16:37:28,2018-12-06 16:37:28,0.164s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions""), ""Vote Provisional"")",Chrome 70.0.3538.110,,2018-12-06 16:37:28,2018-12-06 16:37:28,0.131s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit""), STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:37:28,2018-12-06 16:37:28,0.097s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - ALT Button,Chrome 70.0.3538.110,,2018-12-06 16:37:28,2018-12-06 16:38:02,33.251s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-06 16:37:29,2018-12-06 16:37:30,1.138s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-06 16:37:30,2018-12-06 16:37:33,3.373s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-06 16:37:33,2018-12-06 16:37:33,0.181s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-06 16:37:33,2018-12-06 16:37:33,0.091s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-06 16:37:33,2018-12-06 16:37:34,0.572s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:34,2018-12-06 16:37:35,1.006s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:37:35,2018-12-06 16:37:37,2.160s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:37,2018-12-06 16:37:38,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Alt. Buttons""))",Chrome 70.0.3538.110,,2018-12-06 16:37:38,2018-12-06 16:37:38,0.067s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:38,2018-12-06 16:37:39,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""test"")",Chrome 70.0.3538.110,,2018-12-06 16:37:39,2018-12-06 16:37:39,0.092s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:39,2018-12-06 16:37:40,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""0"", true)",Chrome 70.0.3538.110,,2018-12-06 16:37:40,2018-12-06 16:37:41,0.172s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:41,2018-12-06 16:37:42,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:37:42,2018-12-06 16:37:42,0.071s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:42,2018-12-06 16:37:43,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""1test"")",Chrome 70.0.3538.110,,2018-12-06 16:37:43,2018-12-06 16:37:43,0.090s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:43,2018-12-06 16:37:44,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""1"", true)",Chrome 70.0.3538.110,,2018-12-06 16:37:44,2018-12-06 16:37:44,0.162s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field""), ""Allow to vote"", STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:37:44,2018-12-06 16:37:44,0.126s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:44,2018-12-06 16:37:45,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:37:45,2018-12-06 16:37:45,0.044s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:45,2018-12-06 16:37:46,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""2test"")",Chrome 70.0.3538.110,,2018-12-06 16:37:46,2018-12-06 16:37:46,0.076s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:46,2018-12-06 16:37:47,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""2"", true)",Chrome 70.0.3538.110,,2018-12-06 16:37:47,2018-12-06 16:37:47,0.155s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:47,2018-12-06 16:37:48,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field""), ""asdf"")",Chrome 70.0.3538.110,,2018-12-06 16:37:48,2018-12-06 16:37:48,0.081s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:48,2018-12-06 16:37:49,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:37:49,2018-12-06 16:37:49,0.055s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:49,2018-12-06 16:37:50,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""3test"")",Chrome 70.0.3538.110,,2018-12-06 16:37:50,2018-12-06 16:37:51,0.066s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:51,2018-12-06 16:37:52,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""3"", true)",Chrome 70.0.3538.110,,2018-12-06 16:37:52,2018-12-06 16:37:52,0.148s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:52,2018-12-06 16:37:53,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:37:53,2018-12-06 16:37:53,0.043s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:53,2018-12-06 16:37:54,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""4test"")",Chrome 70.0.3538.110,,2018-12-06 16:37:54,2018-12-06 16:37:54,0.069s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:54,2018-12-06 16:37:55,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""4"", true)",Chrome 70.0.3538.110,,2018-12-06 16:37:55,2018-12-06 16:37:55,0.154s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:55,2018-12-06 16:37:56,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:37:56,2018-12-06 16:37:56,0.048s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:56,2018-12-06 16:37:57,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""5test"")",Chrome 70.0.3538.110,,2018-12-06 16:37:57,2018-12-06 16:37:57,0.072s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:57,2018-12-06 16:37:58,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""5"", true)",Chrome 70.0.3538.110,,2018-12-06 16:37:58,2018-12-06 16:37:58,0.238s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:58,2018-12-06 16:37:59,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:37:59,2018-12-06 16:37:59,0.044s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:37:59,2018-12-06 16:38:00,1.047s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button""))",Chrome 70.0.3538.110,,2018-12-06 16:38:00,2018-12-06 16:38:00,0.075s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:00,2018-12-06 16:38:01,1.004s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-06 16:38:01,2018-12-06 16:38:02,0.095s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Button,Chrome 70.0.3538.110,,2018-12-06 16:38:02,2018-12-06 16:38:33,31.733s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-06 16:38:02,2018-12-06 16:38:03,1.140s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-06 16:38:03,2018-12-06 16:38:05,2.390s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-06 16:38:05,2018-12-06 16:38:05,0.184s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-06 16:38:05,2018-12-06 16:38:06,0.092s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-06 16:38:06,2018-12-06 16:38:06,0.814s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:06,2018-12-06 16:38:07,1.005s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:38:07,2018-12-06 16:38:09,1.735s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:09,2018-12-06 16:38:10,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Buttons""))",Chrome 70.0.3538.110,,2018-12-06 16:38:10,2018-12-06 16:38:10,0.066s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:10,2018-12-06 16:38:11,1.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""test"")",Chrome 70.0.3538.110,,2018-12-06 16:38:11,2018-12-06 16:38:11,0.102s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:11,2018-12-06 16:38:12,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""0"", true)",Chrome 70.0.3538.110,,2018-12-06 16:38:12,2018-12-06 16:38:12,0.152s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:12,2018-12-06 16:38:13,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:38:13,2018-12-06 16:38:14,0.068s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:14,2018-12-06 16:38:15,1.002s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""1test"")",Chrome 70.0.3538.110,,2018-12-06 16:38:15,2018-12-06 16:38:15,0.073s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:15,2018-12-06 16:38:16,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""1"", true)",Chrome 70.0.3538.110,,2018-12-06 16:38:16,2018-12-06 16:38:16,0.133s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field""), ""Allow to vote"", STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:38:16,2018-12-06 16:38:16,0.117s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:16,2018-12-06 16:38:17,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:38:17,2018-12-06 16:38:17,0.054s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:17,2018-12-06 16:38:18,1.005s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""2test"")",Chrome 70.0.3538.110,,2018-12-06 16:38:18,2018-12-06 16:38:18,0.065s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:18,2018-12-06 16:38:19,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""2"", true)",Chrome 70.0.3538.110,,2018-12-06 16:38:19,2018-12-06 16:38:19,0.137s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:19,2018-12-06 16:38:20,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Additional text field""), ""asdf"")",Chrome 70.0.3538.110,,2018-12-06 16:38:20,2018-12-06 16:38:20,0.077s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:20,2018-12-06 16:38:21,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:38:21,2018-12-06 16:38:21,0.056s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:21,2018-12-06 16:38:22,1.006s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""3test"")",Chrome 70.0.3538.110,,2018-12-06 16:38:22,2018-12-06 16:38:22,0.068s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:22,2018-12-06 16:38:23,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""3"", true)",Chrome 70.0.3538.110,,2018-12-06 16:38:23,2018-12-06 16:38:23,0.143s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:23,2018-12-06 16:38:24,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:38:24,2018-12-06 16:38:25,0.047s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:25,2018-12-06 16:38:26,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""4test"")",Chrome 70.0.3538.110,,2018-12-06 16:38:26,2018-12-06 16:38:26,0.062s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:26,2018-12-06 16:38:27,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""4"", true)",Chrome 70.0.3538.110,,2018-12-06 16:38:27,2018-12-06 16:38:27,0.155s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:27,2018-12-06 16:38:28,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:38:28,2018-12-06 16:38:28,0.040s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:28,2018-12-06 16:38:29,1.025s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Label""), ""5test"")",Chrome 70.0.3538.110,,2018-12-06 16:38:29,2018-12-06 16:38:29,0.076s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:29,2018-12-06 16:38:30,1.007s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Button Type""), ""5"", true)",Chrome 70.0.3538.110,,2018-12-06 16:38:30,2018-12-06 16:38:30,0.196s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:30,2018-12-06 16:38:31,1.003s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Buttons/Add Button(blue  sign)""))",Chrome 70.0.3538.110,,2018-12-06 16:38:31,2018-12-06 16:38:31,0.041s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:31,2018-12-06 16:38:32,1.007s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button""))",Chrome 70.0.3538.110,,2018-12-06 16:38:32,2018-12-06 16:38:32,0.066s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:32,2018-12-06 16:38:33,1.005s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-06 16:38:33,2018-12-06 16:38:33,0.085s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit,Chrome 70.0.3538.110,,2018-12-06 16:38:33,2018-12-06 16:38:44,10.892s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-06 16:38:33,2018-12-06 16:38:35,1.295s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-06 16:38:35,2018-12-06 16:38:38,2.798s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-06 16:38:38,2018-12-06 16:38:38,0.189s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-06 16:38:38,2018-12-06 16:38:38,0.101s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-06 16:38:38,2018-12-06 16:38:39,0.764s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:39,2018-12-06 16:38:40,1.006s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:38:40,2018-12-06 16:38:41,1.609s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:41,2018-12-06 16:38:42,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Edit Selected ID Method""))",Chrome 70.0.3538.110,,2018-12-06 16:38:42,2018-12-06 16:38:42,0.083s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name""), ""Drivers License_Edit"")",Chrome 70.0.3538.110,,2018-12-06 16:38:42,2018-12-06 16:38:43,0.299s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading""), ""State Drivers License_Edit"")",Chrome 70.0.3538.110,,2018-12-06 16:38:43,2018-12-06 16:38:43,0.273s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color""), ""0"", true)",Chrome 70.0.3538.110,,2018-12-06 16:38:43,2018-12-06 16:38:43,0.182s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions""), ""State Drivers License_Edit"")",Chrome 70.0.3538.110,,2018-12-06 16:38:43,2018-12-06 16:38:43,0.215s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order""), ""2"")",Chrome 70.0.3538.110,,2018-12-06 16:38:43,2018-12-06 16:38:43,0.104s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider""))",Chrome 70.0.3538.110,,2018-12-06 16:38:43,2018-12-06 16:38:43,0.002s,NOT_RUN
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider""), STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:38:43,2018-12-06 16:38:44,0.095s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider""), STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:38:44,2018-12-06 16:38:44,0.001s,NOT_RUN
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading""), ""No Drivers License_Edit?"")",Chrome 70.0.3538.110,,2018-12-06 16:38:44,2018-12-06 16:38:44,0.251s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions""), ""Vote Provisional_Edit"")",Chrome 70.0.3538.110,,2018-12-06 16:38:44,2018-12-06 16:38:44,0.191s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit""), STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:38:44,2018-12-06 16:38:44,0.099s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-06 16:38:44,2018-12-06 16:38:44,0.147s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Edit Oath,Chrome 70.0.3538.110,,2018-12-06 16:38:44,2018-12-06 16:38:54,9.927s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-06 16:38:44,2018-12-06 16:38:46,1.225s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-06 16:38:46,2018-12-06 16:38:48,2.621s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-06 16:38:48,2018-12-06 16:38:48,0.164s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-06 16:38:48,2018-12-06 16:38:48,0.092s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-06 16:38:48,2018-12-06 16:38:49,0.721s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:49,2018-12-06 16:38:50,1.003s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:38:50,2018-12-06 16:38:52,1.574s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Edit ID Method Oath""))",Chrome 70.0.3538.110,,2018-12-06 16:38:52,2018-12-06 16:38:52,0.066s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:52,2018-12-06 16:38:53,1.004s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Customized Oath text area""), ""Customize the oath displayed to voters. "")",Chrome 70.0.3538.110,,2018-12-06 16:38:53,2018-12-06 16:38:53,0.205s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:53,2018-12-06 16:38:54,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/Edit ID Method Modal/Submit""), STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:38:54,2018-12-06 16:38:54,0.072s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Export,Chrome 70.0.3538.110,,2018-12-06 16:38:54,2018-12-06 16:39:04,9.561s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-06 16:38:54,2018-12-06 16:38:56,1.244s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-06 16:38:56,2018-12-06 16:38:58,2.134s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-06 16:38:58,2018-12-06 16:38:58,0.166s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-06 16:38:58,2018-12-06 16:38:58,0.088s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-06 16:38:58,2018-12-06 16:38:59,0.769s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:38:59,2018-12-06 16:39:00,1.004s,PASSED
+navigateToUrl(voter_id_methods),Chrome 70.0.3538.110,,2018-12-06 16:39:00,2018-12-06 16:39:01,1.538s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:39:01,2018-12-06 16:39:02,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Export""))",Chrome 70.0.3538.110,,2018-12-06 16:39:02,2018-12-06 16:39:03,0.380s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:39:03,2018-12-06 16:39:04,1.002s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 70.0.3538.110,,2018-12-06 16:39:04,2018-12-06 16:39:04,0.116s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import,Chrome 70.0.3538.110,,2018-12-06 16:39:04,2018-12-06 16:39:15,10.939s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-06 16:39:04,2018-12-06 16:39:05,1.061s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-06 16:39:05,2018-12-06 16:39:07,2.542s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-06 16:39:07,2018-12-06 16:39:08,0.172s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-06 16:39:08,2018-12-06 16:39:08,0.090s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-06 16:39:08,2018-12-06 16:39:08,0.703s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:39:08,2018-12-06 16:39:09,1.002s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:39:09,2018-12-06 16:39:11,1.957s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Import""))",Chrome 70.0.3538.110,,2018-12-06 16:39:11,2018-12-06 16:39:12,0.500s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File""), ""/Users/alonzomack/Downloads/Automation uploads/voter_id_methods.txt"")",Chrome 70.0.3538.110,,2018-12-06 16:39:12,2018-12-06 16:39:12,0.072s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button""))",Chrome 70.0.3538.110,,2018-12-06 16:39:12,2018-12-06 16:39:12,0.069s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:39:12,2018-12-06 16:39:13,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)""))",Chrome 70.0.3538.110,,2018-12-06 16:39:13,2018-12-06 16:39:15,1.607s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete,Chrome 70.0.3538.110,,2018-12-06 16:39:15,2018-12-06 16:39:26,11.126s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-06 16:39:15,2018-12-06 16:39:16,1.199s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-06 16:39:16,2018-12-06 16:39:18,2.141s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-06 16:39:18,2018-12-06 16:39:18,0.173s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-06 16:39:18,2018-12-06 16:39:18,0.092s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-06 16:39:18,2018-12-06 16:39:19,0.661s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:39:19,2018-12-06 16:39:20,1.004s,PASSED
+"navigateToUrl(voter_id_methods, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 16:39:20,2018-12-06 16:39:22,1.516s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-06 16:39:22,2018-12-06 16:39:23,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Delete Selected ID Method""))",Chrome 70.0.3538.110,,2018-12-06 16:39:23,2018-12-06 16:39:23,0.092s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-06 16:39:23,2018-12-06 16:39:26,3.004s,PASSED
+acceptAlert(),Chrome 70.0.3538.110,,2018-12-06 16:39:26,2018-12-06 16:39:26,0.016s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-06 16:39:26,2018-12-06 16:39:26,0.106s,PASSED

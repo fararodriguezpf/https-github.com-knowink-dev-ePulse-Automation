@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="173" tests="6" failures="5" errors="0">
+   <testsuite name="Regression" tests="6" failures="5" errors="0" time="173" timestamp="2018-10-29 17:14:53" hostname="alonzomack - 192.168.1.9" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/execution0.log"/>
+         <property name="attachments" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851334985.png, /Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851378761.png, /Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851406666.png, /Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851427889.png, /Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851455260.png, /Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851455653.png"/>
+         <property name="hostName" value="alonzomack - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="997b66f0643f1decd86100465a97e98e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SuperAdminConsole/Poll Pads/PollPad - Add" classname="Test Cases/SuperAdminConsole/Poll Pads/PollPad - Add" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:14:53 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Poll Pads/PollPad - Add: Test Cases/SuperAdminConsole/Poll Pads/PollPad - Add
+
+2018-10-29 17:14:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:14:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:14:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:14:58 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:14:58 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:14:58 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:14:58 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:14:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:14:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad' is clicked on
+
+2018-10-29 17:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad' is clicked on
+
+2018-10-29 17:15:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:04 - [TEST_STEP][PASSED] - setText: Text 'Test PollPad' is set on object 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Poll_Pad_Name'
+
+2018-10-29 17:15:04 - [MESSAGE][PASSED] - Text 'Test PollPad' is set on object 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Poll_Pad_Name'
+
+2018-10-29 17:15:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Account' is clicked on
+
+2018-10-29 17:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Account' is clicked on
+
+2018-10-29 17:15:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/AM-Mississippi' is clicked on
+
+2018-10-29 17:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/AM-Mississippi' is clicked on
+
+2018-10-29 17:15:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Places' is clicked on
+
+2018-10-29 17:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Places' is clicked on
+
+2018-10-29 17:15:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Place(Pearson)' is clicked on
+
+2018-10-29 17:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Place(Pearson)' is clicked on
+
+2018-10-29 17:15:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '871' are selected in object 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Configuration' 
+
+2018-10-29 17:15:07 - [MESSAGE][PASSED] - All options with value '871' are selected in object 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Configuration' 
+
+2018-10-29 17:15:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save' is clicked on
+
+2018-10-29 17:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save' is clicked on
+
+2018-10-29 17:15:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SuperAdminConsole/Poll Pads/Test PollPad' are matched.
+
+2018-10-29 17:15:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SuperAdminConsole/Poll Pads/Test PollPad' are matched.
+
+2018-10-29 17:15:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 17:15:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Poll Pads/PollPad_Assign" classname="Test Cases/SuperAdminConsole/Poll Pads/PollPad_Assign" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:15:11 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Poll Pads/PollPad_Assign: Test Cases/SuperAdminConsole/Poll Pads/PollPad_Assign
+
+2018-10-29 17:15:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://epulsedev2.com'
+
+2018-10-29 17:15:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://epulsedev2.com'
+
+2018-10-29 17:15:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:15:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-29 17:15:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:15:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:15 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:15 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:15:15 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:15:15 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:15:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:15:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:19 - [TEST_STEP][PASSED] - setText: Text 'Test Pollpad' is set on object 'Object Repository/SuperAdminConsole/Poll Pads/Test PollPad table search'
+
+2018-10-29 17:15:19 - [MESSAGE][PASSED] - Text 'Test Pollpad' is set on object 'Object Repository/SuperAdminConsole/Poll Pads/Test PollPad table search'
+
+2018-10-29 17:15:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/edit pad-AM-Mississippi' is clicked on
+
+2018-10-29 17:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/edit pad-AM-Mississippi' is clicked on
+
+2018-10-29 17:15:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Account' is clicked on
+
+2018-10-29 17:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Account' is clicked on
+
+2018-10-29 17:15:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/AM-MA' is clicked on
+
+2018-10-29 17:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/AM-MA' is clicked on
+
+2018-10-29 17:15:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:23 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-10-29 17:15:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-10-29 17:15:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Places' is clicked on
+
+2018-10-29 17:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Polling Places' is clicked on
+
+2018-10-29 17:15:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/Polling Place(Boston Garden)' is clicked on
+
+2018-10-29 17:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/Polling Place(Boston Garden)' is clicked on
+
+2018-10-29 17:15:25 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Bolton' are selected in object 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Configuration'  using regular expression
+
+2018-10-29 17:15:25 - [MESSAGE][PASSED] - All options with label 'Bolton' are selected in object 'Object Repository/SuperAdminConsole/Poll Pads/Add Poll Pad Options/Configuration'  using regular expression
+
+2018-10-29 17:15:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save' is clicked on
+
+2018-10-29 17:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save' is clicked on
+
+2018-10-29 17:15:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 17:15:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Poll Pads/PollPad - Action - Delete" classname="Test Cases/SuperAdminConsole/Poll Pads/PollPad - Action - Delete" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540594103508.run(Script1540594103508.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-29 17:15:27 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Poll Pads/PollPad - Action - Delete: Test Cases/SuperAdminConsole/Poll Pads/PollPad - Action - Delete FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540594103508.run(Script1540594103508.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-29 17:15:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:15:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:15:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:29 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:29 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:15:29 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:15:29 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:15:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:15:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:33 - [TEST_STEP][PASSED] - setText: Text 'Test Pollpad' is set on object 'Object Repository/SuperAdminConsole/Poll Pads/Test PollPad table search'
+
+2018-10-29 17:15:33 - [MESSAGE][PASSED] - Text 'Test Pollpad' is set on object 'Object Repository/SuperAdminConsole/Poll Pads/Test PollPad table search'
+
+2018-10-29 17:15:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:34 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-29 17:15:34 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2018-10-29 17:15:34 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-10-29 17:15:35 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851334985.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:15:27 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Poll Pads/PollPad - Action - Delete: Test Cases/SuperAdminConsole/Poll Pads/PollPad - Action - Delete FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540594103508.run(Script1540594103508.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Poll Pads/PollPad - In-Line Delete" classname="Test Cases/SuperAdminConsole/Poll Pads/PollPad - In-Line Delete" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:15:35 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Poll Pads/PollPad - In-Line Delete: Test Cases/SuperAdminConsole/Poll Pads/PollPad - In-Line Delete
+
+2018-10-29 17:15:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://epulsedev2.com'
+
+2018-10-29 17:15:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-29 17:15:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://epulsedev2.com'
+
+2018-10-29 17:15:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:15:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-29 17:15:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:15:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:39 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:39 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:15:39 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:15:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:15:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:15:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:42 - [TEST_STEP][PASSED] - setText: Text 'Test Pollpad' is set on object 'Object Repository/SuperAdminConsole/Poll Pads/Test PollPad table search'
+
+2018-10-29 17:15:42 - [MESSAGE][PASSED] - Text 'Test Pollpad' is set on object 'Object Repository/SuperAdminConsole/Poll Pads/Test PollPad table search'
+
+2018-10-29 17:15:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Delete/Delete - In-Line/Delete Test PollPad' is clicked on
+
+2018-10-29 17:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Delete/Delete - In-Line/Delete Test PollPad' is clicked on
+
+2018-10-29 17:15:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:44 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-29 17:15:44 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-29 17:15:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 17:15:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Poll Pads/PollPad - Filter by Account" classname="Test Cases/SuperAdminConsole/Poll Pads/PollPad - Filter by Account" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:15:46 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Poll Pads/PollPad - Filter by Account: Test Cases/SuperAdminConsole/Poll Pads/PollPad - Filter by Account
+
+2018-10-29 17:15:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://epulsedev2.com'
+
+2018-10-29 17:15:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://epulsedev2.com'
+
+2018-10-29 17:15:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:15:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-29 17:15:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:15:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:50 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:50 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:15:50 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:15:50 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:15:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:15:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:15:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/POLL PADS link' is clicked on
+
+2018-10-29 17:15:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Account Filter' is clicked on
+
+2018-10-29 17:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Account Filter' is clicked on
+
+2018-10-29 17:15:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/dropdown' is clicked on
+
+2018-10-29 17:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/dropdown' is clicked on
+
+2018-10-29 17:15:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Filter_AM-Canada' is clicked on
+
+2018-10-29 17:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Filter_AM-Canada' is clicked on
+
+2018-10-29 17:15:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/Apply Filters' is clicked on
+
+2018-10-29 17:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Apply Filters' is clicked on
+
+2018-10-29 17:15:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Remove_Account AM-Canada_Filter' is clicked on
+
+2018-10-29 17:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Remove_Account AM-Canada_Filter' is clicked on
+
+2018-10-29 17:15:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:15:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:15:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 17:15:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete" classname="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$9.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540486297569.run(Script1540486297569.groovy:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-29 17:15:57 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete: Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$9.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540486297569.run(Script1540486297569.groovy:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-29 17:15:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:15:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:15:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:59 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:15:59 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:16:00 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:16:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:16:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:16:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:16:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:16:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:16:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+
+2018-10-29 17:16:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851378761.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:15:57 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete: Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$9.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540486297569.run(Script1540486297569.groovy:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" classname="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version' located by 'By.xpath: //select[@name = 'account[poll_pad_3_version]' and @id = 'account_poll_pad_3_version' and (text() = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test' or . = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540486271226.run(Script1540486271226.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-29 17:16:19 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole): Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version' located by 'By.xpath: //select[@name = 'account[poll_pad_3_version]' and @id = 'account_poll_pad_3_version' and (text() = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test' or . = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540486271226.run(Script1540486271226.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-29 17:16:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:16:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-29 17:16:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:16:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:16:21 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:16:21 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:16:21 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:16:21 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:16:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:16:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:16:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:16:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:16:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2018-10-29 17:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2018-10-29 17:16:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:16:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:16:25 - [TEST_STEP][PASSED] - setText: Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2018-10-29 17:16:25 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2018-10-29 17:16:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:16:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:16:26 - [TEST_STEP][PASSED] - setText: Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County'
+
+2018-10-29 17:16:27 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County'
+
+2018-10-29 17:16:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:16:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:16:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'MO' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/StateProvince'  using regular expression
+
+2018-10-29 17:16:28 - [MESSAGE][PASSED] - All options with value 'MO' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/StateProvince'  using regular expression
+
+2018-10-29 17:16:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:16:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:16:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Pad Type'  using regular expression
+
+2018-10-29 17:16:29 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Pad Type'  using regular expression
+
+2018-10-29 17:16:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:16:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:16:30 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version' located by 'By.xpath: //select[@name = 'account[poll_pad_3_version]' and @id = 'account_poll_pad_3_version' and (text() = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test' or . = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test')]' not found)
+
+2018-10-29 17:16:47 - [MESSAGE][FAILED] - Unable to select option by value '' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version' located by 'By.xpath: //select[@name = 'account[poll_pad_3_version]' and @id = 'account_poll_pad_3_version' and (text() = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test' or . = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test')]' not found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851406666.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:16:19 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole): Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version' located by 'By.xpath: //select[@name = 'account[poll_pad_3_version]' and @id = 'account_poll_pad_3_version' and (text() = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test' or . = '
+                      1.0.1
+                      1.1.0
+                      1.2.canada
+                      1.3.0
+                      1.3.1
+                      1.3.3
+                      1.3.4
+                      1.3.5
+                      2.0.canada
+                      2.0.1
+                      2.1.0
+                      2.1.1
+                      2.1.2
+                      2.1.3
+                      2.1.4
+                      2.1.5
+                      2.1.6
+                      2.1.7
+                      2.1.8
+                      2.1.9
+                      2.1.10
+                      2.1.11
+                      2.2.0
+                      2.3.0
+                      unstable-test')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540486271226.run(Script1540486271226.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Edit" classname="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Edit" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540486305801.run(Script1540486305801.groovy:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-29 17:16:47 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Edit: Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Edit FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540486305801.run(Script1540486305801.groovy:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-29 17:16:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:16:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-29 17:16:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:16:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:16:49 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:16:49 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:16:49 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:16:49 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:16:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:16:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:16:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:16:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:16:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+
+2018-10-29 17:17:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851427889.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:16:47 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Edit: Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Edit FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/am-Automation-test' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/am-Automation-test' located by 'By.xpath: //a[@href = 'am-Automation-test' or . = 'am-Automation-test']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540486305801.run(Script1540486305801.groovy:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by Account" classname="Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by Account" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:17:08 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by Account: Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by Account
+
+2018-10-29 17:17:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:17:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-29 17:17:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:17:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:17:10 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:17:10 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:17:10 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:17:10 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:17:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:17:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:17:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/USERS' is clicked on
+
+2018-10-29 17:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/USERS' is clicked on
+
+2018-10-29 17:17:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Account Filter' is clicked on
+
+2018-10-29 17:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Account Filter' is clicked on
+
+2018-10-29 17:17:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/dropdown' is clicked on
+
+2018-10-29 17:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/dropdown' is clicked on
+
+2018-10-29 17:17:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Filter_AM-Canada' is clicked on
+
+2018-10-29 17:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Filter_AM-Canada' is clicked on
+
+2018-10-29 17:17:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/Apply Filters' is clicked on
+
+2018-10-29 17:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Apply Filters' is clicked on
+
+2018-10-29 17:17:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Remove_Account AM-Canada_Filter' is clicked on
+
+2018-10-29 17:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Poll Pads/Poll Pads Account Filter/Remove_Account AM-Canada_Filter' is clicked on
+
+2018-10-29 17:17:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-29 17:17:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-29 17:17:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 17:17:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by User Type" classname="Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by User Type" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1540845493063.run(Script1540845493063.groovy:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-29 17:17:20 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by User Type: Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by User Type FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1540845493063.run(Script1540845493063.groovy:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-29 17:17:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:17:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:17:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:17:22 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:17:22 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:17:22 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:17:22 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:17:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:17:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:17:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/USERS' is clicked on
+
+2018-10-29 17:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/USERS' is clicked on
+
+2018-10-29 17:17:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/User Type Dropdown' is clicked on
+
+2018-10-29 17:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/User Type Dropdown' is clicked on
+
+2018-10-29 17:17:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'both' are selected in object 'Object Repository/SuperAdminConsole/SuperAdmin Users/select_User Type' 
+
+2018-10-29 17:17:26 - [MESSAGE][PASSED] - All options with value 'both' are selected in object 'Object Repository/SuperAdminConsole/SuperAdmin Users/select_User Type' 
+
+2018-10-29 17:17:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/UserType Apply Filters' is clicked on
+
+2018-10-29 17:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/UserType Apply Filters' is clicked on
+
+2018-10-29 17:17:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-29 17:17:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-29 17:17:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/Remove_Filter' is clicked on
+
+2018-10-29 17:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Remove_Filter' is clicked on
+
+2018-10-29 17:17:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/User Type Dropdown' is clicked on
+
+2018-10-29 17:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/User Type Dropdown' is clicked on
+
+2018-10-29 17:17:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'super_admin' are selected in object 'Object Repository/SuperAdminConsole/SuperAdmin Users/select_User Type'  using regular expression
+
+2018-10-29 17:17:28 - [MESSAGE][PASSED] - All options with value 'super_admin' are selected in object 'Object Repository/SuperAdminConsole/SuperAdmin Users/select_User Type'  using regular expression
+
+2018-10-29 17:17:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/UserType Apply Filters' is clicked on
+
+2018-10-29 17:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/UserType Apply Filters' is clicked on
+
+2018-10-29 17:17:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-29 17:17:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-29 17:17:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/Remove_Filter' is clicked on
+
+2018-10-29 17:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Remove_Filter' is clicked on
+
+2018-10-29 17:17:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/User Type Dropdown' is clicked on
+
+2018-10-29 17:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/User Type Dropdown' is clicked on
+
+2018-10-29 17:17:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'regular' are selected in object 'Object Repository/SuperAdminConsole/SuperAdmin Users/select_User Type'  using regular expression
+
+2018-10-29 17:17:31 - [MESSAGE][PASSED] - All options with value 'regular' are selected in object 'Object Repository/SuperAdminConsole/SuperAdmin Users/select_User Type'  using regular expression
+
+2018-10-29 17:17:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/UserType Apply Filters' is clicked on
+
+2018-10-29 17:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/UserType Apply Filters' is clicked on
+
+2018-10-29 17:17:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-29 17:17:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-29 17:17:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/Remove_Filter' is clicked on
+
+2018-10-29 17:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Remove_Filter' is clicked on
+
+2018-10-29 17:17:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-29 17:17:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-29 17:17:35 - [TEST_STEP][FAILED] - acceptAlert: Unable to accept alert (Root cause: No alert found)
+
+2018-10-29 17:17:35 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851455260.png]]
+
+2018-10-29 17:17:35 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: No alert found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181029_171451/1540851455653.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:17:20 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by User Type: Test Cases/SuperAdminConsole/Users/SuperAdmin User - Filter by User Type FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1540845493063.run(Script1540845493063.groovy:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Users/SuperAdmin User Account - Delete - In-Line" classname="Test Cases/SuperAdminConsole/Users/SuperAdmin User Account - Delete - In-Line" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:17:35 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Users/SuperAdmin User Account - Delete - In-Line: Test Cases/SuperAdminConsole/Users/SuperAdmin User Account - Delete - In-Line
+
+2018-10-29 17:17:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:17:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-29 17:17:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:17:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:17:37 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-29 17:17:37 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:17:38 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-29 17:17:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:17:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-29 17:17:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-29 17:17:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/USERS' is clicked on
+
+2018-10-29 17:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/USERS' is clicked on
+
+2018-10-29 17:17:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:43 - [TEST_STEP][PASSED] - setText: Text 'firstn' is set on object 'Object Repository/Common ePulse Objects/table-search'
+
+2018-10-29 17:17:43 - [MESSAGE][PASSED] - Text 'firstn' is set on object 'Object Repository/Common ePulse Objects/table-search'
+
+2018-10-29 17:17:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/in-line delete icon' is clicked on
+
+2018-10-29 17:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/SuperAdmin Users/in-line delete icon' is clicked on
+
+2018-10-29 17:17:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:45 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-29 17:17:45 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-29 17:17:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-29 17:17:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-29 17:17:46 - [TEST_STEP][PASSED] - setText: Text 'firstn' is set on object 'Object Repository/Common ePulse Objects/table-search'
+
+2018-10-29 17:17:46 - [MESSAGE][PASSED] - Text 'firstn' is set on object 'Object Repository/Common ePulse Objects/table-search'
+
+2018-10-29 17:17:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-29 17:17:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-29 17:14:53 - [TEST_SUITE][FAILED] - Regression: Test Cases/SuperAdminConsole/Poll Pads/PollPad - Action - Delete FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540594103508.run(Script1540594103508.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-29 17:14:53 - [TEST_SUITE][FAILED] - Regression: Test Cases/SuperAdminConsole/Poll Pads/PollPad - Action - Delete FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540594103508.run(Script1540594103508.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540851292021.run(TempTestSuite1540851292021.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

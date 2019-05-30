@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test(US)" time="251" tests="12" failures="2" errors="0">
+   <testsuite name="Smoke Test(US)" tests="12" failures="2" errors="0" time="251" timestamp="2018-11-02 16:57:14" hostname="alonzomack - 192.168.1.9" id="Test Suites/Smoke Test(US)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Smoke Test(US)/20181102_165712"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Smoke Test(US)/20181102_165712/execution0.log"/>
+         <property name="attachments" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Smoke Test(US)/20181102_165712/1541195939095.png, /Users/alonzomack/Katalon Studio/Regression/Reports/Smoke Test(US)/20181102_165712/1541196056080.png"/>
+         <property name="hostName" value="alonzomack - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="0fe5584c356a3fcc46a98553148cc139"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Admin Console/Election Setup/Election Creation" classname="Test Cases/Admin Console/Election Setup/Election Creation" status="PASSED">
+         <system-out><![CDATA[2018-11-02 16:57:14 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Election Setup/Election Creation: Test Cases/Admin Console/Election Setup/Election Creation
+
+2018-11-02 16:57:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 16:57:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 16:57:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:57:18 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:57:18 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:57:18 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:57:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:57:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:57:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:57:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:57:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:57:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/elections/new' successfully
+
+2018-11-02 16:57:21 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/elections/new' successfully
+
+2018-11-02 16:57:21 - [TEST_STEP][PASSED] - setText: Text '/Users/alonzomack/Downloads/Imports/Missouri/voters_200_mcvr.txt' is set on object 'Object Repository/Common ePulse Objects/Choose File'
+
+2018-11-02 16:57:21 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/Imports/Missouri/voters_200_mcvr.txt' is set on object 'Object Repository/Common ePulse Objects/Choose File'
+
+2018-11-02 16:57:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/Continue Button' is clicked on
+
+2018-11-02 16:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Continue Button' is clicked on
+
+2018-11-02 16:57:21 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 16:57:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 16:57:31 - [TEST_STEP][PASSED] - setText: Text 'Election Creation' is set on object 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Election Name'
+
+2018-11-02 16:57:32 - [MESSAGE][PASSED] - Text 'Election Creation' is set on object 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Election Name'
+
+2018-11-02 16:57:32 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Election Code'
+
+2018-11-02 16:57:32 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Election Code'
+
+2018-11-02 16:57:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'general' are selected in object 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Select Election Type'  using regular expression
+
+2018-11-02 16:57:32 - [MESSAGE][PASSED] - All options with value 'general' are selected in object 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Select Election Type'  using regular expression
+
+2018-11-02 16:57:32 - [TEST_STEP][PASSED] - setText: Text '07/21/2021' is set on object 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/DATE'
+
+2018-11-02 16:57:32 - [MESSAGE][PASSED] - Text '07/21/2021' is set on object 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/DATE'
+
+2018-11-02 16:57:32 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 16:57:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 16:57:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Next' is clicked on
+
+2018-11-02 16:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Next' is clicked on
+
+2018-11-02 16:57:43 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 16:57:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 16:57:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Step3 Done' is clicked on
+
+2018-11-02 16:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Step3 Done' is clicked on
+
+2018-11-02 16:57:54 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 16:58:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 16:58:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Step4 Done' is clicked on
+
+2018-11-02 16:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Step4 Done' is clicked on
+
+2018-11-02 16:58:05 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 16:58:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 16:58:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Step5 Confirm' is clicked on
+
+2018-11-02 16:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Step5 Confirm' is clicked on
+
+2018-11-02 16:58:15 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 16:58:35 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 16:58:35 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Election Creation' is present on page  using regular expression
+
+2018-11-02 16:58:35 - [MESSAGE][PASSED] - Text 'Election Creation' is present on page  using regular expression
+
+2018-11-02 16:58:35 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Election Seed Files' is present on page  using regular expression
+
+2018-11-02 16:58:35 - [MESSAGE][PASSED] - Text 'Election Seed Files' is present on page  using regular expression
+
+2018-11-02 16:58:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/voters#sort=last_name&direction=asc&display=list&page=1' successfully
+
+2018-11-02 16:58:37 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/voters#sort=last_name&direction=asc&display=list&page=1' successfully
+
+2018-11-02 16:58:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'TWEEDIE MARIE AARON' is present on page  using regular expression
+
+2018-11-02 16:58:39 - [MESSAGE][PASSED] - Text 'TWEEDIE MARIE AARON' is present on page  using regular expression
+
+2018-11-02 16:58:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 16:58:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Election Setup/Election Creation - Upload Supplemental" classname="Test Cases/Admin Console/Election Setup/Election Creation - Upload Supplemental" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ABRON A AAARON' is present  using regular expression (Root cause: Text 'ABRON A AAARON' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541014885083.run(Script1541014885083.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541195832603.run(TempTestSuite1541195832603.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-02 16:58:39 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Election Setup/Election Creation - Upload Supplemental: Test Cases/Admin Console/Election Setup/Election Creation - Upload Supplemental FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ABRON A AAARON' is present  using regular expression (Root cause: Text 'ABRON A AAARON' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541014885083.run(Script1541014885083.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541195832603.run(TempTestSuite1541195832603.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-02 16:58:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 16:58:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 16:58:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:58:42 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:58:42 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:58:42 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:58:42 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:58:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:58:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:58:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/elections/' successfully
+
+2018-11-02 16:58:45 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/elections/' successfully
+
+2018-11-02 16:58:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Election (Election Creation)' is clicked on
+
+2018-11-02 16:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Election (Election Creation)' is clicked on
+
+2018-11-02 16:58:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Import Supplemental Voters' is clicked on
+
+2018-11-02 16:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Import Supplemental Voters' is clicked on
+
+2018-11-02 16:58:47 - [TEST_STEP][PASSED] - setText: Text '/Users/alonzomack/Downloads/Automation uploads/voters_201_mcvr.txt' is set on object 'Object Repository/Common ePulse Objects/Choose File'
+
+2018-11-02 16:58:48 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/Automation uploads/voters_201_mcvr.txt' is set on object 'Object Repository/Common ePulse Objects/Choose File'
+
+2018-11-02 16:58:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/Continue Button' is clicked on
+
+2018-11-02 16:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Continue Button' is clicked on
+
+2018-11-02 16:58:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Done' is clicked on
+
+2018-11-02 16:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Election Setup/Election Creation/Supplemental File Upload/Done' is clicked on
+
+2018-11-02 16:58:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Election Creation' is present on page  using regular expression
+
+2018-11-02 16:58:55 - [MESSAGE][PASSED] - Text 'Election Creation' is present on page  using regular expression
+
+2018-11-02 16:58:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Election Seed Files' is present on page  using regular expression
+
+2018-11-02 16:58:55 - [MESSAGE][PASSED] - Text 'Election Seed Files' is present on page  using regular expression
+
+2018-11-02 16:58:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/voters#sort=last_name&direction=asc&display=list&page=1' successfully
+
+2018-11-02 16:58:56 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/voters#sort=last_name&direction=asc&display=list&page=1' successfully
+
+2018-11-02 16:58:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:58:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:58:58 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'ABRON A AAARON' is present  using regular expression (Root cause: Text 'ABRON A AAARON' is not present on page  using regular expression)
+
+2018-11-02 16:58:59 - [MESSAGE][FAILED] - Text 'ABRON A AAARON' is not present on page  using regular expression
+
+2018-11-02 16:58:59 - [MESSAGE][FAILED] - Unable to verify text 'ABRON A AAARON' is present  using regular expression (Root cause: Text 'ABRON A AAARON' is not present on page  using regular expression)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/Smoke Test(US)/20181102_165712/1541195939095.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-02 16:58:39 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Election Setup/Election Creation - Upload Supplemental: Test Cases/Admin Console/Election Setup/Election Creation - Upload Supplemental FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ABRON A AAARON' is present  using regular expression (Root cause: Text 'ABRON A AAARON' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541014885083.run(Script1541014885083.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541195832603.run(TempTestSuite1541195832603.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Add_Edit Voter/Add_Edit Voter - Import" classname="Test Cases/Admin Console/Account Settings/Add_Edit Voter/Add_Edit Voter - Import" status="PASSED">
+         <system-out><![CDATA[2018-11-02 16:58:59 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Add_Edit Voter/Add_Edit Voter - Import: Test Cases/Admin Console/Account Settings/Add_Edit Voter/Add_Edit Voter - Import
+
+2018-11-02 16:58:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 16:58:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-02 16:59:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 16:59:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:01 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:01 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:02 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:02 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/imports/add_voter' successfully
+
+2018-11-02 16:59:04 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/imports/add_voter' successfully
+
+2018-11-02 16:59:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:05 - [TEST_STEP][PASSED] - setText: Text '/Users/alonzomack/Downloads/Automation uploads/add_voter.txt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-11-02 16:59:06 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/Automation uploads/add_voter.txt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-11-02 16:59:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-11-02 16:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-11-02 16:59:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-02 16:59:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-02 16:59:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on
+
+2018-11-02 16:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on
+
+2018-11-02 16:59:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 16:59:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add" status="PASSED">
+         <system-out><![CDATA[2018-11-02 16:59:12 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Add
+
+2018-11-02 16:59:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 16:59:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 16:59:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:14 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:14 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:14 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:14 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/voter_id_methods' successfully
+
+2018-11-02 16:59:17 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/voter_id_methods' successfully
+
+2018-11-02 16:59:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Add ID Method Button' is clicked on
+
+2018-11-02 16:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Add ID Method Button' is clicked on
+
+2018-11-02 16:59:18 - [TEST_STEP][PASSED] - setText: Text 'Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name'
+
+2018-11-02 16:59:18 - [MESSAGE][PASSED] - Text 'Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Name'
+
+2018-11-02 16:59:18 - [TEST_STEP][PASSED] - setText: Text 'State Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading'
+
+2018-11-02 16:59:18 - [MESSAGE][PASSED] - Text 'State Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Heading'
+
+2018-11-02 16:59:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color'  using regular expression
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Select Color'  using regular expression
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - setText: Text 'State Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions'
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - Text 'State Drivers License' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Instructions'
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order'
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Order'
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider' is clicked on
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Name Match_slider' is clicked on
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider' is clicked on
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show Does Address Match_slider' is clicked on
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider' is clicked on
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Show is ID Expired_slider' is clicked on
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - setText: Text 'No Drivers License?' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading'
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - Text 'No Drivers License?' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Heading'
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - setText: Text 'Vote Provisional' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions'
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - Text 'Vote Provisional' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Page_Epulse  am-Automation-test/Incorrect Instructions'
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit' is clicked on
+
+2018-11-02 16:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/New ID Method Modal/Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import" status="PASSED">
+         <system-out><![CDATA[2018-11-02 16:59:19 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Import
+
+2018-11-02 16:59:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 16:59:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-02 16:59:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 16:59:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:22 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:22 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:22 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:22 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/voter_id_methods' successfully
+
+2018-11-02 16:59:25 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/voter_id_methods' successfully
+
+2018-11-02 16:59:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Import' is clicked on
+
+2018-11-02 16:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Import' is clicked on
+
+2018-11-02 16:59:26 - [TEST_STEP][PASSED] - setText: Text '/Users/alonzomack/Downloads/Automation uploads/voter_id_methods.txt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-11-02 16:59:26 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/Automation uploads/voter_id_methods.txt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-11-02 16:59:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-11-02 16:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-11-02 16:59:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on
+
+2018-11-02 16:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete" classname="Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete" status="PASSED">
+         <system-out><![CDATA[2018-11-02 16:59:31 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete: Test Cases/Admin Console/Account Settings/ID Methods/ID Methods - Delete
+
+2018-11-02 16:59:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 16:59:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-02 16:59:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 16:59:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:33 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:33 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:33 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:33 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/voter_id_methods' successfully
+
+2018-11-02 16:59:36 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/voter_id_methods' successfully
+
+2018-11-02 16:59:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Delete Selected ID Method' is clicked on
+
+2018-11-02 16:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/ID Methods/ID Methods Page/Page_Epulse  am-Automation-test/Delete Selected ID Method' is clicked on
+
+2018-11-02 16:59:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-02 16:59:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-02 16:59:41 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-02 16:59:41 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-02 16:59:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 16:59:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Languages/Languages - Import" classname="Test Cases/Admin Console/Account Settings/Languages/Languages - Import" status="PASSED">
+         <system-out><![CDATA[2018-11-02 16:59:41 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Languages/Languages - Import: Test Cases/Admin Console/Account Settings/Languages/Languages - Import
+
+2018-11-02 16:59:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 16:59:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 16:59:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:43 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:43 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:43 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:43 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/imports/languages' successfully
+
+2018-11-02 16:59:46 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/imports/languages' successfully
+
+2018-11-02 16:59:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:47 - [TEST_STEP][PASSED] - setText: Text '/Users/alonzomack/Downloads/Automation uploads/languages.csv' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-11-02 16:59:47 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/Automation uploads/languages.csv' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-11-02 16:59:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-11-02 16:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-11-02 16:59:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on
+
+2018-11-02 16:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on
+
+2018-11-02 16:59:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 16:59:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add" classname="Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add" status="PASSED">
+         <system-out><![CDATA[2018-11-02 16:59:54 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add: Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add
+
+2018-11-02 16:59:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 16:59:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 16:59:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:56 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 16:59:56 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:56 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 16:59:56 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 16:59:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 16:59:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 16:59:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 16:59:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/account_oaths' successfully
+
+2018-11-02 16:59:59 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/account_oaths' successfully
+
+2018-11-02 16:59:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:00 - [TEST_STEP][PASSED] - setText: Text 'ID Method' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:01 - [MESSAGE][PASSED] - Text 'ID Method' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:01 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:01 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:01 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:01 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Id Method' is clicked on
+
+2018-11-02 17:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Id Method' is clicked on
+
+2018-11-02 17:00:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:02 - [TEST_STEP][PASSED] - setText: Text 'Voter Check In Signing Page' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:02 - [MESSAGE][PASSED] - Text 'Voter Check In Signing Page' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:02 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:03 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:03 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:03 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Voter Check In Signing Pa' is clicked on
+
+2018-11-02 17:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Voter Check In Signing Pa' is clicked on
+
+2018-11-02 17:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:04 - [TEST_STEP][PASSED] - setText: Text 'Allow Voter to Vote' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:04 - [MESSAGE][PASSED] - Text 'Allow Voter to Vote' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:04 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:04 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:04 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:04 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Allow Voter To Vote' is clicked on
+
+2018-11-02 17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Allow Voter To Vote' is clicked on
+
+2018-11-02 17:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:05 - [TEST_STEP][PASSED] - setText: Text 'Voter Check In Signing Page(Provisional' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:06 - [MESSAGE][PASSED] - Text 'Voter Check In Signing Page(Provisional' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:06 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:06 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:06 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:06 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Voter Check In Signing Pa' is clicked on
+
+2018-11-02 17:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Voter Check In Signing Pa' is clicked on
+
+2018-11-02 17:00:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:07 - [TEST_STEP][PASSED] - setText: Text 'Similar Name Affidavit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:07 - [MESSAGE][PASSED] - Text 'Similar Name Affidavit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:07 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:07 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:07 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:08 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Similar Name Affidavit' is clicked on
+
+2018-11-02 17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Similar Name Affidavit' is clicked on
+
+2018-11-02 17:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-11-02 17:00:09 - [TEST_STEP][PASSED] - setText: Text 'Reasonable Impediment Declaration' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:09 - [MESSAGE][PASSED] - Text 'Reasonable Impediment Declaration' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-11-02 17:00:09 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:09 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-11-02 17:00:09 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:09 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-11-02 17:00:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-11-02 17:00:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Reasonable Impediment Decla' is clicked on
+
+2018-11-02 17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Reasonable Impediment Decla' is clicked on
+
+2018-11-02 17:00:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-11-02 17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Oaths/Oaths - Import" classname="Test Cases/Admin Console/Account Settings/Oaths/Oaths - Import" status="PASSED">
+         <system-out><![CDATA[2018-11-02 17:00:09 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Oaths/Oaths - Import: Test Cases/Admin Console/Account Settings/Oaths/Oaths - Import
+
+2018-11-02 17:00:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 17:00:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-02 17:00:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 17:00:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:12 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:12 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:12 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:12 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/imports/account_oath' successfully
+
+2018-11-02 17:00:15 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/imports/account_oath' successfully
+
+2018-11-02 17:00:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:16 - [TEST_STEP][PASSED] - setText: Text '/Users/alonzomack/Downloads/oaths.csv' is set on object 'Object Repository/Common ePulse Objects/Choose File'
+
+2018-11-02 17:00:16 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/oaths.csv' is set on object 'Object Repository/Common ePulse Objects/Choose File'
+
+2018-11-02 17:00:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:17 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-02 17:00:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-02 17:00:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/Continue Button' is clicked on
+
+2018-11-02 17:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Continue Button' is clicked on
+
+2018-11-02 17:00:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common ePulse Objects/button_Done(working)' is clicked on
+
+2018-11-02 17:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/button_Done(working)' is clicked on
+
+2018-11-02 17:00:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/account_oaths' successfully
+
+2018-11-02 17:00:24 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/account_oaths' successfully
+
+2018-11-02 17:00:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 17:00:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Prompts/Prompts - Add" classname="Test Cases/Admin Console/Account Settings/Prompts/Prompts - Add" status="PASSED">
+         <system-out><![CDATA[2018-11-02 17:00:25 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Prompts/Prompts - Add: Test Cases/Admin Console/Account Settings/Prompts/Prompts - Add
+
+2018-11-02 17:00:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 17:00:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 17:00:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:28 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:28 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:28 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:28 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-Automation-test.epulsedev2.com/prompts' successfully
+
+2018-11-02 17:00:32 - [MESSAGE][PASSED] - Navigate to 'https://am-Automation-test.epulsedev2.com/prompts' successfully
+
+2018-11-02 17:00:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button' is clicked on
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button' is clicked on
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - setText: Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name'
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name'
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - setText: Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading'
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading'
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color'  using regular expression
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color'  using regular expression
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order'
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order'
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - setText: Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label'
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label'
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - setText: Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name'
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name'
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider' is clicked on
+
+2018-11-02 17:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider' is clicked on
+
+2018-11-02 17:00:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider' is clicked on
+
+2018-11-02 17:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider' is clicked on
+
+2018-11-02 17:00:34 - [TEST_STEP][PASSED] - setText: Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea '
+
+2018-11-02 17:00:34 - [MESSAGE][PASSED] - Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea '
+
+2018-11-02 17:00:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit' is clicked on
+
+2018-11-02 17:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit' is clicked on
+
+2018-11-02 17:00:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-02 17:00:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-02 17:00:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 17:00:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Prompts/Prompts - Import" classname="Test Cases/Admin Console/Account Settings/Prompts/Prompts - Import" status="PASSED">
+         <system-out><![CDATA[2018-11-02 17:00:36 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Prompts/Prompts - Import: Test Cases/Admin Console/Account Settings/Prompts/Prompts - Import
+
+2018-11-02 17:00:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 17:00:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 17:00:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:38 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:38 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:38 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-Automation-test.epulsedev2.com/imports/prompts' successfully
+
+2018-11-02 17:00:41 - [MESSAGE][PASSED] - Navigate to 'https://am-Automation-test.epulsedev2.com/imports/prompts' successfully
+
+2018-11-02 17:00:41 - [TEST_STEP][PASSED] - setText: Text '/Users/alonzomack/Downloads/prompts-3.txt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-11-02 17:00:41 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/prompts-3.txt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-11-02 17:00:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-11-02 17:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-11-02 17:00:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on
+
+2018-11-02 17:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - Demo DB" classname="Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - Demo DB" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Demo DB   processing...' is present  using regular expression (Root cause: Text 'Demo DB   processing...' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541178134981.run(Script1541178134981.groovy:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541195832603.run(TempTestSuite1541195832603.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-02 17:00:46 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - Demo DB: Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - Demo DB FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Demo DB   processing...' is present  using regular expression (Root cause: Text 'Demo DB   processing...' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541178134981.run(Script1541178134981.groovy:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541195832603.run(TempTestSuite1541195832603.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-02 17:00:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 17:00:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-02 17:00:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 17:00:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:49 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:49 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:49 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:49 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/account_settings/poll_pad' successfully
+
+2018-11-02 17:00:52 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/account_settings/poll_pad' successfully
+
+2018-11-02 17:00:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' is clicked on
+
+2018-11-02 17:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' is clicked on
+
+2018-11-02 17:00:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:53 - [TEST_STEP][PASSED] - setText: Text 'Demo DB' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/DEMO DB/Demo DB Name'
+
+2018-11-02 17:00:53 - [MESSAGE][PASSED] - Text 'Demo DB' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/DEMO DB/Demo DB Name'
+
+2018-11-02 17:00:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:00:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:00:54 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-11-02 17:00:54 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-11-02 17:00:54 - [TEST_STEP][NOT_RUN] - selectOptionByIndex: NOT_RUN: selectOptionByIndex
+
+2018-11-02 17:00:54 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByIndex
+
+2018-11-02 17:00:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/DEMO DB/Create Demo DB button' is clicked on
+
+2018-11-02 17:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/DEMO DB/Create Demo DB button' is clicked on
+
+2018-11-02 17:00:55 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Demo DB   processing...' is present  using regular expression (Root cause: Text 'Demo DB   processing...' is not present on page  using regular expression)
+
+2018-11-02 17:00:56 - [MESSAGE][FAILED] - Text 'Demo DB   processing...' is not present on page  using regular expression
+
+2018-11-02 17:00:56 - [MESSAGE][FAILED] - Unable to verify text 'Demo DB   processing...' is present  using regular expression (Root cause: Text 'Demo DB   processing...' is not present on page  using regular expression)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/Smoke Test(US)/20181102_165712/1541196056080.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-02 17:00:46 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - Demo DB: Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - Demo DB FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Demo DB   processing...' is present  using regular expression (Root cause: Text 'Demo DB   processing...' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541178134981.run(Script1541178134981.groovy:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541195832603.run(TempTestSuite1541195832603.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - ISYNC" classname="Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - ISYNC" status="PASSED">
+         <system-out><![CDATA[2018-11-02 17:00:56 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - ISYNC: Test Cases/Admin Console/Account Settings/Poll Pad Setup/Poll Pad Setup - ISYNC
+
+2018-11-02 17:00:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 17:00:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-02 17:00:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 17:00:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:58 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:00:58 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:58 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:00:58 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:00:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:00:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:01:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:01:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/account_settings/poll_pad' successfully
+
+2018-11-02 17:01:01 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/account_settings/poll_pad' successfully
+
+2018-11-02 17:01:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Isync' is clicked on
+
+2018-11-02 17:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Isync' is clicked on
+
+2018-11-02 17:01:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/Generate New button' is clicked on
+
+2018-11-02 17:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/Generate New button' is clicked on
+
+2018-11-02 17:01:02 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 17:01:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 17:01:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/DOWNLOAD' is clicked on
+
+2018-11-02 17:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/DOWNLOAD' is clicked on
+
+2018-11-02 17:01:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-02 17:01:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-02 17:01:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/Delete Selected Download' is clicked on
+
+2018-11-02 17:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/Delete Selected Download' is clicked on
+
+2018-11-02 17:01:14 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-02 17:01:14 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-02 17:01:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:01:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:01:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 17:01:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete" classname="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete" status="PASSED">
+         <system-out><![CDATA[2018-11-02 17:01:15 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete: Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete
+
+2018-11-02 17:01:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-02 17:01:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-02 17:01:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:01:18 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-02 17:01:18 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:01:18 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-02 17:01:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:01:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-02 17:01:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-02 17:01:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:01:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:01:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/am-Automation-test' is clicked on
+
+2018-11-02 17:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/am-Automation-test' is clicked on
+
+2018-11-02 17:01:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-02 17:01:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-02 17:01:22 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Common ePulse Objects/Actions(Gear icon)' is hovered
+
+2018-11-02 17:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Actions(Gear icon)' is hovered
+
+2018-11-02 17:01:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-02 17:01:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-02 17:01:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Edit Accounts - Actions/Delete' is clicked on
+
+2018-11-02 17:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Edit Accounts - Actions/Delete' is clicked on
+
+2018-11-02 17:01:25 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-02 17:01:25 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-02 17:01:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 17:01:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-02 16:57:14 - [TEST_SUITE][FAILED] - Smoke Test(US): Test Cases/Admin Console/Election Setup/Election Creation - Upload Supplemental FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ABRON A AAARON' is present  using regular expression (Root cause: Text 'ABRON A AAARON' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541014885083.run(Script1541014885083.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541195832603.run(TempTestSuite1541195832603.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-02 16:57:14 - [TEST_SUITE][FAILED] - Smoke Test(US): Test Cases/Admin Console/Election Setup/Election Creation - Upload Supplemental FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ABRON A AAARON' is present  using regular expression (Root cause: Text 'ABRON A AAARON' is not present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541014885083.run(Script1541014885083.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541195832603.run(TempTestSuite1541195832603.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

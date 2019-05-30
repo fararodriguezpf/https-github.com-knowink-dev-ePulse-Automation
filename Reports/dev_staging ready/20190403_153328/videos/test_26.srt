@@ -1,0 +1,116 @@
+1
+00:00:00,090 --> 00:00:00,097
+3. Open browser.
+
+2
+00:00:00,494 --> 00:00:00,495
+9. Navigate to ePulse login page.
+
+3
+00:00:01,874 --> 00:00:01,874
+15. Enter user name
+
+4
+00:00:02,041 --> 00:00:02,041
+21. Enter Password
+
+5
+00:00:02,139 --> 00:00:02,139
+27. Login
+
+6
+00:00:02,864 --> 00:00:02,865
+31. delay(1)
+
+7
+00:00:03,869 --> 00:00:03,869
+35. navigateToUrl(Oaths, STOP_ON_FAILURE)
+
+8
+00:00:04,955 --> 00:00:04,955
+39. delay(1)
+
+9
+00:00:05,957 --> 00:00:05,957
+43. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Filter Type Dropdown"))
+
+10
+00:00:06,019 --> 00:00:06,022
+47. delay(1)
+
+11
+00:00:07,023 --> 00:00:07,024
+51. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Apply Type Filters"))
+
+12
+00:00:07,106 --> 00:00:07,106
+55. delay(1)
+
+13
+00:00:08,112 --> 00:00:08,113
+59. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Remove Filter Type ALL"))
+
+14
+00:00:08,176 --> 00:00:08,177
+63. delay(1)
+
+15
+00:00:09,181 --> 00:00:09,181
+67. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Filter Type Dropdown"))
+
+16
+00:00:09,228 --> 00:00:09,229
+71. delay(1)
+
+17
+00:00:10,232 --> 00:00:10,233
+75. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Filter Dropdown Options"))
+
+18
+00:00:10,296 --> 00:00:10,296
+79. delay(1)
+
+19
+00:00:11,301 --> 00:00:11,303
+83. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Select Id Method"))
+
+20
+00:00:11,367 --> 00:00:11,368
+87. delay(1)
+
+21
+00:00:12,369 --> 00:00:12,369
+91. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Apply Type Filters"))
+
+22
+00:00:12,429 --> 00:00:12,430
+95. delay(1)
+
+23
+00:00:13,432 --> 00:00:13,432
+99. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Type Dropdown"))
+
+24
+00:00:13,492 --> 00:00:13,492
+103. delay(1)
+
+25
+00:00:14,498 --> 00:00:14,498
+107. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/Filter Type Dropdown"))
+
+26
+00:00:14,538 --> 00:00:14,538
+111. delay(1)
+
+27
+00:00:15,539 --> 00:00:15,540
+115. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/a_Id Method"))
+
+28
+00:00:15,591 --> 00:00:15,591
+119. delay(1)
+
+29
+00:00:16,595 --> 00:00:16,596
+123. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/TEMP/TEMP Type Filter/Filter Oath Types/li_Allow Voter To Vote"))
+

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dev_staging ready" time="37" tests="1" failures="1" errors="0">
+   <testsuite name="dev_staging ready" tests="1" failures="1" errors="0" time="37" timestamp="2019-01-31 10:23:53" hostname="alonzomack - 192.168.1.12" id="Test Suites/dev_staging ready">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20190131_102350"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20190131_102350/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 192.168.1.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="48ce6b217daddcd9ed24ed38d0d2c14e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete" classname="Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete" status="PASSED">
+         <system-out><![CDATA[2019-01-31 10:23:54 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete: Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete
+
+2019-01-31 10:23:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 10:23:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-31 10:23:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-31 10:23:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 10:23:58 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2019-01-31 10:24:00 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2019-01-31 10:24:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2019-01-31 10:24:01 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2019-01-31 10:24:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-01-31 10:24:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-01-31 10:24:01 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2019-01-31 10:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2019-01-31 10:24:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 10:24:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 10:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/am-Automation-test"), STOP_ON_FAILURE): Object: 'Object Repository/Login/am-Automation-test' is clicked on
+
+2019-01-31 10:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/am-Automation-test' is clicked on
+
+2019-01-31 10:24:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 10:24:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 10:24:05 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Common ePulse Objects/Actions(Gear icon)")): Object: 'Object Repository/Common ePulse Objects/Actions(Gear icon)' is hovered
+
+2019-01-31 10:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Actions(Gear icon)' is hovered
+
+2019-01-31 10:24:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-31 10:24:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-31 10:24:08 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminConsole/Edit Accounts - Actions/Delete")): Object: 'Object Repository/SuperAdminConsole/Edit Accounts - Actions/Delete' is clicked on
+
+2019-01-31 10:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Edit Accounts - Actions/Delete' is clicked on
+
+2019-01-31 10:24:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 10:24:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 10:24:10 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-01-31 10:24:10 - [MESSAGE][PASSED] - Alert accepted
+
+2019-01-31 10:24:10 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-01-31 10:24:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" classname="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'am-Automation-test' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:a4a7:8cf:6202:e3d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59949}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 676b063471fb0d9bc21bd6db5e6b926a
+*** Element info: {Using=xpath, value=//input[@id='account_county']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Create Account(SuperAdminConsole).run(Create Account(SuperAdminConsole):35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548951830283.run(TempTestSuite1548951830283.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-31 10:24:12 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole): Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'am-Automation-test' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:a4a7:8cf:6202:e3d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59949}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 676b063471fb0d9bc21bd6db5e6b926a
+*** Element info: {Using=xpath, value=//input[@id='account_county']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Create Account(SuperAdminConsole).run(Create Account(SuperAdminConsole):35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548951830283.run(TempTestSuite1548951830283.groovy:36)
+
+
+2019-01-31 10:24:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/SuperAdminLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/SuperAdminLogin' successfully
+
+2019-01-31 10:24:12 - [TEST_CASE][PASSED] - Test Cases/Login/SuperAdminLogin: Test Cases/Login/SuperAdminLogin
+
+2019-01-31 10:24:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 10:24:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-31 10:24:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 10:24:14 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2019-01-31 10:24:15 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2019-01-31 10:24:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2019-01-31 10:24:16 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2019-01-31 10:24:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-01-31 10:24:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-01-31 10:24:16 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2019-01-31 10:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2019-01-31 10:24:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/SuperAdminLogin' successfully
+
+2019-01-31 10:24:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 10:24:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 10:24:18 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminConsole/Account Creation/a_Add Account")): Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2019-01-31 10:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2019-01-31 10:24:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 10:24:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 10:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/Display Title"), "am-Automation-test"): Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2019-01-31 10:24:20 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2019-01-31 10:24:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 10:24:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 10:24:21 - [TEST_STEP][FAILED] - setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/County"), "am-Automation-test"): setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/County"), "am-Automation-test") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'am-Automation-test' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:a4a7:8cf:6202:e3d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59949}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 676b063471fb0d9bc21bd6db5e6b926a
+*** Element info: {Using=xpath, value=//input[@id='account_county']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Create Account(SuperAdminConsole).run(Create Account(SuperAdminConsole):35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548951830283.run(TempTestSuite1548951830283.groovy:36)
+
+
+2019-01-31 10:24:21 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-01-31 10:24:21 - [MESSAGE][FAILED] - Unable to set text 'am-Automation-test' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:a4a7:8cf:6202:e3d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59949}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 676b063471fb0d9bc21bd6db5e6b926a
+*** Element info: {Using=xpath, value=//input[@id='account_county']})
+
+2019-01-31 10:24:21 - [MESSAGE][FAILED] - setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/County"), "am-Automation-test") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'am-Automation-test' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:a4a7:8cf:6202:e3d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59949}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 676b063471fb0d9bc21bd6db5e6b926a
+*** Element info: {Using=xpath, value=//input[@id='account_county']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Create Account(SuperAdminConsole).run(Create Account(SuperAdminConsole):35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548951830283.run(TempTestSuite1548951830283.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-31 10:24:12 - [TEST_CASE][FAILED] - Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole): Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'am-Automation-test' of object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:a4a7:8cf:6202:e3d8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59949}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 676b063471fb0d9bc21bd6db5e6b926a
+*** Element info: {Using=xpath, value=//input[@id='account_county']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Create Account(SuperAdminConsole).run(Create Account(SuperAdminConsole):35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548951830283.run(TempTestSuite1548951830283.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Election Setup/Elections/Election Creation" classname="Test Cases/Admin Console/Election Setup/Elections/Election Creation" status="INCOMPLETE">
+         <system-out><![CDATA[2019-01-31 10:24:23 - [TEST_CASE][INCOMPLETE] - Test Cases/Admin Console/Election Setup/Elections/Election Creation: null
+
+2019-01-31 10:24:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-31 10:24:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-31 10:24:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-31 10:24:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-31 10:24:25 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2019-01-31 10:24:27 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2019-01-31 10:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2019-01-31 10:24:27 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2019-01-31 10:24:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-01-31 10:24:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2019-01-31 10:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2019-01-31 10:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2019-01-31 10:24:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-31 10:24:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-31 10:24:29 - [TEST_STEP][PASSED] - navigateToUrl(Election_Import): Navigate to 'https://am-automation-test.epulsedev2.com/elections/new' successfully
+
+2019-01-31 10:24:30 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/elections/new' successfully
+
+2019-01-31 10:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Common ePulse Objects/Choose File"), "/Users/alonzomack/Downloads/Imports/Missouri/voters_200_mcvr.txt"): Text '/Users/alonzomack/Downloads/Imports/Missouri/voters_200_mcvr.txt' is set on object 'Object Repository/Common ePulse Objects/Choose File'
+
+2019-01-31 10:24:31 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/Imports/Missouri/voters_200_mcvr.txt' is set on object 'Object Repository/Common ePulse Objects/Choose File'
+
+2019-01-31 10:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Common ePulse Objects/Continue Button"), STOP_ON_FAILURE): Object: 'Object Repository/Common ePulse Objects/Continue Button' is clicked on
+
+2019-01-31 10:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Continue Button' is clicked on
+
+2019-01-31 10:24:31 - [TEST_STEP][INCOMPLETE] - delay(10): null]]></system-out>
+         <system-err><![CDATA[2019-01-31 10:24:23 - [TEST_CASE][INCOMPLETE] - Test Cases/Admin Console/Election Setup/Elections/Election Creation: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 10:23:53 - [TEST_SUITE][INCOMPLETE] - dev_staging ready: null]]></system-out>
+      <system-err><![CDATA[2019-01-31 10:23:53 - [TEST_SUITE][INCOMPLETE] - dev_staging ready: null]]></system-err>
+   </testsuite>
+</testsuites>

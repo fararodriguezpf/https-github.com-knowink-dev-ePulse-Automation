@@ -1,0 +1,60 @@
+1
+00:00:00,082 --> 00:00:00,083
+3. Open browser.
+
+2
+00:00:00,484 --> 00:00:00,484
+9. Navigate to ePulse login page.
+
+3
+00:00:01,947 --> 00:00:01,948
+15. Enter user name
+
+4
+00:00:02,096 --> 00:00:02,096
+21. Enter Password
+
+5
+00:00:02,190 --> 00:00:02,190
+27. Login
+
+6
+00:00:02,974 --> 00:00:02,975
+31. delay(1)
+
+7
+00:00:03,977 --> 00:00:03,977
+35. navigateToUrl(Demo_DB)
+
+8
+00:00:05,264 --> 00:00:05,265
+39. click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db"))
+
+9
+00:00:05,325 --> 00:00:05,325
+43. delay(1)
+
+10
+00:00:06,329 --> 00:00:06,329
+47. setText(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/DEMO DB/Demo DB Name"), "Demo DB")
+
+11
+00:00:06,422 --> 00:00:06,423
+51. delay(1)
+
+12
+00:00:07,428 --> 00:00:07,428
+55. selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/DEMO DB/Select Poll Pad Configuration"), "Test2", true)
+
+13
+00:00:07,428 --> 00:00:07,428
+59. selectOptionByIndex(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/DEMO DB/Polling Place dropdown"), 2)
+
+14
+00:00:07,430 --> 00:00:07,430
+63. click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/DEMO DB/Create Demo DB button"))
+
+15
+00:00:08,096 --> 00:00:08,096
+67. verifyTextPresent("Demo DB   processing...", true)
+

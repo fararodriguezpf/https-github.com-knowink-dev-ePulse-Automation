@@ -1,0 +1,108 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dev_staging ready,Chrome 70.0.3538.110,,2018-12-14 11:47:48,2018-12-14 11:48:52,1m - 4.351s,PASSED
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole),Chrome 70.0.3538.110,,2018-12-14 11:47:48,2018-12-14 11:48:13,25.325s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-14 11:47:48,2018-12-14 11:47:51,2.429s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-14 11:47:51,2018-12-14 11:47:52,1.340s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-14 11:47:52,2018-12-14 11:47:52,0.279s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-14 11:47:52,2018-12-14 11:47:53,0.191s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-14 11:47:53,2018-12-14 11:47:54,1.002s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:47:54,2018-12-14 11:47:55,1.037s,PASSED
+"click(findTestObject(""SuperAdminConsole/Account Creation/a_Add Account""))",Chrome 70.0.3538.110,,2018-12-14 11:47:55,2018-12-14 11:47:56,1.005s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:47:56,2018-12-14 11:47:57,1.007s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Display Title""), ""am-Automation-test"")",Chrome 70.0.3538.110,,2018-12-14 11:47:57,2018-12-14 11:47:57,0.207s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:47:57,2018-12-14 11:47:58,1.002s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Account Creation/Account Information/County""), ""am-Automation-test"")",Chrome 70.0.3538.110,,2018-12-14 11:47:58,2018-12-14 11:47:58,0.207s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:47:58,2018-12-14 11:47:59,1.006s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/StateProvince""), ""MO"", true)",Chrome 70.0.3538.110,,2018-12-14 11:47:59,2018-12-14 11:48:00,0.676s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:00,2018-12-14 11:48:01,1.004s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Pad Type""), ""1"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:01,2018-12-14 11:48:01,0.132s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:01,2018-12-14 11:48:02,1.002s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version""), ""1.0.1"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:02,2018-12-14 11:48:02,0.002s,NOT_RUN
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:02,2018-12-14 11:48:03,1.004s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File""), ""mcvr"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:03,2018-12-14 11:48:03,0.495s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:03,2018-12-14 11:48:04,1.001s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file""), ""mcvr"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:04,2018-12-14 11:48:05,0.469s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:05,2018-12-14 11:48:06,1.006s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places""), ""epulse"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:06,2018-12-14 11:48:06,0.160s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:06,2018-12-14 11:48:07,1.003s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules""), ""mcvr"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:07,2018-12-14 11:48:07,0.208s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:07,2018-12-14 11:48:08,1.005s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter""), ""mcvr"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:08,2018-12-14 11:48:09,0.341s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:09,2018-12-14 11:48:10,1.003s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser""), ""epulse"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:10,2018-12-14 11:48:10,0.138s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:10,2018-12-14 11:48:11,1.006s,PASSED
+"click(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Submit""))",Chrome 70.0.3538.110,,2018-12-14 11:48:11,2018-12-14 11:48:12,1.399s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:12,2018-12-14 11:48:13,1.004s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-14 11:48:13,2018-12-14 11:48:13,0.147s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add,Chrome 70.0.3538.110,,2018-12-14 11:48:13,2018-12-14 11:48:23,10.019s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-14 11:48:14,2018-12-14 11:48:15,1.020s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-14 11:48:15,2018-12-14 11:48:16,1.273s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-14 11:48:16,2018-12-14 11:48:16,0.194s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-14 11:48:16,2018-12-14 11:48:16,0.101s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-14 11:48:16,2018-12-14 11:48:17,0.938s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:17,2018-12-14 11:48:18,1.006s,PASSED
+"navigateToUrl(Prompts, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 11:48:18,2018-12-14 11:48:19,0.977s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:19,2018-12-14 11:48:20,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button""))",Chrome 70.0.3538.110,,2018-12-14 11:48:20,2018-12-14 11:48:20,0.063s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name""), ""Test Prompt"")",Chrome 70.0.3538.110,,2018-12-14 11:48:20,2018-12-14 11:48:20,0.184s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading""), ""Prompt"")",Chrome 70.0.3538.110,,2018-12-14 11:48:20,2018-12-14 11:48:20,0.114s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color""), ""0"", true)",Chrome 70.0.3538.110,,2018-12-14 11:48:20,2018-12-14 11:48:21,0.171s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order""), ""1"")",Chrome 70.0.3538.110,,2018-12-14 11:48:21,2018-12-14 11:48:21,0.122s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label""), ""Prompt"")",Chrome 70.0.3538.110,,2018-12-14 11:48:21,2018-12-14 11:48:21,0.118s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name""), ""Prompt"")",Chrome 70.0.3538.110,,2018-12-14 11:48:21,2018-12-14 11:48:21,0.110s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider""))",Chrome 70.0.3538.110,,2018-12-14 11:48:21,2018-12-14 11:48:21,0.062s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider""))",Chrome 70.0.3538.110,,2018-12-14 11:48:21,2018-12-14 11:48:21,0.048s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea ""), ""Test Prompt"")",Chrome 70.0.3538.110,,2018-12-14 11:48:21,2018-12-14 11:48:21,0.110s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit""))",Chrome 70.0.3538.110,,2018-12-14 11:48:21,2018-12-14 11:48:21,0.068s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-14 11:48:21,2018-12-14 11:48:23,2.006s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-14 11:48:23,2018-12-14 11:48:23,0.090s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria,Chrome 70.0.3538.110,,2018-12-14 11:48:23,2018-12-14 11:48:52,28.681s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-14 11:48:24,2018-12-14 11:48:25,1.007s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-14 11:48:25,2018-12-14 11:48:26,1.587s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-14 11:48:26,2018-12-14 11:48:26,0.176s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-14 11:48:26,2018-12-14 11:48:26,0.086s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-14 11:48:26,2018-12-14 11:48:27,1.050s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:27,2018-12-14 11:48:28,1.005s,PASSED
+"navigateToUrl(Prompts, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 11:48:28,2018-12-14 11:48:30,1.513s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:30,2018-12-14 11:48:31,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt""))",Chrome 70.0.3538.110,Click [Criteria] link to existing prompt,2018-12-14 11:48:31,2018-12-14 11:48:31,0.070s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:31,2018-12-14 11:48:32,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""status_id"", true)",Chrome 70.0.3538.110,"Selects [Voter Status] from ""Add Criteria' dropdown",2018-12-14 11:48:32,2018-12-14 11:48:32,0.183s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:32,2018-12-14 11:48:33,1.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 70.0.3538.110,Adds Voter Status = Active criteria,2018-12-14 11:48:33,2018-12-14 11:48:33,0.059s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:33,2018-12-14 11:48:34,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_status_reason"", true)",Chrome 70.0.3538.110,Select Voter Status reason from from Add Criteria dropdown,2018-12-14 11:48:34,2018-12-14 11:48:34,0.148s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:34,2018-12-14 11:48:35,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator""), ""1"", true)",Chrome 70.0.3538.110,Select Voter Status reason '=',2018-12-14 11:48:35,2018-12-14 11:48:36,0.124s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:36,2018-12-14 11:48:37,1.003s,PASSED
+"setText(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Input Field""), ""Voted"")",Chrome 70.0.3538.110,Input value for Voter Status reason,2018-12-14 11:48:37,2018-12-14 11:48:37,0.100s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:37,2018-12-14 11:48:38,1.004s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 70.0.3538.110,Adds Voter Status Reason criteria,2018-12-14 11:48:38,2018-12-14 11:48:38,0.057s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:38,2018-12-14 11:48:39,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_over_18"", true)",Chrome 70.0.3538.110,"Select ""Voter over 18"" from Add Criteria dropdown",2018-12-14 11:48:39,2018-12-14 11:48:39,0.197s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:39,2018-12-14 11:48:40,1.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 70.0.3538.110,"Add ""Voter over 18"" Criteria",2018-12-14 11:48:40,2018-12-14 11:48:40,0.033s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:40,2018-12-14 11:48:41,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_party"", true)",Chrome 70.0.3538.110,Select Party Affiliation from Add Criteria dropdown,2018-12-14 11:48:41,2018-12-14 11:48:41,0.171s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:41,2018-12-14 11:48:42,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 70.0.3538.110,Adds Party Affiliation criteria,2018-12-14 11:48:42,2018-12-14 11:48:42,0.037s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:42,2018-12-14 11:48:43,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_absentee_information"", true)",Chrome 70.0.3538.110,"Selects ""Absentee Status"" from Add Criteria dropdown
+",2018-12-14 11:48:43,2018-12-14 11:48:43,0.145s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:43,2018-12-14 11:48:44,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type""), ""S"", true)",Chrome 70.0.3538.110,Select Absentee Status Value,2018-12-14 11:48:44,2018-12-14 11:48:44,0.085s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-14 11:48:44,2018-12-14 11:48:46,2.002s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 70.0.3538.110,Adds Absentee Criteria,2018-12-14 11:48:46,2018-12-14 11:48:47,0.051s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:47,2018-12-14 11:48:48,1.007s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown""), ""voter_absentee_information"", true)",Chrome 70.0.3538.110,"Selects ""Absentee Status"" from Add Criteria dropdown
+",2018-12-14 11:48:48,2018-12-14 11:48:48,0.157s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:48,2018-12-14 11:48:49,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type""), ""R"", true)",Chrome 70.0.3538.110,Select Absentee Status Value,2018-12-14 11:48:49,2018-12-14 11:48:49,0.113s,PASSED
+delay(2),Chrome 70.0.3538.110,,2018-12-14 11:48:49,2018-12-14 11:48:51,2.006s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)""))",Chrome 70.0.3538.110,Adds Absentee Criteria,2018-12-14 11:48:51,2018-12-14 11:48:51,0.051s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-14 11:48:51,2018-12-14 11:48:52,1.005s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save""))",Chrome 70.0.3538.110,Save Criteria,2018-12-14 11:48:52,2018-12-14 11:48:52,0.064s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-14 11:48:52,2018-12-14 11:48:52,0.092s,PASSED

@@ -1,0 +1,36 @@
+1
+00:00:00,089 --> 00:00:00,089
+3. Open browser.
+
+2
+00:00:01,530 --> 00:00:01,530
+9. Navigate to ePulse login page.
+
+3
+00:00:04,107 --> 00:00:04,108
+15. Enter user name
+
+4
+00:00:04,309 --> 00:00:04,310
+21. Enter Password
+
+5
+00:00:04,436 --> 00:00:04,436
+27. Login
+
+6
+00:00:05,402 --> 00:00:05,403
+31. delay(1)
+
+7
+00:00:06,409 --> 00:00:06,409
+35. navigateToUrl(Oaths_Imports, STOP_ON_FAILURE)
+
+8
+00:00:07,754 --> 00:00:07,756
+39. delay(1)
+
+9
+00:00:08,760 --> 00:00:08,760
+43. setText(findTestObject("Common ePulse Objects/Choose File"), "/Users/alonzomack/Downloads/oaths.csv")
+

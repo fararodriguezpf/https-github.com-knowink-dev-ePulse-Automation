@@ -1,0 +1,52 @@
+1
+00:00:00,129 --> 00:00:00,130
+3. Open browser.
+
+2
+00:00:01,389 --> 00:00:01,389
+9. Navigate to ePulse login page.
+
+3
+00:00:02,424 --> 00:00:02,425
+15. Enter user name
+
+4
+00:00:02,656 --> 00:00:02,657
+21. Enter Password
+
+5
+00:00:02,761 --> 00:00:02,762
+27. Login
+
+6
+00:00:03,355 --> 00:00:03,365
+31. delay(1)
+
+7
+00:00:04,367 --> 00:00:04,367
+35. navigateToUrl(Pollpad_Config_Import)
+
+8
+00:00:05,012 --> 00:00:05,013
+39. delay(1)
+
+9
+00:00:06,019 --> 00:00:06,020
+43. setText(findTestObject("Common ePulse Objects/Choose File"), "/Users/alonzomack/Downloads/Automation uploads/poll_pad_config.csv")
+
+10
+00:00:06,109 --> 00:00:06,110
+47. setText(findTestObject("Admin Console ePulse Menu/Poll Pads/Poll Pads - Configuration Import/Config Name"), "Test Config")
+
+11
+00:00:06,228 --> 00:00:06,229
+51. click(findTestObject("Common ePulse Objects/Continue Button"))
+
+12
+00:00:06,318 --> 00:00:06,318
+55. delay(1)
+
+13
+00:00:07,320 --> 00:00:07,320
+59. click(findTestObject("Common ePulse Objects/button_Done(working)"))
+

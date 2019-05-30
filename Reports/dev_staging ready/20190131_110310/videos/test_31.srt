@@ -1,0 +1,44 @@
+1
+00:00:00,071 --> 00:00:00,071
+3. Open browser.
+
+2
+00:00:01,359 --> 00:00:01,360
+9. Navigate to ePulse login page.
+
+3
+00:00:02,912 --> 00:00:02,917
+15. Enter user name
+
+4
+00:00:03,224 --> 00:00:03,224
+21. Enter Password
+
+5
+00:00:03,342 --> 00:00:03,343
+27. Login
+
+6
+00:00:03,982 --> 00:00:03,983
+31. delay(1)
+
+7
+00:00:04,985 --> 00:00:04,986
+35. navigateToUrl(Prompts_Imports, STOP_ON_FAILURE)
+
+8
+00:00:06,333 --> 00:00:06,333
+39. setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File"), "/Users/alonzomack/Downloads/prompts-3.txt")
+
+9
+00:00:06,421 --> 00:00:06,421
+43. click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button"))
+
+10
+00:00:06,496 --> 00:00:06,496
+47. delay(1)
+
+11
+00:00:07,502 --> 00:00:07,502
+51. click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)"))
+

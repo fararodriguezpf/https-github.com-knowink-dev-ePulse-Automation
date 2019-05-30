@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="167" tests="6" failures="0" errors="0">
+   <testsuite name="Regression" tests="6" failures="0" errors="0" time="167" timestamp="2018-10-25 11:17:31" hostname="alonzomack - 10.130.25.110" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181025_111729"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Regression/20181025_111729/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 10.130.25.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.130.25.110"/>
+         <property name="sessionId" value="d1ed2bc58a04e306febd29c58d862ef7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Prompts/Prompts - Add" classname="Test Cases/Prompts/Prompts - Add" status="PASSED">
+         <system-out><![CDATA[2018-10-25 11:17:31 - [TEST_CASE][PASSED] - Test Cases/Prompts/Prompts - Add: Test Cases/Prompts/Prompts - Add
+
+2018-10-25 11:17:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 11:17:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 11:17:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:17:36 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:17:36 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:17:36 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:17:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:17:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:17:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:17:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:17:41 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Epulse | am-Automation-test | At a Glance'
+
+2018-10-25 11:17:55 - [MESSAGE][PASSED] - Switched to window with title: 'Epulse | am-Automation-test | At a Glance'
+
+2018-10-25 11:17:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/a_ACCOUNT SETTINGS' is clicked on
+
+2018-10-25 11:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/a_ACCOUNT SETTINGS' is clicked on
+
+2018-10-25 11:17:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/a_PROMPTS' is clicked on
+
+2018-10-25 11:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/a_PROMPTS' is clicked on
+
+2018-10-25 11:17:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button' is clicked on
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button' is clicked on
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - setText: Text 'Test Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Name_promptname'
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - Text 'Test Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Name_promptname'
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - setText: Text 'Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Heading_promptheading'
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Heading_promptheading'
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Order_promptposition'
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Order_promptposition'
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - setText: Text 'Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Field label_promptfield_'
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Field label_promptfield_'
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - setText: Text 'Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Field name_promptfield_n'
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Field name_promptfield_n'
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/div_Show Voter Info_slider' is clicked on
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/div_Show Voter Info_slider' is clicked on
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/div_Show DOB Field_slider' is clicked on
+
+2018-10-25 11:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/div_Show DOB Field_slider' is clicked on
+
+2018-10-25 11:18:00 - [TEST_STEP][PASSED] - setText: Text 'Test Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/textarea_Instructions_promptin'
+
+2018-10-25 11:18:01 - [MESSAGE][PASSED] - Text 'Test Prompt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/textarea_Instructions_promptin'
+
+2018-10-25 11:18:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Cancel_commit' is clicked on
+
+2018-10-25 11:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Cancel_commit' is clicked on
+
+2018-10-25 11:18:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 11:18:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prompts/Prompts - Add Criteria" classname="Test Cases/Prompts/Prompts - Add Criteria" status="PASSED">
+         <system-out><![CDATA[2018-10-25 11:18:01 - [TEST_CASE][PASSED] - Test Cases/Prompts/Prompts - Add Criteria: Test Cases/Prompts/Prompts - Add Criteria
+
+2018-10-25 11:18:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 11:18:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 11:18:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:18:03 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:18:03 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:18:03 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:18:03 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:18:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:18:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:18:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:18:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-Automation-test.epulsedev2.com/prompts' successfully
+
+2018-10-25 11:18:07 - [MESSAGE][PASSED] - Navigate to 'https://am-Automation-test.epulsedev2.com/prompts' successfully
+
+2018-10-25 11:18:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:08 - [TEST_STEP][NOT_RUN] - switchToWindowUrl: NOT_RUN: switchToWindowUrl
+
+2018-10-25 11:18:08 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToWindowUrl
+
+2018-10-25 11:18:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt' is clicked on
+
+2018-10-25 11:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt' is clicked on
+
+2018-10-25 11:18:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'status_id' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:15 - [MESSAGE][PASSED] - All options with value 'status_id' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:22 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'voter_absentee_information' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:22 - [MESSAGE][PASSED] - All options with value 'voter_absentee_information' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'R' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Sent                Rec'  using regular expression
+
+2018-10-25 11:18:23 - [MESSAGE][PASSED] - All options with value 'R' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Sent                Rec'  using regular expression
+
+2018-10-25 11:18:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'voter_status_reason' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:30 - [MESSAGE][PASSED] - All options with value 'voter_status_reason' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Equals                D'  using regular expression
+
+2018-10-25 11:18:31 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Equals                D'  using regular expression
+
+2018-10-25 11:18:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:32 - [TEST_STEP][PASSED] - setText: Text '0' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/input_Add Criteria_prompt_crit'
+
+2018-10-25 11:18:32 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/input_Add Criteria_prompt_crit'
+
+2018-10-25 11:18:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'voter_over_18' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:37 - [MESSAGE][PASSED] - All options with value 'voter_over_18' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'voter_party' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:39 - [MESSAGE][PASSED] - All options with value 'voter_party' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/div_Add Criteria_prompt-new-cr' is clicked on
+
+2018-10-25 11:18:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/input_commit' is clicked on
+
+2018-10-25 11:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/input_commit' is clicked on
+
+2018-10-25 11:18:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 11:18:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prompts/Prompts - Buttons" classname="Test Cases/Prompts/Prompts - Buttons" status="PASSED">
+         <system-out><![CDATA[2018-10-25 11:18:41 - [TEST_CASE][PASSED] - Test Cases/Prompts/Prompts - Buttons: Test Cases/Prompts/Prompts - Buttons
+
+2018-10-25 11:18:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 11:18:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 11:18:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:18:44 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:18:44 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:18:44 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:18:44 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:18:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:18:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:18:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:18:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:48 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Epulse | am-Automation-test | At a Glance'
+
+2018-10-25 11:18:49 - [MESSAGE][PASSED] - Switched to window with title: 'Epulse | am-Automation-test | At a Glance'
+
+2018-10-25 11:18:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/a_ACCOUNT SETTINGS' is clicked on
+
+2018-10-25 11:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/a_ACCOUNT SETTINGS' is clicked on
+
+2018-10-25 11:18:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/a_PROMPTS' is clicked on
+
+2018-10-25 11:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/a_PROMPTS' is clicked on
+
+2018-10-25 11:18:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_BUTTON_To_Prompt' is clicked on
+
+2018-10-25 11:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_BUTTON_To_Prompt' is clicked on
+
+2018-10-25 11:18:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:51 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:18:51 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:18:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:52 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:18:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:54 - [TEST_STEP][PASSED] - setText: Text 'test1' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:18:54 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:18:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:56 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:18:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:58 - [TEST_STEP][PASSED] - setText: Text 'test3' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:18:58 - [MESSAGE][PASSED] - Text 'test3' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:18:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:18:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:18:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:59 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:18:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:00 - [TEST_STEP][PASSED] - setText: Text 'asdf' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:19:00 - [MESSAGE][PASSED] - Text 'asdf' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:19:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:19:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:02 - [TEST_STEP][PASSED] - setText: Text 'test2' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:19:02 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:19:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:19:03 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:19:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:04 - [TEST_STEP][PASSED] - setText: Text 'test4' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:19:04 - [MESSAGE][PASSED] - Text 'test4' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:19:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:19:06 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:19:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:19:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:08 - [TEST_STEP][PASSED] - setText: Text 'test5' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:19:08 - [MESSAGE][PASSED] - Text 'test5' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/input_Buttons_prompt_buttonlab'
+
+2018-10-25 11:19:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:19:09 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/select_Select...'  using regular expression
+
+2018-10-25 11:19:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/div_Buttons_prompt-new-button-' is clicked on
+
+2018-10-25 11:19:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button' is clicked on
+
+2018-10-25 11:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Prompt Button Modal/Close Button' is clicked on
+
+2018-10-25 11:19:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 11:19:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prompts/Prompts - Edit" classname="Test Cases/Prompts/Prompts - Edit" status="PASSED">
+         <system-out><![CDATA[2018-10-25 11:19:12 - [TEST_CASE][PASSED] - Test Cases/Prompts/Prompts - Edit: Test Cases/Prompts/Prompts - Edit
+
+2018-10-25 11:19:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 11:19:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 11:19:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 11:19:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-25 11:19:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 11:19:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:19:15 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:19:15 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:19:15 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:19:15 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:19:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:19:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:19:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:19:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:18 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Epulse | am-Automation-test | At a Glance'
+
+2018-10-25 11:19:19 - [MESSAGE][PASSED] - Switched to window with title: 'Epulse | am-Automation-test | At a Glance'
+
+2018-10-25 11:19:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/a_ACCOUNT SETTINGS' is clicked on
+
+2018-10-25 11:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/a_ACCOUNT SETTINGS' is clicked on
+
+2018-10-25 11:19:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/a_PROMPTS' is clicked on
+
+2018-10-25 11:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/a_PROMPTS' is clicked on
+
+2018-10-25 11:19:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Edit Prompt' is clicked on
+
+2018-10-25 11:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Edit Prompt' is clicked on
+
+2018-10-25 11:19:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:24 - [TEST_STEP][PASSED] - setText: Text 'Test Prompt Test' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Name_promptname'
+
+2018-10-25 11:19:24 - [MESSAGE][PASSED] - Text 'Test Prompt Test' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Name_promptname'
+
+2018-10-25 11:19:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:26 - [TEST_STEP][PASSED] - setText: Text 'Prompt Edit' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Heading_promptheading'
+
+2018-10-25 11:19:26 - [MESSAGE][PASSED] - Text 'Prompt Edit' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Heading_promptheading'
+
+2018-10-25 11:19:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/select_Select...'  using regular expression
+
+2018-10-25 11:19:28 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/select_Select...'  using regular expression
+
+2018-10-25 11:19:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:30 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Order_promptposition'
+
+2018-10-25 11:19:31 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Order_promptposition'
+
+2018-10-25 11:19:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:33 - [TEST_STEP][PASSED] - setText: Text 'Prompt Test' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Field label_promptfield_'
+
+2018-10-25 11:19:33 - [MESSAGE][PASSED] - Text 'Prompt Test' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Field label_promptfield_'
+
+2018-10-25 11:19:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:35 - [TEST_STEP][PASSED] - setText: Text 'prompt test' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Field name_promptfield_n'
+
+2018-10-25 11:19:35 - [MESSAGE][PASSED] - Text 'prompt test' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Field name_promptfield_n'
+
+2018-10-25 11:19:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/div_Show Voter Info_slider' is clicked on
+
+2018-10-25 11:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/div_Show Voter Info_slider' is clicked on
+
+2018-10-25 11:19:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/div_Show Text Field_slider' is clicked on
+
+2018-10-25 11:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/div_Show Text Field_slider' is clicked on
+
+2018-10-25 11:19:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:41 - [TEST_STEP][PASSED] - setText: Text 'Test Prompt2' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/textarea_Instructions_promptin'
+
+2018-10-25 11:19:41 - [MESSAGE][PASSED] - Text 'Test Prompt2' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/textarea_Instructions_promptin'
+
+2018-10-25 11:19:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Cancel_commit' is clicked on
+
+2018-10-25 11:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/input_Cancel_commit' is clicked on
+
+2018-10-25 11:19:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-25 11:19:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-25 11:19:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 11:19:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prompts/Prompts - Import" classname="Test Cases/Prompts/Prompts - Import" status="PASSED">
+         <system-out><![CDATA[2018-10-25 11:19:45 - [TEST_CASE][PASSED] - Test Cases/Prompts/Prompts - Import: Test Cases/Prompts/Prompts - Import
+
+2018-10-25 11:19:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 11:19:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 11:19:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:19:47 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:19:47 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:19:48 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:19:48 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:19:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:19:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:19:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:19:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-Automation-test.epulsedev2.com/imports/prompts' successfully
+
+2018-10-25 11:19:51 - [MESSAGE][PASSED] - Navigate to 'https://am-Automation-test.epulsedev2.com/imports/prompts' successfully
+
+2018-10-25 11:19:51 - [TEST_STEP][NOT_RUN] - switchToWindowUrl: NOT_RUN: switchToWindowUrl
+
+2018-10-25 11:19:51 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToWindowUrl
+
+2018-10-25 11:19:51 - [TEST_STEP][PASSED] - setText: Text '/Users/alonzomack/Downloads/prompts-3.txt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-10-25 11:19:51 - [MESSAGE][PASSED] - Text '/Users/alonzomack/Downloads/prompts-3.txt' is set on object 'Object Repository/ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Choose File'
+
+2018-10-25 11:19:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-10-25 11:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/Continue Button' is clicked on
+
+2018-10-25 11:19:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:19:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:19:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on
+
+2018-10-25 11:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Import Prompts Buttons/button_Done(working)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prompts/Prompts - Delete" classname="Test Cases/Prompts/Prompts - Delete" status="PASSED">
+         <system-out><![CDATA[2018-10-25 11:20:07 - [TEST_CASE][PASSED] - Test Cases/Prompts/Prompts - Delete: Test Cases/Prompts/Prompts - Delete
+
+2018-10-25 11:20:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 11:20:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-25 11:20:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 11:20:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:20:09 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-25 11:20:09 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:20:09 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Page_Epulse/input_epulse_useremail'
+
+2018-10-25 11:20:09 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:20:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Epulse/input_epulse_userpassword'
+
+2018-10-25 11:20:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Epulse/input_Remember me_commit' is clicked on
+
+2018-10-25 11:20:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Select Account/a_Login' is clicked on
+
+2018-10-25 11:20:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:20:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:20:12 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Epulse | am-Automation-test | At a Glance'
+
+2018-10-25 11:20:12 - [MESSAGE][PASSED] - Switched to window with title: 'Epulse | am-Automation-test | At a Glance'
+
+2018-10-25 11:20:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/a_ACCOUNT SETTINGS' is clicked on
+
+2018-10-25 11:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/a_ACCOUNT SETTINGS' is clicked on
+
+2018-10-25 11:20:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/a_PROMPTS' is clicked on
+
+2018-10-25 11:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/a_PROMPTS' is clicked on
+
+2018-10-25 11:20:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-25 11:20:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 11:20:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Delete Prompt' is clicked on
+
+2018-10-25 11:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ePulse Menu/Account Settings/Prompts/Delete Prompt' is clicked on
+
+2018-10-25 11:20:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-25 11:20:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-25 11:20:17 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-25 11:20:17 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-25 11:20:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 11:20:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-25 11:17:31 - [TEST_SUITE][PASSED] - Regression: Test Cases/Prompts/Prompts - Delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

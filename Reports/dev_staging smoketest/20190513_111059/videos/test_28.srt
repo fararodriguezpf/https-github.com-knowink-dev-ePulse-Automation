@@ -1,0 +1,52 @@
+1
+00:00:00,065 --> 00:00:00,066
+3. Open browser.
+
+2
+00:00:01,414 --> 00:00:01,414
+9. Navigate to ePulse login page.
+
+3
+00:00:03,989 --> 00:00:03,989
+15. Enter user name
+
+4
+00:00:04,277 --> 00:00:04,277
+21. Enter Password
+
+5
+00:00:04,383 --> 00:00:04,383
+27. Login
+
+6
+00:00:05,245 --> 00:00:05,245
+31. delay(1)
+
+7
+00:00:06,250 --> 00:00:06,256
+35. navigateToUrl(Oaths, STOP_ON_FAILURE)
+
+8
+00:00:07,707 --> 00:00:07,707
+39. delay(1)
+
+9
+00:00:08,712 --> 00:00:08,712
+43. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/Delete Displayed Oath"))
+
+10
+00:00:08,805 --> 00:00:08,805
+47. delay(1)
+
+11
+00:00:09,812 --> 00:00:09,812
+51. acceptAlert(STOP_ON_FAILURE)
+
+12
+00:00:09,824 --> 00:00:09,825
+55. delay(1)
+
+13
+00:00:10,829 --> 00:00:10,829
+59. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/Delete Displayed Oath"))
+

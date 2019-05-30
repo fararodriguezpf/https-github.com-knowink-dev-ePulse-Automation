@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dev_staging ready,Chrome 71.0.3578.98,,2019-01-31 10:23:53,2019-01-31 10:24:31,37.180s,INCOMPLETE
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete,Chrome 71.0.3578.98,,2019-01-31 10:23:54,2019-01-31 10:24:12,18.135s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,Open browser.,2019-01-31 10:23:55,2019-01-31 10:23:58,3.486s,PASSED
+navigateToUrl(URL),Chrome 71.0.3578.98,Navigate to ePulse login page.,2019-01-31 10:23:58,2019-01-31 10:24:00,1.904s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 71.0.3578.98,Enter user name,2019-01-31 10:24:00,2019-01-31 10:24:01,0.338s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 71.0.3578.98,Enter Password,2019-01-31 10:24:01,2019-01-31 10:24:01,0.312s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 71.0.3578.98,Login,2019-01-31 10:24:01,2019-01-31 10:24:02,1.098s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-31 10:24:02,2019-01-31 10:24:03,1.020s,PASSED
+"click(findTestObject(""Login/am-Automation-test""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 10:24:03,2019-01-31 10:24:04,1.387s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-31 10:24:04,2019-01-31 10:24:05,1.006s,PASSED
+"mouseOver(findTestObject(""Common ePulse Objects/Actions(Gear icon)""))",Chrome 71.0.3578.98,,2019-01-31 10:24:05,2019-01-31 10:24:05,0.078s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-31 10:24:05,2019-01-31 10:24:08,3.003s,PASSED
+"click(findTestObject(""SuperAdminConsole/Edit Accounts - Actions/Delete""))",Chrome 71.0.3578.98,,2019-01-31 10:24:08,2019-01-31 10:24:09,0.129s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-31 10:24:09,2019-01-31 10:24:10,1.002s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-31 10:24:10,2019-01-31 10:24:10,0.018s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 71.0.3578.98,,2019-01-31 10:24:10,2019-01-31 10:24:10,0.154s,PASSED
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole),Chrome 71.0.3578.98,,2019-01-31 10:24:12,2019-01-31 10:24:23,11.302s,FAILED
+"callTestCase(findTestCase(""Login/SuperAdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 10:24:12,2019-01-31 10:24:17,4.690s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-31 10:24:17,2019-01-31 10:24:18,1.004s,PASSED
+"click(findTestObject(""SuperAdminConsole/Account Creation/a_Add Account""))",Chrome 71.0.3578.98,,2019-01-31 10:24:18,2019-01-31 10:24:19,1.013s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-31 10:24:19,2019-01-31 10:24:20,1.010s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Display Title""), ""am-Automation-test"")",Chrome 71.0.3578.98,,2019-01-31 10:24:20,2019-01-31 10:24:20,0.312s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-31 10:24:20,2019-01-31 10:24:21,1.003s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Account Creation/Account Information/County""), ""am-Automation-test"")",Chrome 71.0.3578.98,,2019-01-31 10:24:21,2019-01-31 10:24:21,0.054s,FAILED
+,,,,,,
+Test Cases/Admin Console/Election Setup/Elections/Election Creation,Chrome 71.0.3578.98,,2019-01-31 10:24:23,2019-01-31 10:24:31,7.469s,INCOMPLETE
+"openBrowser("""")",Chrome 71.0.3578.98,Open browser.,2019-01-31 10:24:23,2019-01-31 10:24:25,1.481s,PASSED
+navigateToUrl(URL),Chrome 71.0.3578.98,Navigate to ePulse login page.,2019-01-31 10:24:25,2019-01-31 10:24:27,1.712s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 71.0.3578.98,Enter user name,2019-01-31 10:24:27,2019-01-31 10:24:27,0.230s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 71.0.3578.98,Enter Password,2019-01-31 10:24:27,2019-01-31 10:24:27,0.117s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 71.0.3578.98,Login,2019-01-31 10:24:27,2019-01-31 10:24:28,1.106s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-31 10:24:28,2019-01-31 10:24:29,1.008s,PASSED
+navigateToUrl(Election_Import),Chrome 71.0.3578.98,Click the Elections link under Election Setup.,2019-01-31 10:24:29,2019-01-31 10:24:30,1.410s,PASSED
+"setText(findTestObject(""Common ePulse Objects/Choose File""), ""/Users/alonzomack/Downloads/Imports/Missouri/voters_200_mcvr.txt"")",Chrome 71.0.3578.98,Election Creation Step 1 - Choose the file to upload.,2019-01-31 10:24:30,2019-01-31 10:24:31,0.112s,PASSED
+"click(findTestObject(""Common ePulse Objects/Continue Button""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,Election Creation Step 1 - Click Continue once the file is specified.,2019-01-31 10:24:31,2019-01-31 10:24:31,0.084s,PASSED
+delay(10),Chrome 71.0.3578.98,Delay to account for loading times.,2019-01-31 10:24:31,2019-01-31 10:24:31,0.000s,INCOMPLETE

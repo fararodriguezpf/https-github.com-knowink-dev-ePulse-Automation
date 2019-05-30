@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test(US)" time="18" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke Test(US)" tests="1" failures="0" errors="0" time="18" timestamp="2018-10-31 11:42:14" hostname="alonzomack - 10.130.25.110" id="Test Suites/Smoke Test(US)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Smoke Test(US)/20181031_114212"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/Smoke Test(US)/20181031_114212/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 10.130.25.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.130.25.110"/>
+         <property name="sessionId" value="c38e35677c4b5978e3ed879823f7d992"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add" classname="Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add" status="PASSED">
+         <system-out><![CDATA[2018-10-31 11:42:14 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add: Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add
+
+2018-10-31 11:42:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-31 11:42:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-31 11:42:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-31 11:42:19 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-10-31 11:42:19 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-31 11:42:19 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-10-31 11:42:19 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-31 11:42:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-10-31 11:42:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-31 11:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-10-31 11:42:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-31 11:42:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-31 11:42:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://am-automation-test.epulsedev2.com/account_oaths' successfully
+
+2018-10-31 11:42:22 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsedev2.com/account_oaths' successfully
+
+2018-10-31 11:42:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-31 11:42:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-31 11:42:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:23 - [TEST_STEP][PASSED] - setText: Text 'ID Method' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:24 - [MESSAGE][PASSED] - Text 'ID Method' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:24 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:24 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:24 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:24 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Id Method' is clicked on
+
+2018-10-31 11:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Id Method' is clicked on
+
+2018-10-31 11:42:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-31 11:42:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-31 11:42:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:25 - [TEST_STEP][PASSED] - setText: Text 'Voter Check In Signing Page' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:25 - [MESSAGE][PASSED] - Text 'Voter Check In Signing Page' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:25 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:25 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:25 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:26 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Voter Check In Signing Pa' is clicked on
+
+2018-10-31 11:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Voter Check In Signing Pa' is clicked on
+
+2018-10-31 11:42:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-31 11:42:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-31 11:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:27 - [TEST_STEP][PASSED] - setText: Text 'Allow Voter to Vote' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:27 - [MESSAGE][PASSED] - Text 'Allow Voter to Vote' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:27 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:27 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:27 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:27 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Allow Voter To Vote' is clicked on
+
+2018-10-31 11:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Allow Voter To Vote' is clicked on
+
+2018-10-31 11:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-31 11:42:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-31 11:42:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:28 - [TEST_STEP][PASSED] - setText: Text 'Voter Check In Signing Page(Provisional' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:29 - [MESSAGE][PASSED] - Text 'Voter Check In Signing Page(Provisional' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:29 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:29 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:29 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:29 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Voter Check In Signing Pa' is clicked on
+
+2018-10-31 11:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Voter Check In Signing Pa' is clicked on
+
+2018-10-31 11:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-31 11:42:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-31 11:42:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:30 - [TEST_STEP][PASSED] - setText: Text 'Similar Name Affidavit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:30 - [MESSAGE][PASSED] - Text 'Similar Name Affidavit' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:30 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:30 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:30 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:30 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Similar Name Affidavit' is clicked on
+
+2018-10-31 11:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Similar Name Affidavit' is clicked on
+
+2018-10-31 11:42:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-31 11:42:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-31 11:42:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/New Oath' is clicked on
+
+2018-10-31 11:42:32 - [TEST_STEP][PASSED] - setText: Text 'Reasonable Impediment Declaration' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:32 - [MESSAGE][PASSED] - Text 'Reasonable Impediment Declaration' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Name'
+
+2018-10-31 11:42:32 - [TEST_STEP][PASSED] - setText: Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:32 - [MESSAGE][PASSED] - Text 'Oath Instructions' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Instructions'
+
+2018-10-31 11:42:32 - [TEST_STEP][PASSED] - setText: Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:32 - [MESSAGE][PASSED] - Text 'Customize the oath displayed to voters' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Customized Oath Text Area'
+
+2018-10-31 11:42:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Oath Type Dropdown' is clicked on
+
+2018-10-31 11:42:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Reasonable Impediment Decla' is clicked on
+
+2018-10-31 11:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Reasonable Impediment Decla' is clicked on
+
+2018-10-31 11:42:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on
+
+2018-10-31 11:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-31 11:42:14 - [TEST_SUITE][PASSED] - Smoke Test(US): Test Cases/Admin Console/Account Settings/Oaths/Oaths - Add]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

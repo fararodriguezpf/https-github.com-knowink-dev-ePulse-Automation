@@ -1,0 +1,52 @@
+1
+00:00:00,093 --> 00:00:00,094
+3. Open browser.
+
+2
+00:00:01,126 --> 00:00:01,126
+9. Navigate to ePulse login page.
+
+3
+00:00:02,165 --> 00:00:02,166
+15. Enter user name
+
+4
+00:00:02,405 --> 00:00:02,406
+21. Enter Password
+
+5
+00:00:02,502 --> 00:00:02,502
+27. Login
+
+6
+00:00:03,051 --> 00:00:03,052
+31. delay(1)
+
+7
+00:00:04,056 --> 00:00:04,057
+35. navigateToUrl(Ballot_Types)
+
+8
+00:00:05,011 --> 00:00:05,011
+39. delay(1)
+
+9
+00:00:06,014 --> 00:00:06,014
+43. click(findTestObject("Admin Console ePulse Menu/Election Setup/Ballot Styles/Import"))
+
+10
+00:00:06,383 --> 00:00:06,384
+47. setText(findTestObject("Common ePulse Objects/Choose File"), "/Users/alonzomack/Downloads/Automation uploads/ballot_types.csv")
+
+11
+00:00:06,494 --> 00:00:06,494
+51. click(findTestObject("Common ePulse Objects/Continue Button"))
+
+12
+00:00:06,577 --> 00:00:06,578
+55. delay(1)
+
+13
+00:00:07,581 --> 00:00:07,582
+59. click(findTestObject("Common ePulse Objects/button_Done(working)"))
+

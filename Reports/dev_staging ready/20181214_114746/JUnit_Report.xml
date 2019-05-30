@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dev_staging ready" time="64" tests="3" failures="0" errors="0">
+   <testsuite name="dev_staging ready" tests="3" failures="0" errors="0" time="64" timestamp="2018-12-14 11:47:48" hostname="alonzomack - 192.168.1.9" id="Test Suites/dev_staging ready">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181214_114746"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181214_114746/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="e702028df7cb6daf8211db563cf96bdd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" classname="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" status="PASSED">
+         <system-out><![CDATA[2018-12-14 11:47:48 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole): Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)
+
+2018-12-14 11:47:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 11:47:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 11:47:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 11:47:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 11:47:51 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-14 11:47:52 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-14 11:47:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:47:52 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:47:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:47:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:47:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:47:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:47:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:47:55 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminConsole/Account Creation/a_Add Account")): Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2018-12-14 11:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2018-12-14 11:47:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:47:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:47:57 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/Display Title"), "am-Automation-test"): Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2018-12-14 11:47:57 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2018-12-14 11:47:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:47:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/County"), "am-Automation-test"): Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County'
+
+2018-12-14 11:47:58 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County'
+
+2018-12-14 11:47:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:47:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:47:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/StateProvince"), "MO", true): All options with value 'MO' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/StateProvince'  using regular expression
+
+2018-12-14 11:48:00 - [MESSAGE][PASSED] - All options with value 'MO' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/StateProvince'  using regular expression
+
+2018-12-14 11:48:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/Pad Type"), "1", true): All options with value '1' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Pad Type'  using regular expression
+
+2018-12-14 11:48:01 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Pad Type'  using regular expression
+
+2018-12-14 11:48:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:02 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version"), "1.0.1", true): NOT_RUN: selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version"), "1.0.1", true)
+
+2018-12-14 11:48:02 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version"), "1.0.1", true)
+
+2018-12-14 11:48:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File"), "mcvr", true): All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File'  using regular expression
+
+2018-12-14 11:48:03 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File'  using regular expression
+
+2018-12-14 11:48:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file"), "mcvr", true): All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file'  using regular expression
+
+2018-12-14 11:48:05 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file'  using regular expression
+
+2018-12-14 11:48:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places"), "epulse", true): All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places'  using regular expression
+
+2018-12-14 11:48:06 - [MESSAGE][PASSED] - All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places'  using regular expression
+
+2018-12-14 11:48:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules"), "mcvr", true): All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules'  using regular expression
+
+2018-12-14 11:48:07 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules'  using regular expression
+
+2018-12-14 11:48:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter"), "mcvr", true): All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter'  using regular expression
+
+2018-12-14 11:48:09 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter'  using regular expression
+
+2018-12-14 11:48:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser"), "epulse", true): All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser'  using regular expression
+
+2018-12-14 11:48:10 - [MESSAGE][PASSED] - All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser'  using regular expression
+
+2018-12-14 11:48:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:11 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Submit")): Object: 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Submit' is clicked on
+
+2018-12-14 11:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Submit' is clicked on
+
+2018-12-14 11:48:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-14 11:48:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add" classname="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add" status="PASSED">
+         <system-out><![CDATA[2018-12-14 11:48:13 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add: Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add
+
+2018-12-14 11:48:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 11:48:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 11:48:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 11:48:15 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-14 11:48:16 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-14 11:48:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:48:16 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:48:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:48:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:48:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:18 - [TEST_STEP][PASSED] - navigateToUrl(Prompts, STOP_ON_FAILURE): Navigate to 'https://am-Automation-test.epulsedev2.com/prompts' successfully
+
+2018-12-14 11:48:19 - [MESSAGE][PASSED] - Navigate to 'https://am-Automation-test.epulsedev2.com/prompts' successfully
+
+2018-12-14 11:48:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button' is clicked on
+
+2018-12-14 11:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Create_New_Prompt_Button' is clicked on
+
+2018-12-14 11:48:20 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name"), "Test Prompt"): Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name'
+
+2018-12-14 11:48:20 - [MESSAGE][PASSED] - Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Name'
+
+2018-12-14 11:48:20 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading"), "Prompt"): Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading'
+
+2018-12-14 11:48:20 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Heading'
+
+2018-12-14 11:48:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color"), "0", true): All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color'  using regular expression
+
+2018-12-14 11:48:21 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Select Color'  using regular expression
+
+2018-12-14 11:48:21 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order"), "1"): Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order'
+
+2018-12-14 11:48:21 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Order'
+
+2018-12-14 11:48:21 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label"), "Prompt"): Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label'
+
+2018-12-14 11:48:21 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Label'
+
+2018-12-14 11:48:21 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name"), "Prompt"): Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name'
+
+2018-12-14 11:48:21 - [MESSAGE][PASSED] - Text 'Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Field Name'
+
+2018-12-14 11:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider' is clicked on
+
+2018-12-14 11:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show Voter Info_slider' is clicked on
+
+2018-12-14 11:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider' is clicked on
+
+2018-12-14 11:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Show DOB Field_slider' is clicked on
+
+2018-12-14 11:48:21 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea "), "Test Prompt"): Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea '
+
+2018-12-14 11:48:21 - [MESSAGE][PASSED] - Text 'Test Prompt' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Instructions textarea '
+
+2018-12-14 11:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit' is clicked on
+
+2018-12-14 11:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_Edit Prompt Modal/Submit' is clicked on
+
+2018-12-14 11:48:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 11:48:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 11:48:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-14 11:48:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria" classname="Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria" status="PASSED">
+         <system-out><![CDATA[2018-12-14 11:48:23 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria: Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria
+
+2018-12-14 11:48:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-14 11:48:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-14 11:48:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-14 11:48:25 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-14 11:48:26 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-12-14 11:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:48:26 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-14 11:48:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:48:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-14 11:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-14 11:48:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:28 - [TEST_STEP][PASSED] - navigateToUrl(Prompts, STOP_ON_FAILURE): Navigate to 'https://am-Automation-test.epulsedev2.com/prompts' successfully
+
+2018-12-14 11:48:30 - [MESSAGE][PASSED] - Navigate to 'https://am-Automation-test.epulsedev2.com/prompts' successfully
+
+2018-12-14 11:48:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt' is clicked on
+
+2018-12-14 11:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Add_CRITERIA_To_Prompt' is clicked on
+
+2018-12-14 11:48:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown"), "status_id", true): All options with value 'status_id' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:32 - [MESSAGE][PASSED] - All options with value 'status_id' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown"), "voter_status_reason", true): All options with value 'voter_status_reason' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:34 - [MESSAGE][PASSED] - All options with value 'voter_status_reason' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator"), "1", true): All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression
+
+2018-12-14 11:48:36 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Operator'  using regular expression
+
+2018-12-14 11:48:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:37 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Input Field"), "Voted"): Text 'Voted' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Input Field'
+
+2018-12-14 11:48:37 - [MESSAGE][PASSED] - Text 'Voted' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Voter Status Reason Input Field'
+
+2018-12-14 11:48:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:38 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown"), "voter_over_18", true): All options with value 'voter_over_18' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:39 - [MESSAGE][PASSED] - All options with value 'voter_over_18' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:40 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown"), "voter_party", true): All options with value 'voter_party' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:41 - [MESSAGE][PASSED] - All options with value 'voter_party' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown"), "voter_absentee_information", true): All options with value 'voter_absentee_information' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:43 - [MESSAGE][PASSED] - All options with value 'voter_absentee_information' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type"), "S", true): All options with value 'S' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type'  using regular expression
+
+2018-12-14 11:48:44 - [MESSAGE][PASSED] - All options with value 'S' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type'  using regular expression
+
+2018-12-14 11:48:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 11:48:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 11:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown"), "voter_absentee_information", true): All options with value 'voter_absentee_information' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:48 - [MESSAGE][PASSED] - All options with value 'voter_absentee_information' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria Dropdown'  using regular expression
+
+2018-12-14 11:48:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type"), "R", true): All options with value 'R' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type'  using regular expression
+
+2018-12-14 11:48:49 - [MESSAGE][PASSED] - All options with value 'R' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Absentee Status Type'  using regular expression
+
+2018-12-14 11:48:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-14 11:48:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-14 11:48:51 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Add Criteria(Plus Sign)' is clicked on
+
+2018-12-14 11:48:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-14 11:48:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-14 11:48:52 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save' is clicked on
+
+2018-12-14 11:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Prompts/Prompt Criteria Modal/Save' is clicked on
+
+2018-12-14 11:48:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-14 11:48:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 11:47:48 - [TEST_SUITE][PASSED] - dev_staging ready: Test Cases/Admin Console/Account Settings/Prompts()/Prompts - Add Criteria]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-17T15:46:20</date>
+  <millis>1545083180793</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/dev_staging ready</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">dev_staging ready</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/dev_staging ready</property>
+</record>
+<record>
+  <date>2018-12-17T15:46:20</date>
+  <millis>1545083180813</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = alonzomack - 192.168.1.9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">alonzomack - 192.168.1.9</property>
+</record>
+<record>
+  <date>2018-12-17T15:46:20</date>
+  <millis>1545083180816</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2018-12-17T15:46:20</date>
+  <millis>1545083180817</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.9</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.9</property>
+</record>
+<record>
+  <date>2018-12-17T15:46:20</date>
+  <millis>1545083180822</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.9.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.9.1.2</property>
+</record>
+<record>
+  <date>2018-12-17T15:46:21</date>
+  <millis>1545083181148</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete</property>
+  <property name="source">\\Users\\alonzomack\\Katalon Studio\\Regression\\Test Cases\\SuperAdminConsole\\Accounts\\Account(SuperAdminConsole) - Delete.tc</property>
+  <property name="isOptional">false</property>
+</record>
+</log>

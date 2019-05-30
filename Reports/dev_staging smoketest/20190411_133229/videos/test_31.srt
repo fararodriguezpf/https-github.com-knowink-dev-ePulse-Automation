@@ -1,0 +1,48 @@
+1
+00:00:00,241 --> 00:00:00,241
+3. Open browser.
+
+2
+00:00:02,706 --> 00:00:02,706
+9. Navigate to ePulse login page.
+
+3
+00:00:04,192 --> 00:00:04,192
+15. Enter user name
+
+4
+00:00:04,255 --> 00:00:04,256
+21. Enter Password
+
+5
+00:00:04,319 --> 00:00:04,319
+27. Login
+
+6
+00:00:05,297 --> 00:00:05,297
+31. delay(1)
+
+7
+00:00:06,301 --> 00:00:06,301
+35. navigateToUrl(Oaths, STOP_ON_FAILURE)
+
+8
+00:00:07,148 --> 00:00:07,149
+39. delay(1)
+
+9
+00:00:08,150 --> 00:00:08,151
+43. click(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Edit Displayed Oath"))
+
+10
+00:00:08,413 --> 00:00:08,414
+47. clearText(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Edit_Name_account_oathname"))
+
+11
+00:00:08,432 --> 00:00:08,433
+51. setText(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Edit_Name_account_oathname"), "Reasonable Impediment Declaration Edited")
+
+12
+00:00:08,485 --> 00:00:08,485
+55. clearText(findTestObject("Admin Console ePulse Menu/Account Settings/Oaths/Add_Edit Oath/Edit Instructions"))
+

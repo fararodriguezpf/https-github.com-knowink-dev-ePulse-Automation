@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dev_staging ready" time="52" tests="1" failures="1" errors="0">
+   <testsuite name="dev_staging ready" tests="1" failures="1" errors="0" time="52" timestamp="2018-12-13 13:53:12" hostname="alonzomack - 192.168.1.7" id="Test Suites/dev_staging ready">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181213_135310"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181213_135310/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 192.168.1.7"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="edad4d68755a6df32d5007a0f45045a7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" classname="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" status="PASSED">
+         <system-out><![CDATA[2018-12-13 13:53:12 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole): Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)
+
+2018-12-13 13:53:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-13 13:53:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-13 13:53:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-13 13:53:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-13 13:53:15 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-13 13:53:17 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-13 13:53:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-13 13:53:18 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-13 13:53:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-13 13:53:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-13 13:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-13 13:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-13 13:53:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:20 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminConsole/Account Creation/a_Add Account")): Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2018-12-13 13:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2018-12-13 13:53:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:21 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/Display Title"), "am-Automation-test"): Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2018-12-13 13:53:22 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2018-12-13 13:53:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdminConsole/Account Creation/Account Information/County"), "am-Automation-test"): Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County'
+
+2018-12-13 13:53:23 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County'
+
+2018-12-13 13:53:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/StateProvince"), "MO", true): All options with value 'MO' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/StateProvince'  using regular expression
+
+2018-12-13 13:53:24 - [MESSAGE][PASSED] - All options with value 'MO' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/StateProvince'  using regular expression
+
+2018-12-13 13:53:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/Pad Type"), "1", true): All options with value '1' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Pad Type'  using regular expression
+
+2018-12-13 13:53:26 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Pad Type'  using regular expression
+
+2018-12-13 13:53:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:27 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version"), "1.0.1", true): NOT_RUN: selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version"), "1.0.1", true)
+
+2018-12-13 13:53:27 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version"), "1.0.1", true)
+
+2018-12-13 13:53:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File"), "mcvr", true): All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File'  using regular expression
+
+2018-12-13 13:53:28 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File'  using regular expression
+
+2018-12-13 13:53:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file"), "mcvr", true): All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file'  using regular expression
+
+2018-12-13 13:53:30 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file'  using regular expression
+
+2018-12-13 13:53:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places"), "epulse", true): All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places'  using regular expression
+
+2018-12-13 13:53:31 - [MESSAGE][PASSED] - All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places'  using regular expression
+
+2018-12-13 13:53:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules"), "mcvr", true): All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules'  using regular expression
+
+2018-12-13 13:53:32 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules'  using regular expression
+
+2018-12-13 13:53:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter"), "mcvr", true): All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter'  using regular expression
+
+2018-12-13 13:53:33 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter'  using regular expression
+
+2018-12-13 13:53:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser"), "epulse", true): All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser'  using regular expression
+
+2018-12-13 13:53:34 - [MESSAGE][PASSED] - All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser'  using regular expression
+
+2018-12-13 13:53:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:35 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminConsole/Account Creation/Parsers and Exporters/Submit")): Object: 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Submit' is clicked on
+
+2018-12-13 13:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Submit' is clicked on
+
+2018-12-13 13:53:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-13 13:53:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB" classname="Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:2c5d:933f:e6d6:1573%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: edad4d68755a6df32d5007a0f45045a7
+*** Element info: {Using=xpath, value=//a[@data-anchor=&quot;#demo_db&quot;]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Poll Pad Setup - Demo DB.run(Poll Pad Setup - Demo DB:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544730790083.run(TempTestSuite1544730790083.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-13 13:53:37 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB: Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:2c5d:933f:e6d6:1573%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: edad4d68755a6df32d5007a0f45045a7
+*** Element info: {Using=xpath, value=//a[@data-anchor="#demo_db"]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Poll Pad Setup - Demo DB.run(Poll Pad Setup - Demo DB:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544730790083.run(TempTestSuite1544730790083.groovy:36)
+
+
+2018-12-13 13:53:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-13 13:53:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-13 13:53:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-13 13:53:38 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-13 13:53:46 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-13 13:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-13 13:53:46 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-13 13:53:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-13 13:53:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-13 13:53:46 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-13 13:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-13 13:53:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-13 13:53:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-13 13:53:48 - [TEST_STEP][PASSED] - navigateToUrl(Demo_DB): Navigate to 'https://am-automation-test.beta2.com/account_settings/poll_pad' successfully
+
+2018-12-13 13:53:49 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.beta2.com/account_settings/poll_pad' successfully
+
+2018-12-13 13:53:49 - [TEST_STEP][FAILED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db")): click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:2c5d:933f:e6d6:1573%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: edad4d68755a6df32d5007a0f45045a7
+*** Element info: {Using=xpath, value=//a[@data-anchor="#demo_db"]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Poll Pad Setup - Demo DB.run(Poll Pad Setup - Demo DB:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544730790083.run(TempTestSuite1544730790083.groovy:36)
+
+
+2018-12-13 13:54:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-13 13:54:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:2c5d:933f:e6d6:1573%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: edad4d68755a6df32d5007a0f45045a7
+*** Element info: {Using=xpath, value=//a[@data-anchor="#demo_db"]})
+
+2018-12-13 13:54:04 - [MESSAGE][FAILED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:2c5d:933f:e6d6:1573%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: edad4d68755a6df32d5007a0f45045a7
+*** Element info: {Using=xpath, value=//a[@data-anchor="#demo_db"]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Poll Pad Setup - Demo DB.run(Poll Pad Setup - Demo DB:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544730790083.run(TempTestSuite1544730790083.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-13 13:53:37 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB: Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:2c5d:933f:e6d6:1573%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: edad4d68755a6df32d5007a0f45045a7
+*** Element info: {Using=xpath, value=//a[@data-anchor="#demo_db"]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Poll Pad Setup - Demo DB.run(Poll Pad Setup - Demo DB:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544730790083.run(TempTestSuite1544730790083.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-13 13:53:12 - [TEST_SUITE][FAILED] - dev_staging ready: Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:2c5d:933f:e6d6:1573%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: edad4d68755a6df32d5007a0f45045a7
+*** Element info: {Using=xpath, value=//a[@data-anchor="#demo_db"]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Poll Pad Setup - Demo DB.run(Poll Pad Setup - Demo DB:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544730790083.run(TempTestSuite1544730790083.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-13 13:53:12 - [TEST_SUITE][FAILED] - dev_staging ready: Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QAs-MacBook-Pro-2.local', ip: '2600:6c40:5400:153d:2c5d:933f:e6d6:1573%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/p5/lldhhw894tb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: edad4d68755a6df32d5007a0f45045a7
+*** Element info: {Using=xpath, value=//a[@data-anchor="#demo_db"]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Poll Pad Setup - Demo DB.run(Poll Pad Setup - Demo DB:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544730790083.run(TempTestSuite1544730790083.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

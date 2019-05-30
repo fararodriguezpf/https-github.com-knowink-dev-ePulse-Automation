@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>VDC-C</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>VDC-C</description>
+      <initValue>'https://cchshsdc-c.com'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Login email</description>
+      <initValue>'alonzo_mack@knowink.com'</initValue>
+      <name>User_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password</description>
+      <initValue>'G7om7IcjmxxDM3y3exSVSw=='</initValue>
+      <name>Pswrd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Link to automation admin account am-automation-test</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/'</initValue>
+      <name>Automation_Account</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Election Import URL</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/elections/new'</initValue>
+      <name>Election_Import</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Registered Voters Page</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/voters#sort=last_name&amp;direction=asc&amp;display=list&amp;page=1'</initValue>
+      <name>Reg_Voters</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Elections Page</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/elections'</initValue>
+      <name>Elections_Page</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Ballot Types</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/ballot_types'</initValue>
+      <name>Ballot_Types</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Add Voter Page</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/add_voters'</initValue>
+      <name>Add_Voter</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Add/Edit Voter Import</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/imports/add_voter'</initValue>
+      <name>Add_Edit_Voter_Import</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>voter id methods Page</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/voter_id_methods'</initValue>
+      <name>voter_id_methods</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Languages import page</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/imports/languages'</initValue>
+      <name>languages_import</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Oaths</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/account_oaths'</initValue>
+      <name>Oaths</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Oaths Imports</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/imports/account_oath'</initValue>
+      <name>Oaths_Imports</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prompts</description>
+      <initValue>'https://am-Automation-test.cchshsdc-c.com/prompts'</initValue>
+      <name>Prompts</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prompts Import</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/imports/prompts'</initValue>
+      <name>Prompts_Imports</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Poll Workers</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/poll_workers'</initValue>
+      <name>Poll_Workers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Poll Workers Roles</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/poll_worker_roles'</initValue>
+      <name>Poll_Workers_Roles</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Poll Workers Classes</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/poll_worker_classes'</initValue>
+      <name>Poll_Workers_Classes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Poll Workers Classes New</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/poll_worker_classes/new'</initValue>
+      <name>Poll_Workers_Classes_New</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>ePulse Users</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/users'</initValue>
+      <name>Users</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Demo DB</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/account_settings/poll_pad'</initValue>
+      <name>Demo_DB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>iSync</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/account_settings/poll_pad'</initValue>
+      <name>iSync</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PollPad Config Import</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/imports/poll_pad_config'</initValue>
+      <name>Pollpad_Config_Import</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PollPad Config Page</description>
+      <initValue>'https://am-automation-test.cchshsdc-c.com/poll_pad_configs'</initValue>
+      <name>Pollpad_Config_Page</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

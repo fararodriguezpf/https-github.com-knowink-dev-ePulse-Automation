@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dev_staging ready" time="142" tests="1" failures="4" errors="0">
+   <testsuite name="dev_staging ready" tests="1" failures="4" errors="0" time="142" timestamp="2018-12-10 17:58:28" hostname="alonzomack - 192.168.1.9" id="Test Suites/dev_staging ready">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/execution0.log"/>
+         <property name="attachments" value="/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/1544486339217.png, /Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/1544486393538.png, /Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/1544486421803.png, /Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/1544486450386.png"/>
+         <property name="hostName" value="alonzomack - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="e43338d73594e3bf665309a9fab5df4c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(basic_Rover.Technician).run(Account Settings - New User(basic_Rover.Technician):67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-10 17:58:28 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(basic_Rover.Technician).run(Account Settings - New User(basic_Rover.Technician):67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+
+
+2018-12-10 17:58:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 17:58:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 17:58:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-10 17:58:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 17:58:31 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 17:58:32 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 17:58:32 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 17:58:32 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 17:58:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 17:58:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 17:58:33 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 17:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 17:58:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:58:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:58:34 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 17:58:35 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 17:58:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:58:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 17:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 17:58:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:58:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 17:58:38 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 17:58:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:58:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:58:39 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 17:58:39 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 17:58:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:58:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:58:40 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 17:58:40 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 17:58:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:58:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:58:41 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew2-user@knowink.com"): Text 'addnew2-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 17:58:41 - [MESSAGE][PASSED] - Text 'addnew2-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 17:58:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:58:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:58:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:58:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:58:43 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "1", true): selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "1", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(basic_Rover.Technician).run(Account Settings - New User(basic_Rover.Technician):67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+
+
+2018-12-10 17:58:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-10 17:58:59 - [MESSAGE][FAILED] - Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/1544486339217.png]]
+
+2018-12-10 17:58:59 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "1", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(basic_Rover.Technician).run(Account Settings - New User(basic_Rover.Technician):67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-10 17:58:28 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(basic_Rover.Technician).run(Account Settings - New User(basic_Rover.Technician):67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard)" status="PASSED">
+         <system-out><![CDATA[2018-12-10 17:58:59 - [TEST_CASE][PASSED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(manager_standard)
+
+2018-12-10 17:58:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 17:58:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-10 17:59:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 17:59:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 17:59:01 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 17:59:02 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 17:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 17:59:02 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 17:59:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 17:59:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 17:59:02 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 17:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 17:59:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:09 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 17:59:10 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 17:59:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 17:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 17:59:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:17 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 17:59:18 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 17:59:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:19 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 17:59:19 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 17:59:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:20 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 17:59:20 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 17:59:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:21 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew5-user@knowink.com"): Text 'addnew5-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 17:59:21 - [MESSAGE][PASSED] - Text 'addnew5-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 17:59:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Notify by"), "2", true): All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Notify by'  using regular expression
+
+2018-12-10 17:59:22 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Notify by'  using regular expression
+
+2018-12-10 17:59:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select User Rights"), "manager", true): All options with value 'manager' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select User Rights'  using regular expression
+
+2018-12-10 17:59:23 - [MESSAGE][PASSED] - All options with value 'manager' are selected in object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select User Rights'  using regular expression
+
+2018-12-10 17:59:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Common ePulse Objects/Submit Button")): Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 17:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Common ePulse Objects/Submit Button' is clicked on
+
+2018-12-10 17:59:25 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2018-12-10 17:59:25 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '3' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(election_day_Isync).run(Account Settings - New User(election_day_Isync):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-10 17:59:25 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '3' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(election_day_Isync).run(Account Settings - New User(election_day_Isync):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+
+
+2018-12-10 17:59:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 17:59:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-10 17:59:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 17:59:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 17:59:27 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 17:59:28 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 17:59:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 17:59:28 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 17:59:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 17:59:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 17:59:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 17:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 17:59:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:30 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 17:59:31 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 17:59:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 17:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 17:59:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:33 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 17:59:33 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 17:59:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:34 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 17:59:34 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 17:59:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:35 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 17:59:35 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 17:59:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew4-user@knowink.com"): Text 'addnew4-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 17:59:37 - [MESSAGE][PASSED] - Text 'addnew4-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 17:59:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:38 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "3", true): selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "3", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '3' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(election_day_Isync).run(Account Settings - New User(election_day_Isync):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+
+
+2018-12-10 17:59:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-10 17:59:53 - [MESSAGE][FAILED] - Unable to select option by value '3' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/1544486393538.png]]
+
+2018-12-10 17:59:53 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "3", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '3' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(election_day_Isync).run(Account Settings - New User(election_day_Isync):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-10 17:59:25 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(election_day_Isync) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '3' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(election_day_Isync).run(Account Settings - New User(election_day_Isync):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '0' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(admin_Standard).run(Account Settings - New User(admin_Standard):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-10 17:59:53 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '0' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(admin_Standard).run(Account Settings - New User(admin_Standard):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+
+
+2018-12-10 17:59:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 17:59:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-10 17:59:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 17:59:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 17:59:55 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 17:59:56 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 17:59:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 17:59:56 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 17:59:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 17:59:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 17:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 17:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 17:59:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 17:59:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 17:59:58 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 17:59:59 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 17:59:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:00:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:01 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:00:02 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:00:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:03 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:00:03 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:00:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:04 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:00:04 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:00:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:05 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew-user@knowink.com"): Text 'addnew-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:00:05 - [MESSAGE][PASSED] - Text 'addnew-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:00:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:06 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "0", true): selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "0", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '0' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(admin_Standard).run(Account Settings - New User(admin_Standard):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+
+
+2018-12-10 18:00:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-10 18:00:22 - [MESSAGE][FAILED] - Unable to select option by value '0' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/1544486421803.png]]
+
+2018-12-10 18:00:22 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "0", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '0' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(admin_Standard).run(Account Settings - New User(admin_Standard):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-10 17:59:53 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(admin_Standard) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '0' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(admin_Standard).run(Account Settings - New User(admin_Standard):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center)" classname="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(coordinator_Call.Center).run(Account Settings - New User(coordinator_Call.Center):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-10 18:00:22 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(coordinator_Call.Center).run(Account Settings - New User(coordinator_Call.Center):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+
+
+2018-12-10 18:00:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-10 18:00:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-10 18:00:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-10 18:00:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-10 18:00:23 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 18:00:25 - [MESSAGE][PASSED] - Navigate to 'https://epulsebeta2.com' successfully
+
+2018-12-10 18:00:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Email Address"), User_email): Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:00:25 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-12-10 18:00:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password"), Pswrd): Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:00:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-12-10 18:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In")): Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-12-10 18:00:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:26 - [TEST_STEP][PASSED] - navigateToUrl(Users, STOP_ON_FAILURE): Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 18:00:27 - [MESSAGE][PASSED] - Navigate to 'https://am-automation-test.epulsebeta2.com/users' successfully
+
+2018-12-10 18:00:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin Console ePulse Menu/Account Settings/Users/Add User")): Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Console ePulse Menu/Account Settings/Users/Add User' is clicked on
+
+2018-12-10 18:00:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_First name"), "add"): Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:00:30 - [MESSAGE][PASSED] - Text 'add' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_First name'
+
+2018-12-10 18:00:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Last name"), "User"): Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:00:31 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Last name'
+
+2018-12-10 18:00:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_Phone"), "3137777777"): Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:00:32 - [MESSAGE][PASSED] - Text '3137777777' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_Phone'
+
+2018-12-10 18:00:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/input_E-mail"), "addnew3-user@knowink.com"): Text 'addnew3-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:00:34 - [MESSAGE][PASSED] - Text 'addnew3-user@knowink.com' is set on object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/input_E-mail'
+
+2018-12-10 18:00:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2018-12-10 18:00:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-12-10 18:00:35 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "2", true): selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "2", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(coordinator_Call.Center).run(Account Settings - New User(coordinator_Call.Center):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)
+
+
+2018-12-10 18:00:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-10 18:00:50 - [MESSAGE][FAILED] - Unable to select option by value '2' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+[[ATTACHMENT|/Users/alonzomack/Katalon Studio/Regression/Reports/dev_staging ready/20181210_175826/1544486450386.png]]
+
+2018-12-10 18:00:50 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User"), "2", true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(coordinator_Call.Center).run(Account Settings - New User(coordinator_Call.Center):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-10 18:00:22 - [TEST_CASE][FAILED] - Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center): Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(coordinator_Call.Center) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(coordinator_Call.Center).run(Account Settings - New User(coordinator_Call.Center):65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-10 17:58:28 - [TEST_SUITE][FAILED] - dev_staging ready: Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(basic_Rover.Technician).run(Account Settings - New User(basic_Rover.Technician):67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-10 17:58:28 - [TEST_SUITE][FAILED] - dev_staging ready: Test Cases/Admin Console/Account Settings/Users/Account Settings - New User(basic_Rover.Technician) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1' of object 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Console ePulse Menu/Account Settings/Add User/Select Epulse User' located by 'By.xpath: //select[@name = 'user[type]' and @id = 'user_type' and (text() = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync' or . = 'Standard Epulse
+                    Rover / Technician
+                    Call Center
+                    Isync')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Account Settings - New User(basic_Rover.Technician).run(Account Settings - New User(basic_Rover.Technician):67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544486306265.run(TempTestSuite1544486306265.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

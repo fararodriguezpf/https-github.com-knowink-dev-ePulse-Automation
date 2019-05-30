@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="24" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="24" timestamp="2018-11-15 14:24:55" hostname="alonzomack - 192.168.1.17" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alonzomack/Katalon Studio/Regression/Reports/New Test Suite/20181115_142453"/>
+         <property name="logFiles" value="/Users/alonzomack/Katalon Studio/Regression/Reports/New Test Suite/20181115_142453/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alonzomack - 192.168.1.17"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.1.17"/>
+         <property name="sessionId" value="294d6311a47e91910b848f1058834054"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" classname="Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)" status="PASSED">
+         <system-out><![CDATA[2018-11-15 14:24:55 - [TEST_CASE][PASSED] - Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole): Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)
+
+2018-11-15 14:24:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 14:24:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 14:24:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-15 14:24:59 - [MESSAGE][PASSED] - Navigate to 'https://epulsedev2.com' successfully
+
+2018-11-15 14:24:59 - [TEST_STEP][PASSED] - setText: Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-15 14:24:59 - [MESSAGE][PASSED] - Text 'alonzo.mack@knowink.com' is set on object 'Object Repository/Login/Email Address'
+
+2018-11-15 14:24:59 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-15 14:25:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+2018-11-15 14:25:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-15 14:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In' is clicked on
+
+2018-11-15 14:25:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2018-11-15 14:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Account Creation/a_Add Account' is clicked on
+
+2018-11-15 14:25:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:03 - [TEST_STEP][PASSED] - setText: Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2018-11-15 14:25:04 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Display Title'
+
+2018-11-15 14:25:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:05 - [TEST_STEP][PASSED] - setText: Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County'
+
+2018-11-15 14:25:05 - [MESSAGE][PASSED] - Text 'am-Automation-test' is set on object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/County'
+
+2018-11-15 14:25:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'MO' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/StateProvince'  using regular expression
+
+2018-11-15 14:25:07 - [MESSAGE][PASSED] - All options with value 'MO' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/StateProvince'  using regular expression
+
+2018-11-15 14:25:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Pad Type'  using regular expression
+
+2018-11-15 14:25:08 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Account Information/Pad Type'  using regular expression
+
+2018-11-15 14:25:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:09 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-11-15 14:25:09 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-11-15 14:25:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File'  using regular expression
+
+2018-11-15 14:25:10 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File'  using regular expression
+
+2018-11-15 14:25:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file'  using regular expression
+
+2018-11-15 14:25:12 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file'  using regular expression
+
+2018-11-15 14:25:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places'  using regular expression
+
+2018-11-15 14:25:13 - [MESSAGE][PASSED] - All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places'  using regular expression
+
+2018-11-15 14:25:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules'  using regular expression
+
+2018-11-15 14:25:14 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules'  using regular expression
+
+2018-11-15 14:25:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter'  using regular expression
+
+2018-11-15 14:25:15 - [MESSAGE][PASSED] - All options with value 'mcvr' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter'  using regular expression
+
+2018-11-15 14:25:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser'  using regular expression
+
+2018-11-15 14:25:16 - [MESSAGE][PASSED] - All options with value 'epulse' are selected in object 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser'  using regular expression
+
+2018-11-15 14:25:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Submit' is clicked on
+
+2018-11-15 14:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminConsole/Account Creation/Parsers and Exporters/Submit' is clicked on
+
+2018-11-15 14:25:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 14:25:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 14:25:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 14:25:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 14:24:55 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

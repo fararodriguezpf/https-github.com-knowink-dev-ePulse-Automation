@@ -1,0 +1,76 @@
+1
+00:00:00,094 --> 00:00:00,095
+1. openBrowser("https://epulsedev2.com")
+
+2
+00:00:06,479 --> 00:00:06,480
+7. Open browser.
+
+3
+00:00:07,902 --> 00:00:07,903
+13. Navigate to ePulse login page.
+
+4
+00:00:09,293 --> 00:00:09,295
+19. Enter user name
+
+5
+00:00:09,775 --> 00:00:09,775
+25. Enter Password
+
+6
+00:00:09,889 --> 00:00:09,889
+31. Login
+
+7
+00:00:10,518 --> 00:00:10,518
+35. delay(1)
+
+8
+00:00:11,521 --> 00:00:11,521
+39. click(findTestObject("SuperAdminConsole/Poll Pads/POLL PADS link"))
+
+9
+00:00:12,075 --> 00:00:12,076
+43. delay(1)
+
+10
+00:00:13,079 --> 00:00:13,080
+47. setText(findTestObject("SuperAdminConsole/Poll Pads/Test PollPad table search"), "Test Pollpad")
+
+11
+00:00:13,320 --> 00:00:13,320
+51. delay(1)
+
+12
+00:00:14,325 --> 00:00:14,326
+55. click(findTestObject("SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/edit pad-AM-Mississippi"))
+
+13
+00:00:14,434 --> 00:00:14,435
+59. delay(1)
+
+14
+00:00:15,440 --> 00:00:15,440
+65. Click account dropdown
+
+15
+00:00:15,532 --> 00:00:15,532
+69. delay(1)
+
+16
+00:00:16,537 --> 00:00:16,538
+75. Select Account
+
+17
+00:00:16,621 --> 00:00:16,621
+79. delay(1)
+
+18
+00:00:17,625 --> 00:00:17,625
+83. click(findTestObject("SuperAdminConsole/Poll Pads/Add Poll Pad Options/Election"))
+
+19
+00:00:17,680 --> 00:00:17,681
+87. click(findTestObject("SuperAdminConsole/Poll Pads/Add Poll Pad Options/Assign/Election(Election Creation)"))
+

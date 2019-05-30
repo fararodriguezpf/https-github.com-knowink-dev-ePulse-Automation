@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dev_staging ready,Chrome 70.0.3538.110,,2018-12-13 13:53:12,2018-12-13 13:54:04,52.121s,FAILED
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Create Account(SuperAdminConsole),Chrome 70.0.3538.110,,2018-12-13 13:53:12,2018-12-13 13:53:37,25.179s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-13 13:53:12,2018-12-13 13:53:15,2.659s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-13 13:53:15,2018-12-13 13:53:17,2.504s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-13 13:53:17,2018-12-13 13:53:18,0.272s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-13 13:53:18,2018-12-13 13:53:18,0.218s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-13 13:53:18,2018-12-13 13:53:19,0.750s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:19,2018-12-13 13:53:20,1.039s,PASSED
+"click(findTestObject(""SuperAdminConsole/Account Creation/a_Add Account""))",Chrome 70.0.3538.110,,2018-12-13 13:53:20,2018-12-13 13:53:20,0.688s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:20,2018-12-13 13:53:21,1.004s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Display Title""), ""am-Automation-test"")",Chrome 70.0.3538.110,,2018-12-13 13:53:21,2018-12-13 13:53:22,0.189s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:22,2018-12-13 13:53:23,1.005s,PASSED
+"setText(findTestObject(""SuperAdminConsole/Account Creation/Account Information/County""), ""am-Automation-test"")",Chrome 70.0.3538.110,,2018-12-13 13:53:23,2018-12-13 13:53:23,0.192s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:23,2018-12-13 13:53:24,1.002s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/StateProvince""), ""MO"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:24,2018-12-13 13:53:24,0.683s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:24,2018-12-13 13:53:25,1.004s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Pad Type""), ""1"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:25,2018-12-13 13:53:26,0.136s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:26,2018-12-13 13:53:27,1.006s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Account Information/Poll Pad 3 Version""), ""1.0.1"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:27,2018-12-13 13:53:27,0.001s,NOT_RUN
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:27,2018-12-13 13:53:28,1.005s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Voter File""), ""mcvr"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:28,2018-12-13 13:53:28,0.470s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:28,2018-12-13 13:53:29,1.003s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Select_Supplemental file""), ""mcvr"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:29,2018-12-13 13:53:30,0.498s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:30,2018-12-13 13:53:31,1.003s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Polling Places""), ""epulse"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:31,2018-12-13 13:53:31,0.145s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:31,2018-12-13 13:53:32,1.005s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Street Rules""), ""mcvr"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:32,2018-12-13 13:53:32,0.203s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:32,2018-12-13 13:53:33,1.006s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Voter History Exporter""), ""mcvr"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:33,2018-12-13 13:53:33,0.341s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:33,2018-12-13 13:53:34,1.003s,PASSED
+"selectOptionByValue(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Signature Parser""), ""epulse"", true)",Chrome 70.0.3538.110,,2018-12-13 13:53:34,2018-12-13 13:53:34,0.144s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:34,2018-12-13 13:53:35,1.007s,PASSED
+"click(findTestObject(""SuperAdminConsole/Account Creation/Parsers and Exporters/Submit""))",Chrome 70.0.3538.110,,2018-12-13 13:53:35,2018-12-13 13:53:36,0.499s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:36,2018-12-13 13:53:37,1.006s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-13 13:53:37,2018-12-13 13:53:37,0.102s,PASSED
+,,,,,,
+Test Cases/Admin Console/Account Settings/Poll Pad Setup()/Poll Pad Setup - Demo DB,Chrome 70.0.3538.110,,2018-12-13 13:53:37,2018-12-13 13:54:04,26.519s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,Open browser.,2018-12-13 13:53:37,2018-12-13 13:53:38,1.095s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,Navigate to ePulse login page.,2018-12-13 13:53:38,2018-12-13 13:53:46,7.766s,PASSED
+"setText(findTestObject(""Login/Email Address""), User_email)",Chrome 70.0.3538.110,Enter user name,2018-12-13 13:53:46,2018-12-13 13:53:46,0.167s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), Pswrd)",Chrome 70.0.3538.110,Enter Password,2018-12-13 13:53:46,2018-12-13 13:53:46,0.112s,PASSED
+"click(findTestObject(""Login/Sign In""))",Chrome 70.0.3538.110,Login,2018-12-13 13:53:46,2018-12-13 13:53:47,0.839s,PASSED
+delay(1),Chrome 70.0.3538.110,,2018-12-13 13:53:47,2018-12-13 13:53:48,1.006s,PASSED
+navigateToUrl(Demo_DB),Chrome 70.0.3538.110,,2018-12-13 13:53:48,2018-12-13 13:53:49,0.450s,PASSED
+"click(findTestObject(""Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Demo Db""))",Chrome 70.0.3538.110,,2018-12-13 13:53:49,2018-12-13 13:54:04,14.929s,FAILED

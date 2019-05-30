@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-11-15 11:54:54,2018-11-15 11:54:55,1.234s,INCOMPLETE
+,,,,,,
+Test Cases/SuperAdminConsole/Accounts/Account(SuperAdminConsole) - Delete,,,2018-11-15 11:54:54,2018-11-15 11:54:55,0.816s,INCOMPLETE
+openBrowser,,Open browser.,2018-11-15 11:54:54,2018-11-15 11:54:55,0.535s,INCOMPLETE

@@ -1,0 +1,28 @@
+1
+00:00:00,465 --> 00:00:00,469
+3. Open browser.
+
+2
+00:00:03,100 --> 00:00:03,104
+9. Navigate to ePulse login page.
+
+3
+00:00:04,332 --> 00:00:04,333
+15. Enter user name
+
+4
+00:00:04,586 --> 00:00:04,588
+21. Enter Password
+
+5
+00:00:04,818 --> 00:00:04,820
+27. Login
+
+6
+00:00:05,454 --> 00:00:05,456
+31. delay(1)
+
+7
+00:00:06,479 --> 00:00:06,480
+35. click(findTestObject("SuperAdminConsole/Account Creation/a_Add Account"))
+

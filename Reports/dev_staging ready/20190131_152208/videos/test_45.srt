@@ -1,0 +1,44 @@
+1
+00:00:00,089 --> 00:00:00,089
+3. Open browser.
+
+2
+00:00:01,245 --> 00:00:01,245
+9. Navigate to ePulse login page.
+
+3
+00:00:02,284 --> 00:00:02,285
+15. Enter user name
+
+4
+00:00:02,492 --> 00:00:02,492
+21. Enter Password
+
+5
+00:00:02,612 --> 00:00:02,612
+27. Login
+
+6
+00:00:03,260 --> 00:00:03,261
+31. delay(1)
+
+7
+00:00:04,262 --> 00:00:04,262
+35. navigateToUrl(iSync)
+
+8
+00:00:05,211 --> 00:00:05,211
+39. click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/Isync"))
+
+9
+00:00:05,319 --> 00:00:05,319
+43. click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/Generate New button"))
+
+10
+00:00:05,417 --> 00:00:05,417
+47. delay(10)
+
+11
+00:00:15,421 --> 00:00:15,421
+51. click(findTestObject("Admin Console ePulse Menu/Account Settings/Poll Pad Setup/ISYNC/DOWNLOAD"))
+
